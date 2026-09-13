@@ -486,13 +486,16 @@
        the message pre-filled and addressed to hello@thisisvincere.com, so the
        form still produces a real lead rather than silently doing nothing.
        -------------------------------------------------------------------- */
-    var ENDPOINT = null; // <-- set this once a form service is in place
+    var ENDPOINT = 'https://formspree.io/f/myeyqnrb';
 
     function submitLead(data) {
-      if (ENDPOINT) {
+      if (ENDPOINT && ENDPOINT.indexOf('YOUR_FORM_ID') === -1) {
         return fetch(ENDPOINT, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
           body: JSON.stringify(data)
         }).then(function (res) {
           if (!res.ok) throw new Error('Request failed');
