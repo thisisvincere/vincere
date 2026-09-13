@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 -8 600 116" width="600" height="116" role="img" aria-labelledby="title">
+  <title id="title">VINCERE</title>
+  <!-- VINCERE wordmark, study 01 "Amêndoa no V". The V and the almond are drawn; INCERE is set in Hanken Grotesk 700, embedded below as a 5-glyph subset. -->
+  <style>
+    @font-face { font-family: "Vincere Hanken"; font-weight: 700; src: url(data:font/woff2;base64,d09GMgABAAAAAAPYABAAAAAAB4QAAAN8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbgQocKAZgP1NUQVREAFwRCAqCYIIhCxAAATYCJAMcBCAFhHIHIAwHGx8GyAQe/vOqv+8laSRjZECmGmSBpyo9sFbjJeAtuJsVvJv53/nhfqaL0uG8cYQz/JFvEYGRJTqQ8ajj+MCO4EAOEO+Imyr61Ae2QgTQCsUjESJo4SugM5DxSFdyZiFtAnV2iLGiDiH/FTn+pmiIhBTzNVUkCQifpP+o/JmMREEZ7/gfp8r53/mJQOEMEsaggZIu2tJxGPQQzGAeZ4UdUIE8CJaryTHyFlqD3CJLgYx4sahmqBiKQx9lU85czKW1SKrLylHVTfKVz/8/r1E+izEmYm97RPyQ13kwD4pfygedQs7A6EK3x97bTq9dFxA6gk6oV7IKgyVQggaBeHnrKgAqoNMYNJaqpEKbdbfHYWKRRBrZ5F+pu3zU+ejccW47N5wrzkXkkFy+QDgObTmIl1H0MIkGUysb1oyYVEmMSrTC/oyq9mmltmqrGobSWta3VlrVbXnzRqx++9bY+rqo8MIbfcurV6x6/drY+nZC0atXhtaaVvgyQzNUiVf3qbov/++2vn7NqleFJ7foujTKS8qaja1P74rVd57o+vh3B975h89bMw+7bcOBioITwWDB8QMVDeGjof61i0dWVluu2ZXTxvoyMsb6K6fNdlVblYtH9K89Gsa6/szOOT0tNu1ajo11ffV1rOvrXW3Ndquvb7Dame2xrn8sco8dWz67NuBp1GrHth/W9+8zo9a2vTtrx57SfqEuAwd1DvQrBbCxUlEK/3SXbq9pO/NXAst+bou939I3Ib525Fe9k/f/f1of5QOCOHxhM3DaWFpLcfL+S9X63P534sXfjJePGSLnY4l4LHkeSzZiCRVwcTyrSKSBtkmM4C+QPUARrIqvwAPRI1cIevE/+rYMv1mFwnRuhVQGz1No9GCZIo6BlMrbMJn+rIAxdOEm4tcrEjqt0FnGkM5BPmGC1BEiDVvSDuClgRKa4m482H61TYQY0xkjnYvRQBQvEWxijGY9XgL8tTBR3Iwhh2QySV1vvZ8mQqQQJYzNfCWGn1HMJ0yARoppIjp3fZgQJhMYzVjGcV3GLFMWmx1jmRly3IVFTjokKGkMDMFYki/C4mviSPhLTMYzlvGMw6QQD02Yh4TcMtcHDXN982hBJoomJsbPHopYnxtvb34L9YymgTAwhjgQLf02QBg3YVqIMQYPsO4o3Pphv2REnreRoTi514Sz/py6HQAA) format("woff2"); }
+    text { font-family: "Vincere Hanken", "Hanken Grotesk", sans-serif; font-weight: 700; font-size: 142.86px; letter-spacing: -2.14px; }
+  </style>
+  <path d="M0 0 H17 L50 75 L83 0 H100 L56 100 H44 Z" fill="#FFFFFF"/>
+  <path d="M50 6 C61 17, 63 32, 50 46 C37 32, 39 17, 50 6 Z" fill="#FFFFFF"/>
+  <text x="106" y="100" fill="#FFFFFF">INCERE</text>
+</svg>

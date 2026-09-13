@@ -1,0 +1,132 @@
+{
+  "title": "Escolha o mundo visual do site VINCERE",
+  "question": "O sorteio atribuiu a Prancha de Projeto. Mantenha, escolha uma alternativa, ou sorteie de novo.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Prancha de Projeto",
+      "kicker": "THE ROLL",
+      "lineage": "plan sheets, elevations and general notes from the fit-out of a shop, clinic or garage",
+      "thesis": "The site is the plan sheet of the business's new front door: every interface shown as a measured elevation, every claim a dimension you can read.",
+      "palette": ["#FFFFFF", "#0E1B33", "#1A56DB", "#FF4D2E", "#DCE3F0"],
+      "materials": ["vellum sheet", "drafting ink", "dimension leaders", "title block"],
+      "viewport": "Nav as the sheet's header strip with the mono wordmark and one coral pill, Start a project. Left: headline in Archivo wide with a single word in print blue, then the lede. Right: the Sasso concept as a flat browser elevation with a phone elevation overlapping, dimension lines annotating 1440 and 390, leaders naming the reservation button and the menu. A faint 8 px grid rules the whole sheet; the concept cards below are FIG. 1 to 4; the how-we-work facts become the title block; the contact section inverts to cyanotype blue.",
+      "risk": "Reads as an architect's own site if the leaders annotate decoration instead of real interface facts; every dimension and callout must be true, so the drawing discipline is a content discipline.",
+      "raised": [
+        { "from": "challenger-oscilloscope", "raise": "Everything sits on a visible division grid, and every label reads a real measured value (widths, breakpoints, counts of sections), never a decorative number." },
+        { "from": "challenger-hardware-bench", "raise": "One obviously-the-point action: coral is worn only by Start a project, once per screen, with real press travel; nothing else on the sheet is warm." },
+        { "from": "challenger-cracktro", "raise": "No shadowed cards. Hierarchy comes from rule weight and scale; a detail frame is drawn only around the four figures, because a plan sheet frames details and nothing else." },
+        { "from": "challenger-deep-dive", "raise": "One ruling vertical axis: the dimension-leader column aligns the hero elevation, the figures and the form, so the page reads as one sheet, not stacked sections." },
+        { "from": "challenger-accretion-disk", "raise": "Each section keeps an unmarked field; the sheet breathes because empty vellum is a region, not leftover." }
+      ],
+      "hero": "https://impeccable.style/worlds/cards/scientific-notation-oscilloscope-signal-bench-hero.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "Fachada e Letreiro",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "painted storefront signage, gold-leaf window lettering, striped awnings",
+      "thesis": "Your website is your new storefront: the page is a shop front dressed by a sign painter, and the concept sites are what is on display in the window.",
+      "palette": ["#12284B", "#F4F6FA", "#C9A24A", "#9A3B2E"],
+      "materials": ["gold-leaf glass lettering", "enamel sign", "striped canvas"],
+      "viewport": "A wide awning band across the top carries the wordmark as outlined window lettering; below it the window shows the Sasso concept as the display; the CTA is the OPEN sign, flipped to face the street; services are painted panels on the fascia.",
+      "risk": "Familiar warmth: sign-painter aesthetics are widely used by cafés and craft brands, and it is the most small-business of the set, which can undercut the software future the brand needs to keep open."
+    },
+    {
+      "id": "challenger-benday-comic",
+      "label": "Silver-age comic page",
+      "verdict": "declined",
+      "lineage": "ben-day dots and four-color misregistration on pulp",
+      "thesis": "The company story as a six-panel page with action lettering.",
+      "palette": ["#F3E4B8", "#D62A2A", "#1F5FBF", "#111111"],
+      "materials": ["pulp", "process inks"],
+      "viewport": "Six panels, caption boxes handing off between scenes.",
+      "risk": "Playful register undercuts a professional buyer.",
+      "case": "Fuses poorly: a dentist or shop owner does not identify their business with a comic, and the register fights the word professional.",
+      "kept": "One reserved color for the action state, worn by nothing else.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-benday-comic-page-hero.webp"
+    },
+    {
+      "id": "challenger-hardware-bench",
+      "label": "Creator hardware bench",
+      "verdict": "declined",
+      "lineage": "gunmetal chassis, putty keycaps, one safety-orange key",
+      "thesis": "Every offer is a physical key; one orange key is obviously the point.",
+      "palette": ["#3B3F45", "#D9D4C7", "#FF6A00", "#F2B705"],
+      "materials": ["keycaps", "knurled aluminum"],
+      "viewport": "A keycap grid of services with one orange Start key.",
+      "risk": "Reads as a product for makers, not for shop owners.",
+      "case": "Holds neither axis: the audience does not read gear culture, though the single-action discipline is exactly what a lead-gen page needs.",
+      "kept": "One obviously-the-point action with real press travel.",
+      "hero": "https://impeccable.style/worlds/cards/design-canon-creator-hardware-bench-hero.webp"
+    },
+    {
+      "id": "challenger-accretion-disk",
+      "label": "Accretion disk threshold",
+      "verdict": "declined",
+      "lineage": "warped horizons, photon ring, void black",
+      "thesis": "Growth as matter crossing an irreversible threshold.",
+      "palette": ["#000000", "#C9D7FF", "#E8552B", "#F5C542"],
+      "materials": ["void", "photon-ring gold"],
+      "viewport": "A black field with the offer bent along ring bands.",
+      "risk": "Cosmic spectacle says nothing a business owner can act on.",
+      "case": "Loses both: no identification and the offer disappears into the effect.",
+      "kept": "The center held unmarked: empty space treated as a region.",
+      "hero": "https://impeccable.style/worlds/cards/galaxies-nebulae-deep-time-accretion-disk-threshold-hero.webp"
+    },
+    {
+      "id": "challenger-deep-dive",
+      "label": "Mesophotic deep dive",
+      "verdict": "declined",
+      "lineage": "dive-computer digits, thermocline cyan, marine snow",
+      "thesis": "The project as a descent through stages, depth ruling every line.",
+      "palette": ["#04263F", "#0B6E99", "#8FE3FF", "#FFFFFF"],
+      "materials": ["abyssal blue", "marine snow"],
+      "viewport": "A vertical dive profile with the process as depth stops.",
+      "risk": "Dark, technical and slow for a visitor who wants to know the price of a website.",
+      "case": "Loses both: the metaphor is foreign to the audience and buries the action.",
+      "kept": "One vertical axis rules every line of copy.",
+      "hero": "https://impeccable.style/worlds/cards/rivers-tides-ocean-depths-mesophotic-deep-dive-hero.webp"
+    },
+    {
+      "id": "challenger-oscilloscope",
+      "label": "CRT oscilloscope bench",
+      "verdict": "declined",
+      "lineage": "phosphor trace over an etched ten-division graticule",
+      "thesis": "Every claim measured against a visible grid.",
+      "palette": ["#0A0F0A", "#39FF6A", "#8A9A8A", "#FFB000"],
+      "materials": ["phosphor", "etched glass"],
+      "viewport": "A green trace of the process locked still on a graticule.",
+      "risk": "Lab aesthetics read as engineering-for-engineers.",
+      "case": "Loses both, but its measurement discipline is the strongest donation in the hand.",
+      "kept": "Everything measured against a visible division grid; labels read real values.",
+      "hero": "https://impeccable.style/worlds/cards/scientific-notation-oscilloscope-signal-bench-hero.webp"
+    },
+    {
+      "id": "challenger-cracktro",
+      "label": "Cracktro scroller queue",
+      "verdict": "declined",
+      "lineage": "one bitmap face over a black void, depth as rank, nothing enclosed",
+      "thesis": "Hierarchy by depth and brightness, never by boxes.",
+      "palette": ["#000000", "#6B6B6B", "#EDE8DC", "#FFB400"],
+      "materials": ["bitmap type", "drifting dust"],
+      "viewport": "Ivory lines of text riding baselines over drifting dust fields.",
+      "risk": "Demoscene nostalgia is invisible to the audience.",
+      "case": "Loses both on identification and clarity, but its refusal of enclosure is a discipline the assigned sheet needed.",
+      "kept": "No cards: hierarchy by scale and rule weight, enclosure only where the drawing frames a detail.",
+      "hero": "https://impeccable.style/worlds/cards/operate-c-cracktro-scroller-queue-hero.webp"
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "buildPath": { "value": "code", "toggle": false },
+  "canon": true,
+  "canonCard": {
+    "label": "A página de agência clara",
+    "thesis": "What this category ships, and what the Smultron reference is: white ground, friendly geometric sans, one gradient keyword, pill CTA, tilted device mockups, service cards.",
+    "palette": ["#FFFFFF", "#011126", "#42BA78", "#2EA7F2", "#FF3D2E"],
+    "materials": ["tilted device mockups", "pill buttons", "8 px cards"],
+    "viewport": "Headline with a gradient keyword and a pill CTA on the left; a gradient block with a curved edge on the right holding phones at an angle; then a strip, service cards, and case-study cards.",
+    "risk": "Indistinguishable from the reference and its peers by design, and the form leans on trust devices (client logos, ratings, counts) that VINCERE cannot truthfully show."
+  },
+  "steer": true
+}

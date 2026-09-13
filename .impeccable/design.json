@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-12T00:00:00Z",
+  "title": "Design System: VINCERE",
+  "extensions": {
+    "colorMeta": {
+      "paper": { "role": "neutral", "displayName": "Paper", "canonical": "#FFFFFF", "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(100% 0 0)"] },
+      "tint": { "role": "neutral", "displayName": "Tint", "canonical": "oklch(97.5% 0.006 258)", "tonalRamp": ["oklch(15% 0.006 258)", "oklch(27% 0.006 258)", "oklch(39% 0.006 258)", "oklch(51% 0.006 258)", "oklch(63% 0.006 258)", "oklch(75% 0.006 258)", "oklch(87% 0.006 258)", "oklch(97.5% 0.006 258)"] },
+      "tint-deep": { "role": "neutral", "displayName": "Tint Deep", "canonical": "oklch(95.5% 0.01 258)", "tonalRamp": ["oklch(15% 0.01 258)", "oklch(27% 0.01 258)", "oklch(39% 0.01 258)", "oklch(51% 0.01 258)", "oklch(63% 0.01 258)", "oklch(75% 0.01 258)", "oklch(87% 0.01 258)", "oklch(95.5% 0.01 258)"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "oklch(24% 0.06 258)", "tonalRamp": ["oklch(15% 0.06 258)", "oklch(24% 0.06 258)", "oklch(36% 0.06 258)", "oklch(48% 0.06 258)", "oklch(60% 0.06 258)", "oklch(72% 0.06 258)", "oklch(84% 0.06 258)", "oklch(95% 0.02 258)"] },
+      "ink-soft": { "role": "neutral", "displayName": "Ink Soft", "canonical": "oklch(31% 0.055 258)", "tonalRamp": ["oklch(15% 0.055 258)", "oklch(26% 0.055 258)", "oklch(37% 0.055 258)", "oklch(48% 0.055 258)", "oklch(60% 0.055 258)", "oklch(72% 0.055 258)", "oklch(84% 0.055 258)", "oklch(95% 0.02 258)"] },
+      "muted": { "role": "neutral", "displayName": "Muted", "canonical": "oklch(45% 0.04 258)", "tonalRamp": ["oklch(15% 0.04 258)", "oklch(26% 0.04 258)", "oklch(37% 0.04 258)", "oklch(48% 0.04 258)", "oklch(60% 0.04 258)", "oklch(72% 0.04 258)", "oklch(84% 0.04 258)", "oklch(95% 0.02 258)"] },
+      "muted-soft": { "role": "neutral", "displayName": "Muted Soft", "canonical": "oklch(53% 0.04 258)", "tonalRamp": ["oklch(15% 0.04 258)", "oklch(26% 0.04 258)", "oklch(37% 0.04 258)", "oklch(48% 0.04 258)", "oklch(60% 0.04 258)", "oklch(72% 0.04 258)", "oklch(84% 0.04 258)", "oklch(95% 0.02 258)"] },
+      "line": { "role": "neutral", "displayName": "Line", "canonical": "rgba(11, 31, 58, 0.10)" },
+      "line-faint": { "role": "neutral", "displayName": "Line Faint", "canonical": "rgba(11, 31, 58, 0.06)" },
+      "mint": { "role": "primary", "displayName": "Mint", "canonical": "oklch(68% 0.14 170)", "tonalRamp": ["oklch(15% 0.14 170)", "oklch(26% 0.14 170)", "oklch(37% 0.14 170)", "oklch(48% 0.14 170)", "oklch(60% 0.14 170)", "oklch(72% 0.14 170)", "oklch(84% 0.10 170)", "oklch(95% 0.04 170)"] },
+      "azure": { "role": "primary", "displayName": "Azure", "canonical": "oklch(60% 0.19 258)", "tonalRamp": ["oklch(15% 0.19 258)", "oklch(26% 0.19 258)", "oklch(37% 0.19 258)", "oklch(48% 0.19 258)", "oklch(60% 0.19 258)", "oklch(72% 0.15 258)", "oklch(84% 0.09 258)", "oklch(95% 0.03 258)"] },
+      "stage-mid": { "role": "primary", "displayName": "Stage Mid", "canonical": "oklch(65% 0.12 220)", "tonalRamp": ["oklch(15% 0.12 220)", "oklch(26% 0.12 220)", "oklch(37% 0.12 220)", "oklch(48% 0.12 220)", "oklch(60% 0.12 220)", "oklch(72% 0.12 220)", "oklch(84% 0.08 220)", "oklch(95% 0.03 220)"] },
+      "mint-deep": { "role": "primary", "displayName": "Mint Deep", "canonical": "oklch(57% 0.12 170)", "tonalRamp": ["oklch(15% 0.12 170)", "oklch(26% 0.12 170)", "oklch(37% 0.12 170)", "oklch(48% 0.12 170)", "oklch(60% 0.12 170)", "oklch(72% 0.12 170)", "oklch(84% 0.09 170)", "oklch(95% 0.03 170)"] },
+      "azure-deep": { "role": "primary", "displayName": "Azure Deep", "canonical": "oklch(52% 0.19 262)", "tonalRamp": ["oklch(15% 0.19 262)", "oklch(26% 0.19 262)", "oklch(37% 0.19 262)", "oklch(48% 0.19 262)", "oklch(60% 0.19 262)", "oklch(72% 0.15 262)", "oklch(84% 0.09 262)", "oklch(95% 0.03 262)"] },
+      "link": { "role": "primary", "displayName": "Link", "canonical": "oklch(52% 0.19 262)", "tonalRamp": ["oklch(15% 0.19 262)", "oklch(26% 0.19 262)", "oklch(37% 0.19 262)", "oklch(48% 0.19 262)", "oklch(60% 0.19 262)", "oklch(72% 0.15 262)", "oklch(84% 0.09 262)", "oklch(95% 0.03 262)"] },
+      "link-wash": { "role": "primary", "displayName": "Link Wash", "canonical": "rgba(31, 99, 214, 0.10)" },
+      "vermilion": { "role": "secondary", "displayName": "Vermilion", "canonical": "oklch(58% 0.20 32)", "tonalRamp": ["oklch(15% 0.20 32)", "oklch(26% 0.20 32)", "oklch(37% 0.20 32)", "oklch(48% 0.20 32)", "oklch(60% 0.20 32)", "oklch(72% 0.16 32)", "oklch(84% 0.10 32)", "oklch(95% 0.03 32)"] },
+      "raspberry": { "role": "secondary", "displayName": "Raspberry", "canonical": "oklch(52% 0.20 358)", "tonalRamp": ["oklch(15% 0.20 358)", "oklch(26% 0.20 358)", "oklch(37% 0.20 358)", "oklch(48% 0.20 358)", "oklch(60% 0.20 358)", "oklch(72% 0.16 358)", "oklch(84% 0.10 358)", "oklch(95% 0.03 358)"] },
+      "cta-shadow-tint": { "role": "secondary", "displayName": "CTA Shadow Tint", "canonical": "rgba(217, 58, 31, 0.28)" },
+      "error-text": { "role": "secondary", "displayName": "Error Text", "canonical": "oklch(50% 0.19 29)", "tonalRamp": ["oklch(15% 0.19 29)", "oklch(26% 0.19 29)", "oklch(37% 0.19 29)", "oklch(48% 0.19 29)", "oklch(60% 0.19 29)", "oklch(72% 0.15 29)", "oklch(84% 0.09 29)", "oklch(95% 0.03 29)"] },
+      "navy-ground": { "role": "neutral", "displayName": "Navy Ground", "canonical": "oklch(24% 0.06 258)", "tonalRamp": ["oklch(15% 0.06 258)", "oklch(24% 0.06 258)", "oklch(36% 0.06 258)", "oklch(48% 0.06 258)", "oklch(60% 0.06 258)", "oklch(72% 0.06 258)", "oklch(84% 0.06 258)", "oklch(95% 0.02 258)"] },
+      "navy-ground-2": { "role": "neutral", "displayName": "Navy Ground 2", "canonical": "oklch(27% 0.065 258)", "tonalRamp": ["oklch(15% 0.065 258)", "oklch(27% 0.065 258)", "oklch(38% 0.065 258)", "oklch(49% 0.065 258)", "oklch(61% 0.065 258)", "oklch(72% 0.065 258)", "oklch(84% 0.06 258)", "oklch(95% 0.02 258)"] },
+      "navy-text": { "role": "neutral", "displayName": "Navy Text", "canonical": "oklch(97.5% 0.008 258)" },
+      "navy-muted": { "role": "neutral", "displayName": "Navy Muted", "canonical": "oklch(77% 0.035 258)" },
+      "navy-line": { "role": "neutral", "displayName": "Navy Line", "canonical": "rgba(255, 255, 255, 0.12)" },
+      "focus-on-dark": { "role": "primary", "displayName": "Focus On Dark", "canonical": "oklch(77% 0.10 258)" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero H1 only; one keyword wears the deep gradient with a solid Azure Deep fallback." },
+      "headline": { "displayName": "Headline", "purpose": "Section H2s; white on navy surfaces." },
+      "title": { "displayName": "Title", "purpose": "Card, pillar, step, and FAQ-summary titles." },
+      "lede": { "displayName": "Lede", "purpose": "Paragraph under each H2 and the about copy, Onest 300 in Muted, capped at 56 to 66ch." },
+      "body": { "displayName": "Body", "purpose": "Base text size on body." },
+      "body-sm": { "displayName": "Body Small", "purpose": "Most descriptive copy, buttons, nav links, and inputs." },
+      "label": { "displayName": "Label", "purpose": "Uppercase sub-labels, panel titles, footer heads; tags and badges shrink to 0.75rem / 0.6875rem." },
+      "wordmark": { "displayName": "Wordmark", "purpose": "INCERE in Archivo 800 at 112% stretch after the drawn V. Geometry lives in brand/README.md." }
+    },
+    "shadows": [
+      { "name": "sh-1", "value": "0 1px 2px rgba(11, 31, 58, 0.06), 0 2px 6px rgba(11, 31, 58, 0.04)", "purpose": "Resting card: services, work cards, ghost button hover." },
+      { "name": "sh-2", "value": "0 6px 16px -6px rgba(11, 31, 58, 0.12), 0 2px 6px rgba(11, 31, 58, 0.05)", "purpose": "Lifted panel: lead service card, about panel, concept detail, open FAQ item." },
+      { "name": "sh-3", "value": "0 20px 40px -16px rgba(11, 31, 58, 0.22), 0 6px 16px -8px rgba(11, 31, 58, 0.10)", "purpose": "Hover lift on cards; the open mobile menu." },
+      { "name": "sh-4", "value": "0 40px 70px -24px rgba(11, 31, 58, 0.40), 0 12px 24px -12px rgba(11, 31, 58, 0.20)", "purpose": "Tilted devices on the hero stage." },
+      { "name": "sh-form-on-dark", "value": "0 40px 70px -24px rgba(0, 0, 0, 0.45), 0 12px 24px -12px rgba(0, 0, 0, 0.25)", "purpose": "The contact form on the navy ground; same geometry as sh-4 in black because navy tint would vanish on navy." },
+      { "name": "sh-tile", "value": "0 6px 14px -6px rgba(11, 31, 58, 0.22)", "purpose": "44px icon tiles and 36px step numerals." },
+      { "name": "sh-cta", "value": "0 1px 2px rgba(11, 31, 58, 0.14), 0 10px 22px -10px rgba(217, 58, 31, 0.28)", "purpose": "Primary pill at rest; the only chromatically tinted shadow." },
+      { "name": "sh-cta-hover", "value": "0 2px 4px rgba(11, 31, 58, 0.14), 0 16px 30px -12px rgba(217, 58, 31, 0.28)", "purpose": "Primary pill on hover, with a 1px rise." },
+      { "name": "sh-nav-stuck", "value": "0 1px 0 rgba(11, 31, 58, 0.10), 0 8px 24px -16px rgba(11, 31, 58, 0.18)", "purpose": "Sticky nav after 12px of scroll." },
+      { "name": "ring-focus", "value": "outline: 2px solid #1F63D6; outline-offset: 3px", "purpose": "Global focus-visible ring; #8FB8FF on navy surfaces." },
+      { "name": "ring-field-focus", "value": "0 0 0 3px rgba(31, 99, 214, 0.10)", "purpose": "Field focus halo alongside a Link border; error state uses rgba(217, 58, 31, 0.16). The selected skin button wears the same halo." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.22, 0.61, 0.36, 1)", "purpose": "Standard easing for state transitions (color, border, shadow, transform)." },
+      { "name": "ease-out", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Out-expo easing for entrances, reveals, and arrow slides." },
+      { "name": "t-fast", "value": "150ms", "purpose": "Color and decoration changes; button press." },
+      { "name": "t-mid", "value": "280ms", "purpose": "Shadow, border, transform on hover; menu entrance." },
+      { "name": "t-slow", "value": "650ms", "purpose": "Scroll reveals (12px rise, 60ms stagger in groups of four) and concept-detail entrance." },
+      { "name": "hero-rise", "value": "0.9s ease-out, 18px rise, 90ms stagger", "purpose": "Hero content entrance; CSS-only, gated by .js." },
+      { "name": "device-drift", "value": "9s / 11s / 10s ease-in-out infinite, 8 to 12px", "purpose": "Ambient float of the three stage devices." },
+      { "name": "stage-angle", "value": "118deg plus or minus 7deg from pointer x", "purpose": "Pointer-driven gradient angle on the hero stage, hover-capable devices only." },
+      { "name": "reduced-motion", "value": "prefers-reduced-motion: reduce collapses all animation and transition durations to 0.01ms and removes hero, reveal, detail, and device animation", "purpose": "Accessibility gate." }
+    ],
+    "breakpoints": [
+      { "name": "hero-compact", "value": "599px (max)" },
+      { "name": "form-rows", "value": "560px" },
+      { "name": "pillars-2", "value": "640px" },
+      { "name": "steps-2", "value": "700px to 999px" },
+      { "name": "work-2", "value": "760px" },
+      { "name": "detail-split", "value": "820px" },
+      { "name": "services-2", "value": "860px" },
+      { "name": "desktop-nav", "value": "900px" },
+      { "name": "splits", "value": "960px" },
+      { "name": "hero-2col", "value": "1000px" },
+      { "name": "container", "value": "1200px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one warm control: Start a project. White 600 label on the vermilion-to-raspberry gradient pill with a tinted offset shadow, 1px hover rise, and real press travel.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Start a project <svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" aria-hidden=\"true\"><path d=\"M3 8h9M8.5 4l4 4-4 4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-btn { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem; padding: 0.95rem 1.6rem; border-radius: var(--r-pill, 999px); font-family: var(--font, Onest, sans-serif); font-size: var(--fs-sm, 0.9375rem); font-weight: 600; line-height: 1; white-space: nowrap; border: 1px solid transparent; text-decoration: none; cursor: pointer; transition: transform var(--t-fast, 150ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)), box-shadow var(--t-mid, 280ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)); } .ds-btn svg { transition: transform var(--t-mid, 280ms) var(--ease-out, cubic-bezier(0.16,1,0.3,1)); } .ds-btn:hover svg { transform: translateX(3px); } .ds-btn:active { transform: translateY(1px) scale(0.99); } .ds-btn:focus-visible { outline: 2px solid var(--link, #1F63D6); outline-offset: 3px; } .ds-btn-primary { color: #fff; background: var(--grad-cta, linear-gradient(90deg, #D93A1F 0%, #C8206A 100%)); box-shadow: 0 1px 2px rgba(11,31,58,0.14), 0 10px 22px -10px var(--cta-glow, rgba(217,58,31,0.28)); } .ds-btn-primary::after { content: \"\"; position: absolute; inset: 0; border-radius: inherit; background: rgba(255,255,255,0.10); opacity: 0; transition: opacity var(--t-fast, 150ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)); } .ds-btn-primary:hover { transform: translateY(-1px); box-shadow: 0 2px 4px rgba(11,31,58,0.14), 0 16px 30px -12px var(--cta-glow, rgba(217,58,31,0.28)); } .ds-btn-primary:hover::after { opacity: 1; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary pill: Ink on white with a hairline border that darkens on hover and picks up the resting-card shadow.",
+      "html": "<a class=\"ds-btn ds-btn-ghost\" href=\"#\">View our work</a>",
+      "css": ".ds-btn { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem; padding: 0.95rem 1.6rem; border-radius: var(--r-pill, 999px); font-family: var(--font, Onest, sans-serif); font-size: var(--fs-sm, 0.9375rem); font-weight: 600; line-height: 1; white-space: nowrap; border: 1px solid transparent; text-decoration: none; cursor: pointer; transition: transform var(--t-fast, 150ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)), box-shadow var(--t-mid, 280ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)), border-color var(--t-mid, 280ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)); } .ds-btn:active { transform: translateY(1px) scale(0.99); } .ds-btn:focus-visible { outline: 2px solid var(--link, #1F63D6); outline-offset: 3px; } .ds-btn-ghost { color: var(--ink, #0B1F3A); background: #fff; border-color: var(--line, rgba(11,31,58,0.10)); } .ds-btn-ghost:hover { border-color: rgba(11,31,58,0.28); box-shadow: var(--sh-1, 0 1px 2px rgba(11,31,58,0.06), 0 2px 6px rgba(11,31,58,0.04)); }"
+    },
+    {
+      "name": "Link Button",
+      "kind": "button",
+      "refersTo": "link-button",
+      "description": "Text action in Link color with a trailing arrow that slides 4px on hover. Used for View our work and View concept.",
+      "html": "<button class=\"ds-link-btn\" type=\"button\">View concept <svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" aria-hidden=\"true\"><path d=\"M3 8h9M8.5 4l4 4-4 4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>",
+      "css": ".ds-link-btn { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.25rem 0; background: none; border: 0; cursor: pointer; font-family: var(--font, Onest, sans-serif); font-size: var(--fs-sm, 0.9375rem); font-weight: 600; color: var(--link, #1F63D6); } .ds-link-btn svg { transition: transform var(--t-mid, 280ms) var(--ease-out, cubic-bezier(0.16,1,0.3,1)); } .ds-link-btn:hover svg { transform: translateX(4px); } .ds-link-btn:focus-visible { outline: 2px solid var(--link, #1F63D6); outline-offset: 3px; border-radius: var(--r-xs, 6px); }"
+    },
+    {
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Uppercase category pill in Link on Link Wash; marks concept categories and the primary-service badge.",
+      "html": "<span class=\"ds-tag\">Restaurant</span> <span class=\"ds-badge\">Selective</span>",
+      "css": ".ds-tag { display: inline-flex; align-items: center; font-family: var(--font, Onest, sans-serif); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1; color: var(--link, #1F63D6); background: var(--link-soft, rgba(31,99,214,0.10)); padding: 0.3rem 0.6rem; border-radius: var(--r-pill, 999px); } .ds-badge { display: inline-flex; align-items: center; font-family: var(--font, Onest, sans-serif); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1; padding: 0.38rem 0.62rem; border-radius: var(--r-pill, 999px); background: var(--tint-2, #EEF2F8); color: var(--muted, #4B5B73); }"
+    },
+    {
+      "name": "Skin Button",
+      "kind": "chip",
+      "refersTo": "skin-button",
+      "description": "Pill toggle in the concept detail's skin switcher: an 18px ground/accent split swatch and the skin's name on a Line border; the pressed one wears a Link border, Link text, and the 3px Link Wash halo.",
+      "html": "<div class=\"ds-skins\"><span class=\"ds-skins-label\">Same structure, different skin</span><div class=\"ds-skins-options\" role=\"group\"><button class=\"ds-skin-btn\" type=\"button\" aria-pressed=\"true\"><span class=\"ds-skin-swatch\" style=\"--sw-1:#14100E;--sw-2:#C2A87E\" aria-hidden=\"true\"></span>Editorial</button><button class=\"ds-skin-btn\" type=\"button\" aria-pressed=\"false\"><span class=\"ds-skin-swatch\" style=\"--sw-1:#F6F1E7;--sw-2:#7A4A2C\" aria-hidden=\"true\"></span>Daylight</button><button class=\"ds-skin-btn\" type=\"button\" aria-pressed=\"false\"><span class=\"ds-skin-swatch\" style=\"--sw-1:#172A20;--sw-2:#D6C48E\" aria-hidden=\"true\"></span>Verde</button></div></div>",
+      "css": ".ds-skins { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem 1rem; flex-wrap: wrap; max-width: 480px; font-family: var(--font, Onest, sans-serif); } .ds-skins-label { font-size: var(--fs-xs, 0.8125rem); color: var(--muted-2, #5F6E85); } .ds-skins-options { display: flex; gap: 0.4rem; flex-wrap: wrap; } .ds-skin-btn { display: inline-flex; align-items: center; gap: 0.45rem; font-size: var(--fs-xs, 0.8125rem); font-weight: 600; color: var(--ink-2, #1E2F4D); padding: 0.42rem 0.8rem 0.42rem 0.5rem; border-radius: var(--r-pill, 999px); background: #fff; border: 1px solid var(--line, rgba(11,31,58,0.10)); cursor: pointer; transition: border-color var(--t-fast, 150ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)), box-shadow var(--t-fast, 150ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)), color var(--t-fast, 150ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)); } .ds-skin-btn:hover { border-color: rgba(11,31,58,0.24); box-shadow: var(--sh-1, 0 1px 2px rgba(11,31,58,0.06), 0 2px 6px rgba(11,31,58,0.04)); } .ds-skin-btn[aria-pressed=\"true\"] { border-color: var(--link, #1F63D6); color: var(--link, #1F63D6); box-shadow: 0 0 0 3px var(--link-soft, rgba(31,99,214,0.10)); } .ds-skin-btn:focus-visible { outline: 2px solid var(--link, #1F63D6); outline-offset: 3px; } .ds-skin-swatch { width: 18px; height: 18px; border-radius: 50%; flex: none; background: linear-gradient(135deg, var(--sw-1) 0 50%, var(--sw-2) 50% 100%); box-shadow: inset 0 0 0 1px rgba(11,31,58,0.12); }"
+    },
+    {
+      "name": "Service Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "8px white card with a hairline border and resting shadow; hover lifts 4px to sh-3 with a 25% Link border. Leads with a gradient icon tile.",
+      "html": "<article class=\"ds-card\"><span class=\"ds-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2.5\"/><path d=\"M3 9h18\"/><path d=\"M6.5 6.5h.01M9.5 6.5h.01\"/></svg></span><h3 class=\"ds-card-title\">Websites</h3><p class=\"ds-card-desc\">Fast, responsive websites designed around your business and built to convert visitors into customers.</p><ul class=\"ds-card-list\"><li>Custom design, no templates</li><li>Mobile-first, accessible build</li></ul></article>",
+      "css": ".ds-card { display: grid; align-content: start; gap: 0.85rem; max-width: 380px; background: #fff; color: var(--ink, #0B1F3A); border: 1px solid var(--line, rgba(11,31,58,0.10)); border-radius: var(--r-sm, 8px); padding: clamp(1.5rem, 2.8vw, 2.25rem); box-shadow: var(--sh-1, 0 1px 2px rgba(11,31,58,0.06), 0 2px 6px rgba(11,31,58,0.04)); font-family: var(--font, Onest, sans-serif); transition: transform var(--t-mid, 280ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)), box-shadow var(--t-mid, 280ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)), border-color var(--t-mid, 280ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)); } .ds-card:hover { transform: translateY(-4px); box-shadow: var(--sh-3, 0 20px 40px -16px rgba(11,31,58,0.22), 0 6px 16px -8px rgba(11,31,58,0.10)); border-color: rgba(31,99,214,0.25); } .ds-icon { display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: var(--r-md, 12px); background: var(--grad, linear-gradient(97deg, #19B394 0%, #2D7CF6 110%)); color: #fff; box-shadow: 0 6px 14px -6px rgba(11,31,58,0.22); margin-bottom: 0.25rem; } .ds-card-title { margin: 0; font-size: clamp(1.3rem, 2vw, 1.6rem); font-weight: 700; line-height: 1.1; letter-spacing: -0.025em; } .ds-card-desc { margin: 0; color: var(--muted, #4B5B73); font-size: var(--fs-sm, 0.9375rem); line-height: 1.65; } .ds-card-list { list-style: none; margin: 0.5rem 0 0; padding: 0; display: grid; gap: 0.5rem; } .ds-card-list li { position: relative; padding-left: 1.5rem; font-size: var(--fs-sm, 0.9375rem); color: var(--ink-2, #1E2F4D); } .ds-card-list li::before { content: \"\"; position: absolute; left: 0; top: 0.55em; width: 8px; height: 8px; border-radius: 50%; background: var(--grad, linear-gradient(97deg, #19B394 0%, #2D7CF6 110%)); }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Tint-filled 8px field with hairline border; focus turns it white with a Link border and 3px Link Wash halo. Required mark in Vermilion.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-email\">Email <span class=\"ds-req\" aria-hidden=\"true\">*</span></label><input id=\"ds-email\" type=\"email\" placeholder=\"you@yourbusiness.com\"></div>",
+      "css": ".ds-field { display: grid; gap: 0.4rem; max-width: 320px; font-family: var(--font, Onest, sans-serif); } .ds-field label { font-size: var(--fs-xs, 0.8125rem); font-weight: 600; color: var(--ink, #0B1F3A); display: flex; align-items: center; gap: 0.4rem; } .ds-req { color: var(--c1, #D93A1F); } .ds-field input { width: 100%; box-sizing: border-box; background: var(--tint, #F5F7FB); border: 1px solid var(--line, rgba(11,31,58,0.10)); border-radius: var(--r-sm, 8px); padding: 0.85rem 1rem; color: var(--ink, #0B1F3A); font: inherit; font-size: var(--fs-sm, 0.9375rem); line-height: 1.5; transition: border-color var(--t-fast, 150ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)), background-color var(--t-fast, 150ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)), box-shadow var(--t-fast, 150ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)); } .ds-field input::placeholder { color: var(--muted-2, #5F6E85); } .ds-field input:hover { border-color: rgba(11,31,58,0.24); } .ds-field input:focus { outline: none; background: #fff; border-color: var(--link, #1F63D6); box-shadow: 0 0 0 3px var(--link-soft, rgba(31,99,214,0.10)); } .ds-field input[aria-invalid=\"true\"] { border-color: var(--c1, #D93A1F); }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky 76px bar at 92% white with a saturated blur; wordmark left, links center in Ink Soft hovering to Link, small primary pill right.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-logo\" href=\"#\"><span class=\"ds-logo-v\" aria-hidden=\"true\"></span><span class=\"ds-logo-word\">incere</span></a><nav class=\"ds-nav-links\"><a href=\"#\">Work</a><a href=\"#\">Services</a><a href=\"#\">Process</a><a href=\"#\">About</a></nav><a class=\"ds-nav-cta\" href=\"#\">Start a project</a></header>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; height: 76px; padding: 0 1.5rem; background: rgba(255,255,255,0.92); -webkit-backdrop-filter: saturate(160%) blur(12px); backdrop-filter: saturate(160%) blur(12px); box-shadow: 0 1px 0 var(--line, rgba(11,31,58,0.10)), 0 8px 24px -16px rgba(11,31,58,0.18); font-family: var(--font, Onest, sans-serif); } .ds-logo { display: inline-flex; align-items: baseline; gap: 0.05em; color: var(--ink, #0B1F3A); font-size: 1.25rem; line-height: 1; text-decoration: none; } .ds-logo-v { display: inline-block; width: 0.78em; height: 0.81em; background: currentColor; clip-path: polygon(0 20%, 18% 20%, 50% 100%, 82% 20%, 100% 0, 60% 100%, 40% 100%); } .ds-logo-word { font-family: Archivo, var(--font, Onest, sans-serif); font-weight: 800; font-stretch: 112%; text-transform: uppercase; letter-spacing: 0; } .ds-nav-links { display: flex; align-items: center; gap: 2rem; margin: 0 auto; } .ds-nav-links a { font-size: var(--fs-sm, 0.9375rem); font-weight: 500; color: var(--ink-2, #1E2F4D); text-decoration: none; transition: color var(--t-fast, 150ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)); } .ds-nav-links a:hover { color: var(--link, #1F63D6); } .ds-nav-links a:focus-visible, .ds-nav-cta:focus-visible, .ds-logo:focus-visible { outline: 2px solid var(--link, #1F63D6); outline-offset: 3px; border-radius: var(--r-xs, 6px); } .ds-nav-cta { display: inline-flex; align-items: center; padding: 0.7rem 1.2rem; border-radius: var(--r-pill, 999px); font-size: var(--fs-xs, 0.8125rem); font-weight: 600; line-height: 1; color: #fff; text-decoration: none; background: var(--grad-cta, linear-gradient(90deg, #D93A1F 0%, #C8206A 100%)); box-shadow: 0 1px 2px rgba(11,31,58,0.14), 0 10px 22px -10px var(--cta-glow, rgba(217,58,31,0.28)); transition: transform var(--t-fast, 150ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)); } .ds-nav-cta:hover { transform: translateY(-1px); } .ds-nav-cta:active { transform: translateY(1px) scale(0.99); }"
+    },
+    {
+      "name": "Step Numeral",
+      "kind": "custom",
+      "refersTo": "step-number",
+      "description": "36px gradient circle with a 700 tabular numeral, joined by a 2px dashed Line connector in the process timeline.",
+      "html": "<div class=\"ds-step\"><span class=\"ds-step-num\">01</span><h3 class=\"ds-step-title\">Discover</h3><p class=\"ds-step-p\">We learn about your business, your customers, and what you want the website to accomplish.</p></div>",
+      "css": ".ds-step { position: relative; padding-left: 2.75rem; max-width: 300px; font-family: var(--font, Onest, sans-serif); color: var(--ink, #0B1F3A); } .ds-step-num { position: absolute; left: 0; top: 0; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; background: var(--grad, linear-gradient(97deg, #19B394 0%, #2D7CF6 110%)); color: #fff; font-size: 0.8125rem; font-weight: 700; font-variant-numeric: tabular-nums; box-shadow: 0 6px 14px -6px rgba(11,31,58,0.22); } .ds-step-title { margin: 0 0 0.45rem; padding-top: 0.35rem; font-size: 1.2rem; font-weight: 700; line-height: 1.1; letter-spacing: -0.025em; } .ds-step-p { margin: 0; font-size: var(--fs-sm, 0.9375rem); color: var(--muted, #4B5B73); line-height: 1.62; }"
+    },
+    {
+      "name": "FAQ Item",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "Native details on an 8px card; the plus disc turns into a gradient minus when open and the card lifts to sh-2 with a Link border.",
+      "html": "<details class=\"ds-qa\" open><summary>How does a project start? <i aria-hidden=\"true\"></i></summary><div class=\"ds-qa-body\"><p>Every project starts with a short conversation about your business, your customers, and what the site needs to do.</p></div></details>",
+      "css": ".ds-qa { max-width: 520px; background: #fff; border: 1px solid var(--line, rgba(11,31,58,0.10)); border-radius: var(--r-sm, 8px); font-family: var(--font, Onest, sans-serif); color: var(--ink, #0B1F3A); transition: box-shadow var(--t-mid, 280ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)), border-color var(--t-mid, 280ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)); } .ds-qa:hover { border-color: rgba(11,31,58,0.2); } .ds-qa[open] { box-shadow: var(--sh-2, 0 6px 16px -6px rgba(11,31,58,0.12), 0 2px 6px rgba(11,31,58,0.05)); border-color: rgba(31,99,214,0.25); } .ds-qa summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.05rem 1.25rem; cursor: pointer; list-style: none; font-size: 1.05rem; font-weight: 600; letter-spacing: -0.015em; border-radius: inherit; } .ds-qa summary::-webkit-details-marker { display: none; } .ds-qa summary:focus-visible { outline: 2px solid var(--link, #1F63D6); outline-offset: 3px; } .ds-qa summary i { position: relative; flex: none; width: 28px; height: 28px; border-radius: 50%; background: var(--tint-2, #EEF2F8); transition: background var(--t-mid, 280ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)), transform var(--t-mid, 280ms) var(--ease, cubic-bezier(0.22,0.61,0.36,1)); } .ds-qa summary i::before, .ds-qa summary i::after { content: \"\"; position: absolute; top: 50%; left: 50%; width: 10px; height: 2px; border-radius: 2px; background: var(--ink, #0B1F3A); transform: translate(-50%, -50%); } .ds-qa summary i::after { transform: translate(-50%, -50%) rotate(90deg); } .ds-qa[open] summary i { background: var(--grad, linear-gradient(97deg, #19B394 0%, #2D7CF6 110%)); transform: rotate(90deg); } .ds-qa[open] summary i::before, .ds-qa[open] summary i::after { background: #fff; } .ds-qa[open] summary i::after { opacity: 0; } .ds-qa-body { padding: 0 1.25rem 1.2rem; } .ds-qa-body p { margin: 0; font-size: var(--fs-sm, 0.9375rem); color: var(--muted, #4B5B73); line-height: 1.7; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Bright Agency Page, Done Properly",
+    "overview": "VINCERE chose the category standard on purpose: the white agency page with a gradient hero, rounded cards, and a coral call to action. The world is not a rebellion against convention; it is convention executed at the craft level of smultron.software (warmth, composition) and Linear and Stripe (precision). The build's argument is that the concept interfaces on the page are the proof, so the system stays quiet around them: navy ink rather than black, one cool gradient for identity, one warm gradient reserved for the single action, and soft offset shadows that lift without glowing.\n\nDensity is generous but never airy. Sections breathe on a fluid rhythm (4.5rem to 8rem vertical), copy is capped at readable measures (48 to 68ch), and every list, card, and field sits on the same 8/16px radius map. The page alternates white and a cool tint band; the last two surfaces (contact, footer) drop into navy so the closing action reads as a destination rather than another section.\n\nConfirmed rejections: the austere editorial minimalism of the previous build; any trust device the company cannot truthfully show (logos, ratings, counts, testimonials); pure greys (every neutral is navy-biased); colored glows as elevation.",
+    "keyCharacteristics": [
+      "Navy-biased neutrals on white, with a #F5F7FB tint band for alternating sections",
+      "One identity gradient, mint to azure, in a bright variant for surfaces and a deeper variant for text",
+      "One warm gradient, vermilion to raspberry, worn only by \"Start a project\"",
+      "Onest everywhere; Archivo 800 wide appears only in the wordmark",
+      "Radius map: 8px cards, 16px stage/form/panels, 12px icon tiles, pills for every action",
+      "Soft, offset, navy-tinted shadows in four steps; no zero-offset glows",
+      "Tilted device mockups on a curved-edge gradient stage as the signature material"
+    ],
+    "rules": [
+      { "name": "The One Warm Control Rule", "body": "The vermilion-to-raspberry gradient is worn only by \"Start a project\". Nothing else on the page is warm: not hover states, not badges, not icons. Its rarity is what makes the action findable.", "section": "colors" },
+      { "name": "The Two-Weight Gradient Rule", "body": "Mint-to-azure exists in two weights and only two: the bright pair for fills (surfaces, tiles, discs, numerals) and the deep pair for text (the H1 keyword) and flat link color. Never put the bright pair behind text or the deep pair on a surface.", "section": "colors" },
+      { "name": "The Navy Neutral Rule", "body": "Every grey is a tint of Ink (#0B1F3A). Borders, shadows, scrollbar thumbs, and muted text are all navy at reduced alpha or lightness; pure grey and pure black do not appear.", "section": "colors" },
+      { "name": "The One Keyword Rule", "body": "Gradient text appears exactly once on a surface, on one phrase of the primary heading, always with a solid deep-variant fallback declared first. It is the form's own device, not a decoration to repeat.", "section": "typography" },
+      { "name": "The Balanced Heading Rule", "body": "Headings set `text-wrap: balance`; paragraphs set `text-wrap: pretty`. Headings carry a ch-based max-width (14 to 20ch) rather than relying on the container.", "section": "typography" },
+      { "name": "The Offset-Only Rule", "body": "Every shadow has a y-offset and blur; none has zero offset. Depth is a lift, never a glow. Focus rings (2px outline at 3px offset; 3px Link Wash halo on fields) are the only zero-offset rings and they are state, not elevation.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do reserve the vermilion-to-raspberry gradient (#D93A1F to #C8206A) for \"Start a project\" and its required-field marks; every other accent is Link or the mint-to-azure gradient.",
+      "Do use the bright gradient pair for fills and the deep pair for text and links; put a solid Azure Deep fallback before any background-clip text.",
+      "Do keep the radius map: 8px cards and inputs, 12px tiles and browser mocks, 16px stages, panels and the form, 999px for actions, badges, tags, and toggles.",
+      "Do tint every shadow and hairline with Ink (#0B1F3A) at reduced alpha; on navy, use white at 12% for lines.",
+      "Do cap running copy at 48 to 68ch and headings at 14 to 20ch, and set ledes in Onest 300 at Muted.",
+      "Do gate every animation behind `.js` and collapse it under `prefers-reduced-motion`; motion rises 12 to 18px and never exceeds 900ms.",
+      "Do keep the wordmark in Archivo 800 wide per `brand/README.md`; it is the only non-Onest text on a VINCERE surface."
+    ],
+    "donts": [
+      "Don't add a second warm color, a coral hover, or a warm badge; the CTA gradient is the only warmth on the page.",
+      "Don't use zero-offset glows, colored halos, or drop shadows in pure black on light surfaces; shadows are offset, blurred, negative-spread, and navy.",
+      "Don't repeat gradient text beyond the one H1 keyword per surface.",
+      "Don't reuse the concept previews' palettes (Sasso bronze, Halston monochrome, Northline teal, Apex orange, Auburn copper, Kestrel yellow) or any of their skins, or Bodoni Moda, anywhere on a VINCERE surface.",
+      "Don't introduce pure grey neutrals, black text, or a second sans; every neutral is navy-biased and every glyph is Onest.",
+      "Don't fabricate proof devices (logos, ratings, counts, testimonials) as components; the system has no slot for them by design."
+    ]
+  }
+}

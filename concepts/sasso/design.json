@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-12T00:00:00Z",
+  "title": "Design System: Sasso",
+  "extensions": {
+    "colorMeta": {
+      "ground": { "role": "neutral", "displayName": "Ground", "canonical": "#14100E", "tonalRamp": ["oklch(15% 0.012 50)", "oklch(24% 0.012 50)", "oklch(36% 0.012 50)", "oklch(48% 0.012 50)", "oklch(60% 0.012 50)", "oklch(72% 0.012 50)", "oklch(84% 0.012 50)", "oklch(95% 0.008 50)"] },
+      "ground-2": { "role": "neutral", "displayName": "Ground 2", "canonical": "#1B1512", "tonalRamp": ["oklch(15% 0.014 45)", "oklch(24% 0.014 45)", "oklch(36% 0.014 45)", "oklch(48% 0.014 45)", "oklch(60% 0.014 45)", "oklch(72% 0.014 45)", "oklch(84% 0.014 45)", "oklch(95% 0.008 45)"] },
+      "ground-3": { "role": "neutral", "displayName": "Ground 3", "canonical": "#221B16", "tonalRamp": ["oklch(15% 0.016 45)", "oklch(24% 0.016 45)", "oklch(36% 0.016 45)", "oklch(48% 0.016 45)", "oklch(60% 0.016 45)", "oklch(72% 0.016 45)", "oklch(84% 0.016 45)", "oklch(95% 0.008 45)"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#EDE3D6", "tonalRamp": ["oklch(15% 0.02 75)", "oklch(27% 0.02 75)", "oklch(39% 0.02 75)", "oklch(51% 0.02 75)", "oklch(63% 0.02 75)", "oklch(75% 0.02 75)", "oklch(87% 0.02 75)", "oklch(95% 0.015 75)"] },
+      "ink-soft": { "role": "neutral", "displayName": "Ink Soft", "canonical": "#C9BCAB", "tonalRamp": ["oklch(15% 0.025 75)", "oklch(27% 0.025 75)", "oklch(39% 0.025 75)", "oklch(51% 0.025 75)", "oklch(63% 0.025 75)", "oklch(75% 0.025 75)", "oklch(87% 0.025 75)", "oklch(95% 0.015 75)"] },
+      "ink-muted": { "role": "neutral", "displayName": "Ink Muted", "canonical": "#A89C8C", "tonalRamp": ["oklch(15% 0.025 75)", "oklch(27% 0.025 75)", "oklch(39% 0.025 75)", "oklch(51% 0.025 75)", "oklch(63% 0.025 75)", "oklch(75% 0.025 75)", "oklch(87% 0.025 75)", "oklch(95% 0.015 75)"] },
+      "accent": { "role": "primary", "displayName": "Bronze", "canonical": "#C2A87E", "tonalRamp": ["oklch(15% 0.06 80)", "oklch(27% 0.06 80)", "oklch(39% 0.06 80)", "oklch(51% 0.06 80)", "oklch(63% 0.06 80)", "oklch(75% 0.06 80)", "oklch(87% 0.05 80)", "oklch(95% 0.03 80)"] },
+      "accent-ink": { "role": "primary", "displayName": "Bronze Ink", "canonical": "#14100E" },
+      "accent-hover": { "role": "primary", "displayName": "Bronze Hover", "canonical": "#D3BC95" },
+      "line": { "role": "neutral", "displayName": "Line", "canonical": "rgba(237, 227, 214, 0.16)" },
+      "line-strong": { "role": "neutral", "displayName": "Line Strong", "canonical": "rgba(237, 227, 214, 0.32)" },
+      "error": { "role": "secondary", "displayName": "Error", "canonical": "#F0A48E", "tonalRamp": ["oklch(15% 0.08 40)", "oklch(27% 0.08 40)", "oklch(39% 0.08 40)", "oklch(51% 0.08 40)", "oklch(63% 0.08 40)", "oklch(75% 0.08 40)", "oklch(87% 0.06 40)", "oklch(95% 0.03 40)"] },
+      "focus": { "role": "primary", "displayName": "Focus", "canonical": "#E4CFA6" },
+      "daylight-ground": { "role": "neutral", "displayName": "Daylight Ground", "canonical": "#F6F1E7" },
+      "daylight-ground-2": { "role": "neutral", "displayName": "Daylight Ground 2", "canonical": "#EFE8DA" },
+      "daylight-ground-3": { "role": "neutral", "displayName": "Daylight Ground 3", "canonical": "#FFFFFF" },
+      "daylight-ink": { "role": "neutral", "displayName": "Daylight Ink", "canonical": "#26211B" },
+      "daylight-ink-soft": { "role": "neutral", "displayName": "Daylight Ink Soft", "canonical": "#4E4438" },
+      "daylight-ink-muted": { "role": "neutral", "displayName": "Daylight Ink Muted", "canonical": "#6B5F51" },
+      "daylight-accent": { "role": "primary", "displayName": "Daylight Umber", "canonical": "#7A4A2C" },
+      "daylight-accent-ink": { "role": "primary", "displayName": "Daylight Umber Ink", "canonical": "#F6F1E7" },
+      "daylight-accent-hover": { "role": "primary", "displayName": "Daylight Umber Hover", "canonical": "#8D5A39" },
+      "daylight-line": { "role": "neutral", "displayName": "Daylight Line", "canonical": "rgba(38, 33, 27, 0.14)" },
+      "daylight-line-strong": { "role": "neutral", "displayName": "Daylight Line Strong", "canonical": "rgba(38, 33, 27, 0.32)" },
+      "daylight-error": { "role": "secondary", "displayName": "Daylight Error", "canonical": "#A63A1E" },
+      "daylight-focus": { "role": "primary", "displayName": "Daylight Focus", "canonical": "#7A4A2C" },
+      "verde-ground": { "role": "neutral", "displayName": "Verde Ground", "canonical": "#172A20" },
+      "verde-ground-2": { "role": "neutral", "displayName": "Verde Ground 2", "canonical": "#1D3327" },
+      "verde-ground-3": { "role": "neutral", "displayName": "Verde Ground 3", "canonical": "#24402F" },
+      "verde-ink": { "role": "neutral", "displayName": "Verde Ink", "canonical": "#EEF1E6" },
+      "verde-ink-soft": { "role": "neutral", "displayName": "Verde Ink Soft", "canonical": "#C6CEB9" },
+      "verde-ink-muted": { "role": "neutral", "displayName": "Verde Ink Muted", "canonical": "#A3AD98" },
+      "verde-accent": { "role": "primary", "displayName": "Verde Straw", "canonical": "#D6C48E" },
+      "verde-accent-ink": { "role": "primary", "displayName": "Verde Straw Ink", "canonical": "#172A20" },
+      "verde-accent-hover": { "role": "primary", "displayName": "Verde Straw Hover", "canonical": "#E3D4A6" },
+      "verde-line": { "role": "neutral", "displayName": "Verde Line", "canonical": "rgba(238, 241, 230, 0.16)" },
+      "verde-line-strong": { "role": "neutral", "displayName": "Verde Line Strong", "canonical": "rgba(238, 241, 230, 0.32)" },
+      "verde-error": { "role": "secondary", "displayName": "Verde Error", "canonical": "#F0A48E" },
+      "verde-focus": { "role": "primary", "displayName": "Verde Focus", "canonical": "#E3D4A6" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero H1 only, Bodoni Moda italic 400, capped at 11ch with a veil-tinted text shadow." },
+      "headline": { "displayName": "Headline", "purpose": "Section H2s, Bodoni Moda italic 400, capped at 14ch." },
+      "title": { "displayName": "Title", "purpose": "Course titles and the hours card title, Bodoni Moda italic 400." },
+      "wordmark": { "displayName": "Wordmark", "purpose": "SASSO in the nav and footer: the only upright, tracked Bodoni (500, 0.32em)." },
+      "lede": { "displayName": "Lede", "purpose": "Paragraph under each H2 in Ink Soft, 40 to 46ch." },
+      "body": { "displayName": "Body", "purpose": "Base text at 1.0625rem; story copy at 54ch." },
+      "body-sm": { "displayName": "Body Small", "purpose": "Facts, footer, notes, nav links, and mobile bar buttons." },
+      "button": { "displayName": "Button", "purpose": "The accent pill; btn--sm drops to 0.875rem." },
+      "label": { "displayName": "Label", "purpose": "Tracked uppercase bronze label that names a fact; never above a headline." }
+    },
+    "skins": [
+      { "id": "editorial", "selector": ":root", "label": "Editorial", "swatch": ["#14100E", "#C2A87E"], "purpose": "Default. Warm near-black, cream ink, bronze action." },
+      { "id": "daylight", "selector": "html[data-skin=\"daylight\"]", "label": "Daylight", "swatch": ["#F6F1E7", "#7A4A2C"], "purpose": "Cream ground, umber action; color-scheme light. Hero stays dark via skin-scoped overrides." },
+      { "id": "verde", "selector": "html[data-skin=\"verde\"]", "label": "Verde", "swatch": ["#172A20", "#D6C48E"], "purpose": "Bottle-green grounds, straw action." }
+    ],
+    "shadows": [
+      { "name": "shadow", "value": "0 24px 48px -24px rgba(0, 0, 0, 0.6)", "purpose": "Surface: story figure and hours card. Daylight: 0 24px 48px -24px rgba(38, 33, 27, 0.35)." },
+      { "name": "shadow-pill", "value": "0 10px 24px -14px rgba(0, 0, 0, 0.6)", "purpose": "Accent pill at rest." },
+      { "name": "shadow-display", "value": "text-shadow: 0 2px 28px rgba(var(--veil), 0.55)", "purpose": "Hero H1 over the photograph." },
+      { "name": "veil", "value": "linear-gradient(180deg, rgba(veil, 0.55) 0%, rgba(veil, 0.2) 30%, rgba(veil, 0.78) 62%, rgba(veil, 0.97) 100%), linear-gradient(90deg, rgba(veil, 0.72) 0%, rgba(veil, 0.4) 40%, rgba(veil, 0) 72%)", "purpose": "Hero veil from the --veil RGB triplet; darkens the photo toward the text." },
+      { "name": "ring-focus", "value": "outline: 2px solid var(--focus); outline-offset: 3px", "purpose": "Global focus-visible ring in pale bronze." },
+      { "name": "ring-field-focus", "value": "0 0 0 3px rgba(var(--accent-rgb), 0.22)", "purpose": "Field focus halo alongside a Bronze border." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "The one easing (out-expo) for every transition and entrance." },
+      { "name": "t-fast", "value": "160ms", "purpose": "Color, border, transform on hover and press." },
+      { "name": "t-mid", "value": "320ms", "purpose": "Nav chrome, shadow, skip link." },
+      { "name": "t-slow", "value": "700ms", "purpose": "Hero rise (14px, 80ms stagger) and scroll reveals (12px, 60ms stagger in groups of four)." },
+      { "name": "hero-drift", "value": "12s, scale 1.04 to 1", "purpose": "Hero photograph settles on load." },
+      { "name": "reduced-motion", "value": "prefers-reduced-motion: reduce removes every animation, collapses transitions to 0.01ms, disables smooth scroll, and reveals are skipped in JS", "purpose": "Accessibility gate." }
+    ],
+    "breakpoints": [
+      { "name": "menu-photos-stack", "value": "599px (max)" },
+      { "name": "form-rows", "value": "600px" },
+      { "name": "nav-links, facts-2, menu-2", "value": "700px" },
+      { "name": "nav-cta, splits, sticky-hours, bar-hides", "value": "900px" },
+      { "name": "facts-4", "value": "1000px" },
+      { "name": "wrap", "value": "1120px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Accent Button",
+      "kind": "button",
+      "refersTo": "button-accent",
+      "description": "The one bronze action: Reserve a table. Bronze Ink on Bronze pill, lightens and rises 1px on hover, presses 1px on active.",
+      "html": "<a class=\"ds-btn ds-btn-accent\" href=\"#\">Reserve a table</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 1rem 1.75rem; border-radius: 999px; font-family: var(--font, 'Hanken Grotesk', sans-serif); font-weight: 600; font-size: 1rem; line-height: 1; text-decoration: none; white-space: nowrap; border: 1px solid transparent; cursor: pointer; transition: background-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-accent { background: var(--accent, #C2A87E); color: var(--accent-ink, #14100E); box-shadow: 0 10px 24px -14px rgba(0,0,0,0.6); } .ds-btn-accent:hover { background: var(--accent-hover, #D3BC95); transform: translateY(-1px); } .ds-btn-accent:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--focus, #E4CFA6); outline-offset: 3px; }"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Inherits color with a Line Strong underline at 0.2em offset; text and underline turn Bronze on hover.",
+      "html": "<p class=\"ds-p\">Wickenden Street, on the corner of Brook. <a class=\"ds-link\" href=\"#\">Get directions</a></p>",
+      "css": ".ds-p { font-family: var(--font, 'Hanken Grotesk', sans-serif); font-size: 1.0625rem; line-height: 1.6; color: var(--ink, #EDE3D6); background: var(--ground, #14100E); padding: 1rem; margin: 0; } .ds-link { color: inherit; text-decoration: underline; text-decoration-color: var(--line-strong, rgba(237,227,214,0.32)); text-underline-offset: 0.2em; text-decoration-thickness: 1px; transition: text-decoration-color 160ms cubic-bezier(0.16,1,0.3,1), color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-link:hover { color: var(--accent, #C2A87E); text-decoration-color: currentColor; } .ds-link:focus-visible { outline: 2px solid var(--focus, #E4CFA6); outline-offset: 3px; border-radius: 3px; }"
+    },
+    {
+      "name": "Fact",
+      "kind": "custom",
+      "refersTo": "label",
+      "description": "Tracked bronze label naming a fact, lead line in 600 Ink, rest in Ink Soft. Four of these answer hours, where, parking, and reservations under the hero.",
+      "html": "<div class=\"ds-fact\"><span class=\"ds-label\">Hours</span><p><strong>Tue–Thu 5–10 pm</strong><br>Fri–Sat 5–11 pm · Sun 4–9 pm<br>Closed Mondays</p></div>",
+      "css": ".ds-fact { max-width: 280px; padding: 1.5rem 1rem; background: var(--ground-2, #1B1512); font-family: var(--font, 'Hanken Grotesk', sans-serif); font-size: 0.9375rem; line-height: 1.55; color: var(--ink-soft, #C9BCAB); border-top: 1px solid var(--line, rgba(237,227,214,0.16)); } .ds-fact p { margin: 0; } .ds-fact strong { color: var(--ink, #EDE3D6); font-weight: 600; } .ds-label { display: block; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent, #C2A87E); margin-bottom: 0.5rem; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky 72px bar on translucent Ground chrome with blur; tracked Bodoni wordmark left, three Ink Soft links hovering to Bronze, small accent pill right.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-nav-brand\" href=\"#\">SASSO</a><nav class=\"ds-nav-links\"><a href=\"#\">Menu</a><a href=\"#\">Story</a><a href=\"#\">Visit</a></nav><a class=\"ds-nav-cta\" href=\"#\">Reserve a table</a></header>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; height: 72px; padding: 0 1.5rem; background: rgba(var(--chrome, 20, 16, 14), 0.86); -webkit-backdrop-filter: blur(14px) saturate(140%); backdrop-filter: blur(14px) saturate(140%); border-bottom: 1px solid var(--line, rgba(237,227,214,0.16)); color: var(--ink, #EDE3D6); font-family: var(--font, 'Hanken Grotesk', sans-serif); } .ds-nav-brand { font-family: var(--display, 'Bodoni Moda', Didot, serif); font-weight: 500; font-size: 1.25rem; letter-spacing: 0.32em; padding-left: 0.32em; text-decoration: none; color: inherit; } .ds-nav-links { display: flex; gap: 2rem; } .ds-nav-links a { text-decoration: none; font-weight: 500; font-size: 0.9375rem; color: var(--ink-soft, #C9BCAB); transition: color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-nav-links a:hover { color: var(--accent, #C2A87E); } .ds-nav-cta { display: inline-flex; align-items: center; padding: 0.7rem 1.2rem; border-radius: 999px; font-size: 0.875rem; font-weight: 600; line-height: 1; text-decoration: none; background: var(--accent, #C2A87E); color: var(--accent-ink, #14100E); box-shadow: 0 10px 24px -14px rgba(0,0,0,0.6); transition: background-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-nav-cta:hover { background: var(--accent-hover, #D3BC95); transform: translateY(-1px); } .ds-nav a:focus-visible { outline: 2px solid var(--focus, #E4CFA6); outline-offset: 3px; border-radius: 3px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Ground 3 fill on a Line border at 3px; hover to Line Strong, focus to a Bronze border with a 22% bronze halo. Error border in salmon with a message below.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-name\">Name</label><input id=\"ds-name\" type=\"text\" placeholder=\"Who's the table for?\"></div>",
+      "css": ".ds-field { display: grid; gap: 0.4rem; max-width: 320px; padding: 1rem; background: var(--ground-2, #1B1512); font-family: var(--font, 'Hanken Grotesk', sans-serif); color: var(--ink, #EDE3D6); } .ds-field label { font-size: 0.875rem; font-weight: 600; } .ds-field input { width: 100%; box-sizing: border-box; min-height: 3.25rem; padding: 0.9rem 1rem; background: var(--ground-3, #221B16); border: 1px solid var(--line, rgba(237,227,214,0.16)); border-radius: 3px; color: var(--ink, #EDE3D6); font: inherit; font-size: 1.0625rem; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1), box-shadow 160ms cubic-bezier(0.16,1,0.3,1); } .ds-field input::placeholder { color: var(--ink-muted, #A89C8C); } .ds-field input:hover { border-color: var(--line-strong, rgba(237,227,214,0.32)); } .ds-field input:focus-visible { outline: none; border-color: var(--accent, #C2A87E); box-shadow: 0 0 0 3px rgba(194,168,126,0.22); } .ds-field input[aria-invalid=\"true\"] { border-color: var(--error, #F0A48E); }"
+    },
+    {
+      "name": "Hours Card",
+      "kind": "card",
+      "refersTo": "hours-card",
+      "description": "Ground 3 surface at 3px with the Surface shadow; italic Bodoni title, hairline rows with tabular figures, today's row in Bronze 600 with a tracked suffix.",
+      "html": "<div class=\"ds-hours\"><h3 class=\"ds-hours-title\">Hours</h3><table class=\"ds-hours-table\"><tbody><tr><th scope=\"row\">Monday</th><td>Closed</td></tr><tr><th scope=\"row\">Tuesday</th><td>5 – 10 pm</td></tr><tr class=\"is-today\"><th scope=\"row\">Wednesday</th><td>5 – 10 pm</td></tr><tr><th scope=\"row\">Thursday</th><td>5 – 10 pm</td></tr></tbody></table><p class=\"ds-hours-note\">Kitchen closes 30 minutes before we do.</p></div>",
+      "css": ".ds-hours { max-width: 360px; background: var(--ground-3, #221B16); border: 1px solid var(--line, rgba(237,227,214,0.16)); border-radius: 3px; padding: clamp(1.5rem, 3vw, 2.25rem); box-shadow: 0 24px 48px -24px rgba(0,0,0,0.6); color: var(--ink, #EDE3D6); font-family: var(--font, 'Hanken Grotesk', sans-serif); font-size: 1.0625rem; line-height: 1.6; } .ds-hours-title { margin: 0 0 1rem; font-family: var(--display, 'Bodoni Moda', Didot, serif); font-style: italic; font-weight: 400; font-size: 1.75rem; } .ds-hours-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; } .ds-hours-table th, .ds-hours-table td { padding: 0.7rem 0; border-top: 1px solid var(--line, rgba(237,227,214,0.16)); text-align: left; font-weight: 400; } .ds-hours-table td { text-align: right; color: var(--ink-soft, #C9BCAB); } .ds-hours-table tr.is-today th, .ds-hours-table tr.is-today td { color: var(--accent, #C2A87E); font-weight: 600; } .ds-hours-table tr.is-today th::after { content: \" · today\"; font-weight: 400; letter-spacing: 0.08em; font-size: 0.75rem; text-transform: uppercase; } .ds-hours-note { margin: 1rem 0 0; font-size: 0.875rem; color: var(--ink-muted, #A89C8C); }"
+    },
+    {
+      "name": "Dish Row",
+      "kind": "custom",
+      "refersTo": "hours-card",
+      "description": "Course title in italic Bodoni over a Line Strong rule; each dish a hairline row with the name in Ink and the price in Bronze tabular.",
+      "html": "<section class=\"ds-course\"><h3 class=\"ds-course-title\">Primi</h3><ul class=\"ds-dishes\"><li class=\"ds-dish\"><span class=\"ds-dish-name\">Pappardelle, wild mushrooms, sage brown butter</span><span class=\"ds-dish-price\">24</span></li><li class=\"ds-dish\"><span class=\"ds-dish-name\">Risotto of the day <em>ask</em></span><span class=\"ds-dish-price\">26</span></li></ul></section>",
+      "css": ".ds-course { max-width: 420px; padding: 1rem; background: var(--ground-2, #1B1512); color: var(--ink, #EDE3D6); font-family: var(--font, 'Hanken Grotesk', sans-serif); font-size: 1.0625rem; } .ds-course-title { margin: 0 0 0.25rem; font-family: var(--display, 'Bodoni Moda', Didot, serif); font-style: italic; font-weight: 400; font-size: clamp(1.75rem, 2.6vw, 2.25rem); padding-bottom: 0.75rem; border-bottom: 1px solid var(--line-strong, rgba(237,227,214,0.32)); } .ds-dishes { list-style: none; margin: 0; padding: 0; } .ds-dish { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 0.85rem 0; border-bottom: 1px solid var(--line, rgba(237,227,214,0.16)); } .ds-dish-name { line-height: 1.4; } .ds-dish-name em { font-style: italic; color: var(--ink-muted, #A89C8C); margin-left: 0.4rem; font-size: 0.9em; } .ds-dish-price { font-variant-numeric: tabular-nums; color: var(--accent, #C2A87E); font-weight: 500; flex: none; }"
+    },
+    {
+      "name": "Status Line",
+      "kind": "custom",
+      "refersTo": "label",
+      "description": "Live hours line computed by sasso.js from the HOURS table: Bronze 600 tabular with a 9px dot that dims to 40% when closed. Sits under the hero H1, never above it.",
+      "html": "<div class=\"ds-hero\"><h1 class=\"ds-hero-title\">Slow food,<br>quietly done.</h1><p class=\"ds-status\">Open tonight until 10 pm · 412 Wickenden St</p><p class=\"ds-status is-closed\">Closed now · opens tomorrow at 5 pm · 412 Wickenden St</p></div>",
+      "css": ".ds-hero { padding: 1.5rem; background: var(--ground, #14100E); color: var(--ink, #EDE3D6); font-family: var(--font, 'Hanken Grotesk', sans-serif); } .ds-hero-title { margin: 0; font-family: var(--display, 'Bodoni Moda', Didot, serif); font-weight: 400; font-style: italic; font-size: clamp(2.4rem, 6vw, 4rem); line-height: 0.98; letter-spacing: -0.015em; max-width: 11ch; text-shadow: 0 2px 28px rgba(var(--veil, 20, 16, 14), 0.55); } .ds-status { margin: 1.5rem 0 0; font-size: 1rem; font-weight: 600; color: var(--accent, #C2A87E); font-variant-numeric: tabular-nums; } .ds-status + .ds-status { margin-top: 0.75rem; } .ds-status::before { content: \"\"; display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: currentColor; margin-right: 0.6rem; vertical-align: 0.05em; } .ds-status.is-closed::before { opacity: 0.4; }"
+    },
+    {
+      "name": "Mobile Action Bar",
+      "kind": "nav",
+      "refersTo": "bar-button-accent",
+      "description": "Fixed bottom bar below 900px on 86% chrome with a Line top rule: Reserve as the accent pill, Call and Directions as Ink pills on a Line Strong border.",
+      "html": "<nav class=\"ds-bar\"><a class=\"ds-bar-btn ds-bar-btn-accent\" href=\"#\">Reserve</a><a class=\"ds-bar-btn\" href=\"#\">Call</a><a class=\"ds-bar-btn\" href=\"#\">Directions</a></nav>",
+      "css": ".ds-bar { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 0.5rem; max-width: 420px; padding: 0.6rem 1.25rem; background: rgba(var(--chrome, 20, 16, 14), 0.86); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-top: 1px solid var(--line, rgba(237,227,214,0.16)); font-family: var(--font, 'Hanken Grotesk', sans-serif); } .ds-bar-btn { display: flex; align-items: center; justify-content: center; min-height: 46px; border-radius: 999px; font-weight: 600; font-size: 0.9375rem; text-decoration: none; border: 1px solid var(--line-strong, rgba(237,227,214,0.32)); color: var(--ink, #EDE3D6); } .ds-bar-btn-accent { background: var(--accent, #C2A87E); color: var(--accent-ink, #14100E); border-color: transparent; } .ds-bar-btn:focus-visible { outline: 2px solid var(--focus, #E4CFA6); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Good Host",
+    "overview": "Sasso is a one-page trattoria site that answers a Maps visitor's questions in the order they ask them (open?, where?, what's the food?, can I get a table?) and keeps the reservation within thumb reach on every screen. The world is a dim dining room: warm near-black ground, cream ink, one bronze action, and a Bodoni Moda italic that only ever speaks at large sizes. Nothing decorates; the photography, the veil over it, and the hairlines do the atmospheric work. Remove the copy and you would still recognize it: black ground, bronze pill, italic serif, cream hairlines.\n\nIt is also VINCERE's first template base (\"one structure, many skins\"). Every color on the page lives in one token block at the top of `sasso.css`; a skin is a second, complete token block on `html[data-skin]` and nothing structural changes beneath it. Two alternate skins ship (Daylight, Verde) and match the three-way switcher in the VINCERE home page's concept panel. Sasso is fictional, carries `noindex, nofollow`, and is never listed in the sitemap.\n\nDensity is editorial rather than airy: sections breathe on a clamp(4.5rem, 9vw, 8rem) rhythm, copy is capped at 40 to 60ch, and data (facts, menu, hours) sits on hairline rows rather than in cards. Confirmed rejections: a hero slideshow, a PDF menu, a \"Welcome to our restaurant\" paragraph, hours hidden in the footer, and a tracked-caps eyebrow above the headline.",
+    "keyCharacteristics": [
+      "Three ground steps (#14100E, #1B1512, #221B16) do the sectioning; hairlines at 16% and 32% cream do the ruling",
+      "One bronze (#C2A87E) worn by actions, prices, labels, the live status line, and today's row; never a ground, never running text",
+      "Bodoni Moda italic 400 for every heading; the wordmark alone is upright 500 at 0.32em tracking",
+      "Hanken Grotesk for everything read, at 1.0625rem base",
+      "3px corners on every surface; pills only for actions",
+      "A skin is a token block on `html[data-skin]`, selected by `?skin=<id>`",
+      "One easing (out-expo) and three durations (160/320/700ms); the hero photo drifts 4% over 12s"
+    ],
+    "rules": [
+      { "name": "The One Bronze Rule", "body": "The accent is worn by actions and by data the visitor is scanning for (status, prices, labels, today). It never fills a section, never colors running text, and never appears as a second tint.", "section": "colors" },
+      { "name": "The Token Block Rule", "body": "Every color on the page resolves to a token in section 1 of `sasso.css`. A skin redefines that block and nothing else; the only skin-scoped selectors below it are the hero (dark photo regardless of skin) and the native date-picker icon. A brand that needs a structural override is a new base, not a skin.", "section": "colors" },
+      { "name": "The Cream Hairline Rule", "body": "Rules are 1px of ink at 16% (Line) or 32% (Line Strong); there are no solid divider colors and no borders in the accent except on a focused field or the sent-form status box.", "section": "colors" },
+      { "name": "The Italic-Only Display Rule", "body": "Bodoni Moda is italic 400 wherever it is a heading. The one upright use is the wordmark at 500 with wide tracking; there is no upright Bodoni body text and no bold Bodoni.", "section": "typography" },
+      { "name": "The Label-Names-Data Rule", "body": "The tracked bronze label introduces a fact (Hours, Where, Parking, Address); it never precedes a headline. The hero carries its context below the H1 as a sentence-case status line.", "section": "typography" },
+      { "name": "The Tabular Rule", "body": "Anything that lines up (prices, hours, the status line, the footer hours) sets `font-variant-numeric: tabular-nums`.", "section": "typography" },
+      { "name": "The Veil, Not Glow Rule", "body": "Darkness sits over the photograph, not around the objects. Shadows are single, deep, and offset; there are no colored glows and no shadow on text except the hero H1.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do put every color in the section 1 token block and add a client's brand as a new `html[data-skin=\"<id>\"]` block that redefines all of them; test it against the hero, which stays dark.",
+      "Do keep Bodoni Moda italic 400 for headings only, at display sizes; the wordmark is the sole upright 500 use.",
+      "Do keep the tracked bronze label for naming facts, and keep the hero's context below the H1 as a sentence-case status line.",
+      "Do rule with cream hairlines (16% and 32%) and section with the three ground steps; cut surfaces at 3px and actions as pills.",
+      "Do keep Reserve, Call, and Directions in the fixed bar below 900px and the accent pill in the nav above it.",
+      "Do drive hours from the one `HOURS` table: status line, today's row, and date validation.",
+      "Do cap running copy at 40 to 60ch and headings at 11 to 14ch."
+    ],
+    "donts": [
+      "Don't add a second accent or use bronze as a ground, a band, or running text.",
+      "Don't put a tracked-caps eyebrow above the H1 or an H2, and don't set Bodoni upright, bold, or at body sizes.",
+      "Don't add hero slideshows, a PDF menu, ratings, reviews, press, or any proof device; Sasso is fictional and the page must not fabricate.",
+      "Don't add radii beyond 3px and pills, colored glows, or zero-offset shadows on surfaces.",
+      "Don't write skin-specific selectors below the token block except for the hero and native picker; if a skin needs one, it is a new base.",
+      "Don't index this page: keep `noindex, nofollow` and keep it out of `sitemap.xml`."
+    ]
+  }
+}
