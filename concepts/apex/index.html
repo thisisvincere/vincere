@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Apex Auto — Independent service on Brannan Road, Mesa</title>
+<meta name="description" content="Apex Auto is an independent auto-service shop in Mesa: posted prices, online scheduling, and a text before any work starts. Open Monday to Saturday. Book a bay.">
+<!-- Concept site for a fictional shop: keep it out of search results. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0C0E11">
+<meta name="color-scheme" content="dark">
+
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="apex.css">
+
+<script>
+  document.documentElement.classList.add('js');
+  // Skin from the query string (?skin=signal|racing) so the home page can open the same look.
+  (function () {
+    var m = /[?&]skin=(signal|racing)\b/.exec(location.search);
+    if (m) document.documentElement.setAttribute('data-skin', m[1]);
+  })();
+</script>
+</head>
+
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" data-nav>
+  <div class="wrap nav__inner">
+    <a class="brand" href="#top" aria-label="Apex Auto — home">Apex <b>Auto</b></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#how">How it works</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a class="btn btn--accent btn--sm nav__cta" href="#schedule">Schedule service</a>
+  </div>
+</header>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero" aria-labelledby="hero-title">
+  <picture class="hero__media" aria-hidden="true">
+    <img class="hero__img"
+         src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1600&q=75&auto=format&fit=crop"
+         srcset="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=900&q=70&auto=format&fit=crop 900w,
+                 https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1600&q=75&auto=format&fit=crop 1600w,
+                 https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=2400&q=75&auto=format&fit=crop 2400w"
+         sizes="100vw" alt="" fetchpriority="high" decoding="async">
+  </picture>
+  <div class="hero__veil" aria-hidden="true"></div>
+
+  <div class="wrap hero__inner">
+    <h1 class="hero__title" id="hero-title">Book the bay.<br>Skip the wait.</h1>
+    <p class="hero__status" data-status aria-live="polite">Monday to Saturday from 7:30 am · 1480 Brannan Rd</p>
+    <p class="hero__lede">
+      Independent service for what you actually drive. Posted prices, online scheduling,
+      and a text before any work starts.
+    </p>
+    <div class="hero__actions">
+      <a class="btn btn--accent" href="#schedule">Schedule service</a>
+      <a class="link" href="#services">See service pricing</a>
+    </div>
+
+    <!-- The bay board: today's schedule, computed by apex.js. Tapping an open bay prefills that time in the form. -->
+    <div class="board" data-board>
+      <p class="board__caption" id="board-caption">Today's bays — tap an open one to book that time.</p>
+      <div class="bays" role="group" aria-labelledby="board-caption">
+        <button class="bay" type="button" data-bay="1" style="--i:0"><span class="bay__name">Bay 1</span><span class="bay__time">—</span><span class="bay__state">Loading</span></button>
+        <button class="bay" type="button" data-bay="2" style="--i:1"><span class="bay__name">Bay 2</span><span class="bay__time">—</span><span class="bay__state">Loading</span></button>
+        <button class="bay" type="button" data-bay="3" style="--i:2"><span class="bay__name">Bay 3</span><span class="bay__time">—</span><span class="bay__state">Loading</span></button>
+        <button class="bay" type="button" data-bay="4" style="--i:3"><span class="bay__name">Bay 4</span><span class="bay__time">—</span><span class="bay__state">Loading</span></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= THE FOUR ANSWERS ======================= -->
+<section class="facts" aria-label="Hours, address, drop-off, and estimates">
+  <div class="wrap facts__grid">
+    <div class="fact">
+      <p><strong>Mon–Fri 7:30 am–6 pm</strong><br>Sat 8 am–2 pm<br>Closed Sunday</p>
+    </div>
+    <div class="fact">
+      <p><strong>1480 Brannan Rd</strong><br>Mesa, AZ 85201<br>
+        <a class="link" href="https://www.google.com/maps/dir/?api=1&destination=1480+Brannan+Rd+Mesa+AZ+85201" target="_blank" rel="noopener">Get directions</a></p>
+    </div>
+    <div class="fact">
+      <p><strong>Key drop, around the clock.</strong><br>Loaner car for any job over four hours.</p>
+    </div>
+    <div class="fact">
+      <p><strong>Estimates in writing, before we start.</strong><br>Photos and a price by text. Nothing happens until you approve.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ SERVICES ============================ -->
+<section class="services" id="services" aria-labelledby="services-title">
+  <div class="wrap">
+    <div class="services__head">
+      <h2 class="h2" id="services-title">Prices on the wall, not behind a phone call.</h2>
+      <p class="lede">
+        Posted prices for the jobs most cars need. Anything else is labor at $120 an hour plus
+        parts at cost, quoted in writing before we touch it.
+      </p>
+    </div>
+
+    <div class="services__grid">
+      <section class="group" aria-labelledby="g-maintenance">
+        <h3 class="group__title" id="g-maintenance">Maintenance</h3>
+        <ul class="jobs" role="list">
+          <li class="job"><span class="job__name">Synthetic oil change</span><span class="job__price">79</span></li>
+          <li class="job"><span class="job__name">Tire rotation and balance</span><span class="job__price">49</span></li>
+          <li class="job"><span class="job__name">Engine and cabin air filters</span><span class="job__price">65</span></li>
+          <li class="job"><span class="job__name">Brake fluid exchange</span><span class="job__price">119</span></li>
+          <li class="job"><span class="job__name">Coolant exchange</span><span class="job__price">139</span></li>
+        </ul>
+      </section>
+
+      <section class="group" aria-labelledby="g-brakes">
+        <h3 class="group__title" id="g-brakes">Brakes</h3>
+        <ul class="jobs" role="list">
+          <li class="job"><span class="job__name">Front pads and rotors</span><span class="job__price">389</span></li>
+          <li class="job"><span class="job__name">Rear pads and rotors</span><span class="job__price">359</span></li>
+          <li class="job"><span class="job__name">Caliper <em>each</em></span><span class="job__price">189</span></li>
+          <li class="job"><span class="job__name">Brake inspection</span><span class="job__price is-free">Free</span></li>
+        </ul>
+      </section>
+
+      <section class="group" aria-labelledby="g-diagnostics">
+        <h3 class="group__title" id="g-diagnostics">Diagnostics</h3>
+        <ul class="jobs" role="list">
+          <li class="job"><span class="job__name">Check-engine diagnostic <em>credited to the repair</em></span><span class="job__price">95</span></li>
+          <li class="job"><span class="job__name">Pre-purchase inspection</span><span class="job__price">149</span></li>
+          <li class="job"><span class="job__name">A/C performance test</span><span class="job__price">89</span></li>
+          <li class="job"><span class="job__name">Battery and charging test</span><span class="job__price is-free">Free</span></li>
+        </ul>
+      </section>
+
+      <section class="group" aria-labelledby="g-tires">
+        <h3 class="group__title" id="g-tires">Tires and alignment</h3>
+        <ul class="jobs" role="list">
+          <li class="job"><span class="job__name">Four-wheel alignment</span><span class="job__price">129</span></li>
+          <li class="job"><span class="job__name">Tire mount and balance <em>each</em></span><span class="job__price">25</span></li>
+          <li class="job"><span class="job__name">TPMS sensor <em>each</em></span><span class="job__price">79</span></li>
+          <li class="job"><span class="job__name">Flat repair</span><span class="job__price">29</span></li>
+        </ul>
+      </section>
+    </div>
+
+    <p class="services__note">
+      Prices are for most cars and light trucks, tax not included. European, diesel, and hybrid:
+      we quote in writing, usually the same day.
+    </p>
+  </div>
+</section>
+
+<!-- ========================== HOW IT WORKS ========================== -->
+<section class="how" id="how" aria-labelledby="how-title">
+  <div class="wrap how__inner">
+    <div class="how__copy">
+      <h2 class="h2" id="how-title">Four steps. One text to approve.</h2>
+      <p class="lede">
+        You never have to call to find out what's going on. Every step comes to your phone,
+        and nothing starts until you say so.
+      </p>
+      <ol class="steps">
+        <li class="step">
+          <h3 class="step__title">Book a bay</h3>
+          <p class="step__text">Pick a time online. Same-day openings show on the board at the top.</p>
+        </li>
+        <li class="step">
+          <h3 class="step__title">Drop it off</h3>
+          <p class="step__text">Key drop around the clock. A loaner if it's going to be a long one.</p>
+        </li>
+        <li class="step">
+          <h3 class="step__title">Approve by text</h3>
+          <p class="step__text">You get photos and a written estimate. Nothing starts until you reply yes.</p>
+        </li>
+        <li class="step">
+          <h3 class="step__title">Pick it up</h3>
+          <p class="step__text">Pay online or at the counter. Receipt and the photos land in your inbox.</p>
+        </li>
+      </ol>
+    </div>
+    <div class="how__photos" aria-hidden="true">
+      <span class="photo photo--tall">
+        <img src="https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=800&q=75&auto=format&fit=crop"
+             srcset="https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=500&q=70&auto=format&fit=crop 500w,
+                     https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=800&q=75&auto=format&fit=crop 800w,
+                     https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=1200&q=75&auto=format&fit=crop 1200w"
+             sizes="(min-width: 900px) 24vw, 48vw" alt="" loading="lazy" decoding="async" width="800" height="1067">
+      </span>
+      <span class="photo">
+        <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&q=75&auto=format&fit=crop"
+             srcset="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=500&q=70&auto=format&fit=crop 500w,
+                     https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&q=75&auto=format&fit=crop 800w,
+                     https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=1200&q=75&auto=format&fit=crop 1200w"
+             sizes="(min-width: 900px) 24vw, 48vw" alt="" loading="lazy" decoding="async" width="800" height="600">
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ THE SHOP ============================ -->
+<section class="shop" id="shop" aria-labelledby="shop-title">
+  <div class="wrap shop__inner">
+    <figure class="shop__media">
+      <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=1000&q=75&auto=format&fit=crop"
+           srcset="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=600&q=70&auto=format&fit=crop 600w,
+                   https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=1000&q=75&auto=format&fit=crop 1000w,
+                   https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=1400&q=75&auto=format&fit=crop 1400w"
+           sizes="(min-width: 900px) 44vw, 100vw"
+           alt="The wrench wall at the back of the shop: rows of combination wrenches and sockets under the roof trusses."
+           loading="lazy" decoding="async" width="1000" height="667">
+    </figure>
+    <div class="shop__copy">
+      <h2 class="h2" id="shop-title">Four bays. One rule.</h2>
+      <p class="lede">
+        You see the estimate before we see the engine. Everything else about the shop follows
+        from that.
+      </p>
+      <p>
+        Apex opened in 2018 in a former transmission shop off Brannan Road. Four lifts, three
+        technicians, and a waiting room with a desk, because most maintenance is done before
+        you finish your coffee.
+      </p>
+      <p>
+        We work on most makes and model years. When we don't, we say so on the phone and send
+        you to someone who does.
+      </p>
+      <p class="shop__sign">— Dana Reyes, owner</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ VISIT ============================ -->
+<section class="visit" id="visit" aria-labelledby="visit-title">
+  <div class="wrap visit__inner">
+    <div class="visit__copy">
+      <h2 class="h2" id="visit-title">Visit</h2>
+      <p class="lede">Brannan Road just south of Main. The graphite building with the orange door.</p>
+
+      <dl class="visit__facts">
+        <div>
+          <dt>Address</dt>
+          <dd>1480 Brannan Rd, Mesa, AZ 85201<br>
+            <a class="link" href="https://www.google.com/maps/dir/?api=1&destination=1480+Brannan+Rd+Mesa+AZ+85201" target="_blank" rel="noopener">Open in Maps</a></dd>
+        </div>
+        <div>
+          <dt>Phone</dt>
+          <dd><a class="link" href="tel:+14805550199">(480) 555-0199</a></dd>
+        </div>
+        <div>
+          <dt>Key drop</dt>
+          <dd>Box by the office door, any hour. Tag on the keys, form on the box.</dd>
+        </div>
+        <div>
+          <dt>Waiting</dt>
+          <dd>Wi-Fi, coffee, and a desk. Most maintenance is under an hour.</dd>
+        </div>
+        <div>
+          <dt>Loaners</dt>
+          <dd>Free for any job over four hours. Ask when you book.</dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="hours" aria-labelledby="hours-title">
+      <h3 class="hours__title" id="hours-title">Hours</h3>
+      <table class="hours__table" data-hours>
+        <tbody>
+          <tr data-day="1"><th scope="row">Monday</th><td>7:30 am – 6 pm</td></tr>
+          <tr data-day="2"><th scope="row">Tuesday</th><td>7:30 am – 6 pm</td></tr>
+          <tr data-day="3"><th scope="row">Wednesday</th><td>7:30 am – 6 pm</td></tr>
+          <tr data-day="4"><th scope="row">Thursday</th><td>7:30 am – 6 pm</td></tr>
+          <tr data-day="5"><th scope="row">Friday</th><td>7:30 am – 6 pm</td></tr>
+          <tr data-day="6"><th scope="row">Saturday</th><td>8 am – 2 pm</td></tr>
+          <tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr>
+        </tbody>
+      </table>
+      <p class="hours__note">Last drop-off for same-day work is 3 pm. Closed on major holidays.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ SCHEDULE ============================ -->
+<section class="schedule" id="schedule" aria-labelledby="schedule-title">
+  <div class="wrap schedule__inner">
+    <div class="schedule__copy">
+      <h2 class="h2" id="schedule-title">Schedule service</h2>
+      <p class="lede">
+        Pick a bay and a time. We confirm by text within the hour, or call
+        <a class="link" href="tel:+14805550199">(480) 555-0199</a>.
+      </p>
+      <p class="schedule__fine">
+        Diagnostics need the car for the morning. Most parts jobs are done the same day.
+      </p>
+    </div>
+
+    <form class="form" id="schedule-form" novalidate>
+      <div class="form__row">
+        <div class="field">
+          <label for="s-date">Date</label>
+          <input id="s-date" name="date" type="date" required autocomplete="off">
+          <p class="field__error" id="s-date-err" hidden>Pick a day we're open (we're closed on Sundays).</p>
+        </div>
+        <div class="field">
+          <label for="s-time">Time</label>
+          <select id="s-time" name="time" required>
+            <option value="">Choose a time</option>
+            <option>7:30 am</option><option>8:00 am</option><option>8:30 am</option><option>9:00 am</option>
+            <option>9:30 am</option><option>10:00 am</option><option>10:30 am</option><option>11:00 am</option>
+            <option>11:30 am</option><option>12:00 pm</option><option>12:30 pm</option><option>1:00 pm</option>
+            <option>1:30 pm</option><option>2:00 pm</option><option>2:30 pm</option><option>3:00 pm</option>
+            <option>3:30 pm</option><option>4:00 pm</option><option>4:30 pm</option>
+          </select>
+          <p class="field__error" id="s-time-err" hidden>Choose a time.</p>
+        </div>
+        <div class="field">
+          <label for="s-service">Service</label>
+          <select id="s-service" name="service" required>
+            <option value="">What does it need?</option>
+            <option>Synthetic oil change</option>
+            <option>Tire rotation and balance</option>
+            <option>Brakes</option>
+            <option>Check-engine diagnostic</option>
+            <option>Pre-purchase inspection</option>
+            <option>A/C service</option>
+            <option>Alignment or tires</option>
+            <option>Something else</option>
+          </select>
+          <p class="field__error" id="s-service-err" hidden>Tell us what it needs.</p>
+        </div>
+      </div>
+      <div class="form__row form__row--2">
+        <div class="field">
+          <label for="s-vehicle">Vehicle</label>
+          <input id="s-vehicle" name="vehicle" type="text" required autocomplete="off" placeholder="2019 Toyota Tacoma">
+          <p class="field__error" id="s-vehicle-err" hidden>Year, make, and model, so the right parts are on the shelf.</p>
+        </div>
+        <div class="field">
+          <label for="s-name">Name</label>
+          <input id="s-name" name="name" type="text" required autocomplete="name" placeholder="Who's dropping it off?">
+          <p class="field__error" id="s-name-err" hidden>We need a name for the work order.</p>
+        </div>
+      </div>
+      <div class="form__row form__row--2">
+        <div class="field">
+          <label for="s-phone">Mobile number</label>
+          <input id="s-phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel" placeholder="For the estimate and updates">
+          <p class="field__error" id="s-phone-err" hidden>Enter a number we can text.</p>
+        </div>
+        <div class="field">
+          <label for="s-notes">Anything we should know? <span class="optional">Optional</span></label>
+          <input id="s-notes" name="notes" type="text" placeholder="A noise, a light, a deadline">
+        </div>
+      </div>
+      <div class="form__foot">
+        <button class="btn btn--accent" type="submit" data-submit><span data-submit-label>Request a bay</span></button>
+        <p class="form__demo">Concept form. On a live site this sends the request to your shop management system (Tekmetric, Shop-Ware) or straight to your phone.</p>
+      </div>
+      <p class="form__status" id="schedule-status" role="status" aria-live="polite" hidden></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <span class="brand footer__word">Apex <b>Auto</b></span>
+      <p>1480 Brannan Rd, Mesa, AZ 85201<br><a class="link" href="tel:+14805550199">(480) 555-0199</a> · <a class="link" href="https://instagram.com/" target="_blank" rel="noopener">@apexauto.mesa</a></p>
+    </div>
+    <p class="footer__hours">Mon–Fri 7:30–6 · Sat 8–2 · Closed Sun</p>
+    <p class="footer__concept">
+      Concept site designed and built by <a class="link" href="../../index.html#work">VINCERE</a>. Apex Auto is a fictional
+      shop; prices are illustrative and the photographs are placeholders from Unsplash.
+    </p>
+  </div>
+</footer>
+
+<!-- Mobile action bar: the three things a Maps visitor does, within thumb reach on every screen. -->
+<nav class="bar" aria-label="Quick actions">
+  <a class="bar__btn bar__btn--accent" href="#schedule">Schedule</a>
+  <a class="bar__btn" href="tel:+14805550199">Call</a>
+  <a class="bar__btn" href="https://www.google.com/maps/dir/?api=1&destination=1480+Brannan+Rd+Mesa+AZ+85201" target="_blank" rel="noopener">Directions</a>
+</nav>
+
+<script src="apex.js" defer></script>
+</body>
+</html>

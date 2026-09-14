@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-14T00:00:00Z",
+  "title": "Design System: Auburn & Ash",
+  "extensions": {
+    "colorMeta": {
+      "ground": { "role": "neutral", "displayName": "Sage", "canonical": "#E9EDE4", "tonalRamp": ["oklch(15% 0.012 140)", "oklch(27% 0.012 140)", "oklch(39% 0.012 140)", "oklch(51% 0.012 140)", "oklch(63% 0.012 140)", "oklch(75% 0.012 140)", "oklch(87% 0.012 140)", "oklch(94% 0.010 140)"] },
+      "ground-2": { "role": "neutral", "displayName": "Sage Deep", "canonical": "#DDE3D8", "tonalRamp": ["oklch(15% 0.014 140)", "oklch(27% 0.014 140)", "oklch(39% 0.014 140)", "oklch(51% 0.014 140)", "oklch(63% 0.014 140)", "oklch(75% 0.014 140)", "oklch(85% 0.014 140)", "oklch(91% 0.013 140)"] },
+      "ground-3": { "role": "neutral", "displayName": "Sage Light", "canonical": "#F5F7F2" },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#1F2A22", "tonalRamp": ["oklch(15% 0.018 155)", "oklch(25% 0.018 155)", "oklch(37% 0.018 155)", "oklch(49% 0.018 155)", "oklch(61% 0.018 155)", "oklch(73% 0.016 155)", "oklch(85% 0.014 155)", "oklch(95% 0.008 155)"] },
+      "ink-soft": { "role": "neutral", "displayName": "Ink Soft", "canonical": "#45524A", "tonalRamp": ["oklch(15% 0.018 155)", "oklch(27% 0.018 155)", "oklch(40% 0.018 155)", "oklch(52% 0.018 155)", "oklch(64% 0.016 155)", "oklch(76% 0.014 155)", "oklch(88% 0.012 155)", "oklch(95% 0.008 155)"] },
+      "ink-muted": { "role": "neutral", "displayName": "Ink Muted", "canonical": "#57655C", "tonalRamp": ["oklch(15% 0.018 155)", "oklch(27% 0.018 155)", "oklch(39% 0.018 155)", "oklch(48% 0.018 155)", "oklch(60% 0.016 155)", "oklch(72% 0.014 155)", "oklch(84% 0.012 155)", "oklch(95% 0.008 155)"] },
+      "accent": { "role": "primary", "displayName": "Copper (fill)", "canonical": "#B4552D", "tonalRamp": ["oklch(18% 0.05 40)", "oklch(30% 0.09 40)", "oklch(42% 0.12 40)", "oklch(53% 0.14 40)", "oklch(64% 0.13 40)", "oklch(75% 0.10 40)", "oklch(86% 0.06 40)", "oklch(95% 0.02 40)"] },
+      "accent-text": { "role": "primary", "displayName": "Copper Text", "canonical": "#9A4622", "tonalRamp": ["oklch(18% 0.05 40)", "oklch(30% 0.09 40)", "oklch(40% 0.12 40)", "oklch(47% 0.13 40)", "oklch(60% 0.13 40)", "oklch(72% 0.10 40)", "oklch(84% 0.06 40)", "oklch(95% 0.02 40)"] },
+      "accent-ink": { "role": "primary", "displayName": "Copper Ink", "canonical": "#FFF7F2" },
+      "accent-hover": { "role": "primary", "displayName": "Copper Hover", "canonical": "#A04A26" },
+      "line": { "role": "neutral", "displayName": "Line", "canonical": "rgba(31, 42, 34, 0.16)" },
+      "line-strong": { "role": "neutral", "displayName": "Line Strong", "canonical": "rgba(31, 42, 34, 0.32)" },
+      "error": { "role": "secondary", "displayName": "Error", "canonical": "#A63A1E", "tonalRamp": ["oklch(15% 0.06 35)", "oklch(27% 0.10 35)", "oklch(39% 0.14 35)", "oklch(48% 0.16 35)", "oklch(62% 0.15 35)", "oklch(75% 0.11 35)", "oklch(87% 0.07 35)", "oklch(95% 0.03 35)"] },
+      "focus": { "role": "primary", "displayName": "Focus", "canonical": "#9A4622" },
+      "blush-ground": { "role": "neutral", "displayName": "Blush Ground", "canonical": "#F9E9E4" },
+      "blush-ground-2": { "role": "neutral", "displayName": "Blush Ground 2", "canonical": "#F1D9D2" },
+      "blush-ground-3": { "role": "neutral", "displayName": "Blush Ground 3", "canonical": "#FFF8F5" },
+      "blush-ink": { "role": "neutral", "displayName": "Blush Ink", "canonical": "#3A1F22" },
+      "blush-ink-soft": { "role": "neutral", "displayName": "Blush Ink Soft", "canonical": "#5E4246" },
+      "blush-ink-muted": { "role": "neutral", "displayName": "Blush Ink Muted", "canonical": "#6E5457" },
+      "blush-accent": { "role": "primary", "displayName": "Terracotta (fill)", "canonical": "#C2483E", "tonalRamp": ["oklch(18% 0.06 28)", "oklch(30% 0.11 28)", "oklch(42% 0.15 28)", "oklch(54% 0.17 28)", "oklch(65% 0.16 28)", "oklch(76% 0.12 28)", "oklch(87% 0.07 28)", "oklch(95% 0.03 28)"] },
+      "blush-accent-text": { "role": "primary", "displayName": "Terracotta (text)", "canonical": "#A63A31" },
+      "blush-accent-ink": { "role": "primary", "displayName": "Blush Accent Ink", "canonical": "#FFF5F2" },
+      "blush-accent-hover": { "role": "primary", "displayName": "Blush Accent Hover", "canonical": "#AD3E35" },
+      "blush-line": { "role": "neutral", "displayName": "Blush Line", "canonical": "rgba(58, 31, 34, 0.16)" },
+      "blush-line-strong": { "role": "neutral", "displayName": "Blush Line Strong", "canonical": "rgba(58, 31, 34, 0.32)" },
+      "blush-error": { "role": "secondary", "displayName": "Blush Error", "canonical": "#A63A1E" },
+      "blush-focus": { "role": "primary", "displayName": "Blush Focus", "canonical": "#A63A31" },
+      "noir-ground": { "role": "neutral", "displayName": "Noir Ground", "canonical": "#121115" },
+      "noir-ground-2": { "role": "neutral", "displayName": "Noir Ground 2", "canonical": "#1D1B20" },
+      "noir-ground-3": { "role": "neutral", "displayName": "Noir Ground 3", "canonical": "#26242A" },
+      "noir-ink": { "role": "neutral", "displayName": "Noir Ink", "canonical": "#F2EDE8" },
+      "noir-ink-soft": { "role": "neutral", "displayName": "Noir Ink Soft", "canonical": "#CFC7BF" },
+      "noir-ink-muted": { "role": "neutral", "displayName": "Noir Ink Muted", "canonical": "#A39B93" },
+      "noir-accent": { "role": "primary", "displayName": "Tan (fill)", "canonical": "#D6A06A", "tonalRamp": ["oklch(18% 0.04 70)", "oklch(30% 0.07 70)", "oklch(42% 0.10 70)", "oklch(54% 0.12 70)", "oklch(66% 0.12 70)", "oklch(74% 0.11 70)", "oklch(86% 0.07 70)", "oklch(95% 0.03 70)"] },
+      "noir-accent-text": { "role": "primary", "displayName": "Tan (text)", "canonical": "#D6A06A" },
+      "noir-accent-ink": { "role": "primary", "displayName": "Noir Accent Ink", "canonical": "#121115" },
+      "noir-accent-hover": { "role": "primary", "displayName": "Noir Accent Hover", "canonical": "#E2B182" },
+      "noir-line": { "role": "neutral", "displayName": "Noir Line", "canonical": "rgba(242, 237, 232, 0.18)" },
+      "noir-line-strong": { "role": "neutral", "displayName": "Noir Line Strong", "canonical": "rgba(242, 237, 232, 0.34)" },
+      "noir-error": { "role": "secondary", "displayName": "Noir Error", "canonical": "#FFA98A" },
+      "noir-focus": { "role": "primary", "displayName": "Noir Focus", "canonical": "#D6A06A" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero H1 only, Figtree 500 lowercase at -0.045em, capped at 12ch, balanced." },
+      "headline": { "displayName": "Headline", "purpose": "Section H2s, Figtree 500 lowercase at -0.04em, capped at 16ch; each ends in a period." },
+      "title": { "displayName": "Title", "purpose": "Price group titles, lowercase, over a Line Strong rule." },
+      "card-title": { "displayName": "Card Title", "purpose": "Stylist names on cards (title case because they are names); 1.35rem from 1000px." },
+      "hours-title": { "displayName": "Hours Title", "purpose": "\"hours\" in the hours card." },
+      "wordmark": { "displayName": "Wordmark", "purpose": "\"Auburn & Ash\" in the nav and footer with the ampersand in Copper Text; shown at every width." },
+      "status": { "displayName": "Status Line", "purpose": "Live open/walk-in line under the H1 in Copper Text 600 tabular, led by a 9px copper dot." },
+      "lede": { "displayName": "Lede", "purpose": "Paragraph under each H2 in Ink Soft, 40 to 46ch; the hero sub line is clamp(1.05rem, 1.5vw, 1.2rem)." },
+      "body": { "displayName": "Body", "purpose": "Base text at 1.0625rem; price rows and the form inherit it." },
+      "body-sm": { "displayName": "Body Small", "purpose": "Stylist roles and bios, nav links, menu note, visit facts, book fine print, footer, bar buttons." },
+      "button": { "displayName": "Button", "purpose": "Every button at 600; sm 0.875rem." },
+      "chip": { "displayName": "Chip", "purpose": "The three service chips on each stylist card, 500 in Ink Soft." },
+      "field-label": { "displayName": "Field Label", "purpose": "Above every form field at 600." },
+      "label": { "displayName": "Label", "purpose": "The \" · today\" suffix and the \"Optional\" mark: 500 uppercase at 0.06em in Ink Muted. Never above a headline." },
+      "caption": { "displayName": "Caption", "purpose": "Demo note, field errors (in Error), and the concept credit; the hours note runs at 0.875rem." }
+    },
+    "skins": [
+      { "id": "sage", "selector": ":root", "label": "Sage", "swatch": ["#E9EDE4", "#B4552D"], "purpose": "Default. Soft sage ground, deep green-black ink, one copper as fill (#B4552D) and deeper as text (#9A4622); veil and chrome equal the ground." },
+      { "id": "blush", "selector": "html[data-skin=\"blush\"]", "label": "Blush", "swatch": ["#F9E9E4", "#C2483E"], "purpose": "Warm pink-beige ground, plum-brown ink, terracotta fill (#C2483E) with a deeper text value (#A63A31, 5.6:1); light." },
+      { "id": "noir", "selector": "html[data-skin=\"noir\"]", "label": "Noir", "swatch": ["#121115", "#D6A06A"], "purpose": "Near-black warm ground, bone ink, one tan as both fill and text (8.1:1); hairlines at 18% and 34%; color-scheme dark; photo shadow 60% black." }
+    ],
+    "shadows": [
+      { "name": "photo", "value": "0 18px 40px -22px rgba(31, 42, 34, 0.35)", "purpose": "The four stylist photo frames only, through --shadow; the one elevation shadow on the page. Follows the skin (plum on Blush, 60% black on Noir)." },
+      { "name": "ring-field-focus", "value": "0 0 0 3px rgba(var(--accent-rgb), 0.22)", "purpose": "Field focus halo alongside a Copper border. State, not depth." },
+      { "name": "ring-focus", "value": "outline: 2px solid var(--focus); outline-offset: 3px; border-radius: 12px", "purpose": "Global focus-visible ring in Copper Text (tan on Noir)." },
+      { "name": "chrome", "value": "background: rgba(var(--chrome), 0.6); backdrop-filter: blur(14px) saturate(140%)", "purpose": "Nav at rest; 0.9 when stuck and on the fixed bar (bar without saturate). The chrome triplet equals the ground." },
+      { "name": "hero-veil", "value": "linear-gradient(180deg, rgba(var(--veil), 0.35) 0%, rgba(var(--veil), 0.15) 28%, rgba(var(--veil), 0.86) 58%, rgba(var(--veil), 1) 100%), linear-gradient(90deg, rgba(var(--veil), 0.7) 0%, rgba(var(--veil), 0.35) 45%, rgba(var(--veil), 0) 80%)", "purpose": "The hero photograph's veil in the ground triplet: clear at the top right, solid ground at the bottom under the copy." },
+      { "name": "photo-filter", "value": "filter: grayscale(1) contrast(1.05)", "purpose": "Every stylist frame; forces four sources to read as one monochrome set so copper is the only chroma." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "The one easing (out-expo) for every transition and entrance." },
+      { "name": "t-fast", "value": "160ms", "purpose": "Color, border, transform on hover and press; field borders and halos; link underline; price-row name hover." },
+      { "name": "t-mid", "value": "320ms", "purpose": "Nav chrome and the skip link." },
+      { "name": "t-slow", "value": "700ms", "purpose": "Hero rise (14px; 0/80/160/240/320ms across title, status, sub, actions, teaser) and scroll reveals (12px, 60ms stagger in groups of four, 8% threshold)." },
+      { "name": "hero-drift", "value": "12s, scale(1.04) to scale(1), once", "purpose": "The hero photograph settles from a 4% zoom over 12 seconds, origin 70% 50%." },
+      { "name": "reduced-motion", "value": "prefers-reduced-motion: reduce removes every animation, collapses transitions to 0.01ms, disables smooth scroll, and skips the reveal observer", "purpose": "Accessibility gate; the chair's scroll-to-form also becomes instant." }
+    ],
+    "breakpoints": [
+      { "name": "stylists-2, form-rows, form-foot", "value": "600px" },
+      { "name": "nav-links", "value": "700px" },
+      { "name": "menu-2", "value": "760px" },
+      { "name": "nav-cta, heads-split, book, visit, sticky-hours, footer, bar-hides", "value": "900px" },
+      { "name": "stylists-4", "value": "1000px" },
+      { "name": "wrap", "value": "1120px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Accent Pill",
+      "kind": "button",
+      "refersTo": "button-accent",
+      "description": "The one copper action: Book a chair. Copper Ink on Copper at 999px with a 1.5px transparent border, 600 weight; darkens and rises 1px on hover, presses 1px on active.",
+      "html": "<a class=\"ds-btn ds-btn-accent\" href=\"#\">Book a chair</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 1rem 1.6rem; border-radius: 999px; font-family: var(--font, 'Figtree', sans-serif); font-weight: 600; font-size: 1rem; line-height: 1; text-decoration: none; white-space: nowrap; border: 1.5px solid transparent; cursor: pointer; transition: background-color 160ms cubic-bezier(0.16,1,0.3,1), color 160ms cubic-bezier(0.16,1,0.3,1), border-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-accent { background: var(--accent, #B4552D); color: var(--accent-ink, #FFF7F2); } .ds-btn-accent:hover { background: var(--accent-hover, #A04A26); transform: translateY(-1px); } .ds-btn-accent:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--focus, #9A4622); outline-offset: 3px; }"
+    },
+    {
+      "name": "Outline Pill",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "The per-stylist action: Book with <name>. Ink on transparent with a 1.5px Line Strong border that turns Ink on hover; small size on cards.",
+      "html": "<button class=\"ds-btn ds-btn-outline ds-btn-sm\" type=\"button\">Book with Tessa</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 1rem 1.6rem; border-radius: 999px; font-family: var(--font, 'Figtree', sans-serif); font-weight: 600; font-size: 1rem; line-height: 1; text-decoration: none; white-space: nowrap; border: 1.5px solid transparent; background: none; cursor: pointer; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-sm { padding: 0.7rem 1.1rem; font-size: 0.875rem; } .ds-btn-outline { background: transparent; color: var(--ink, #1F2A22); border-color: var(--line-strong, rgba(31,42,34,0.32)); } .ds-btn-outline:hover { border-color: var(--ink, #1F2A22); } .ds-btn:focus-visible { outline: 2px solid var(--focus, #9A4622); outline-offset: 3px; }"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "A static service tag on a stylist card: pill, 1px Line Strong border, 0.8125rem 500 in Ink Soft. Not a filter.",
+      "html": "<div class=\"ds-chips\"><span class=\"ds-chip\">Cut &amp; style</span><span class=\"ds-chip\">Single-process</span><span class=\"ds-chip\">Gloss</span></div>",
+      "css": ".ds-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 1rem; background: var(--ground-3, #F5F7F2); font-family: var(--font, 'Figtree', sans-serif); } .ds-chip { display: inline-flex; align-items: center; padding: 0.35rem 0.7rem; border-radius: 999px; border: 1px solid var(--line-strong, rgba(31,42,34,0.32)); font-size: 0.8125rem; font-weight: 500; color: var(--ink-soft, #45524A); white-space: nowrap; }"
+    },
+    {
+      "name": "Status Line",
+      "kind": "custom",
+      "refersTo": "status",
+      "description": "The live open/walk-in line computed by auburn.js from the HOURS table and WALK_IN_UNTIL. Copper Text 600 tabular under the lowercase H1 with a 9px copper dot; the dot turns Ink Muted when closed. Sentence case, never an eyebrow.",
+      "html": "<div class=\"ds-hero\"><h1 class=\"ds-hero-title\">good hair,<br>no drama.</h1><p class=\"ds-status\">Open today until 7 pm · walk-ins until 5 pm · Haywood Rd</p><p class=\"ds-status is-closed\">Closed now · opens tomorrow at 10 am · Haywood Rd</p></div>",
+      "css": ".ds-hero { padding: 1.5rem; background: var(--ground, #E9EDE4); color: var(--ink, #1F2A22); font-family: var(--font, 'Figtree', sans-serif); } .ds-hero-title { margin: 0; font-weight: 500; font-size: clamp(2.4rem, 6vw, 4rem); line-height: 0.96; letter-spacing: -0.045em; max-width: 12ch; } .ds-status { margin: 1.4rem 0 0; font-size: 1.0625rem; font-weight: 600; color: var(--accent-text, #9A4622); font-variant-numeric: tabular-nums; } .ds-status + .ds-status { margin-top: 0.75rem; } .ds-status::before { content: \"\"; display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--accent, #B4552D); margin-right: 0.6rem; vertical-align: 0.05em; } .ds-status.is-closed::before { background: var(--ink-muted, #57655C); }"
+    },
+    {
+      "name": "Price Rows",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "Group title in 500 lowercase over a Line Strong rule; each service a tappable hairline row with a 7px copper dot, the name in Ink with an Ink Muted qualifier, and the price at the right edge in Ink 600 tabular. Color prices carry a 600 \"from\" in Copper Text; everything else carries nothing. Hover turns the name Copper Text.",
+      "html": "<section class=\"ds-group\"><h3 class=\"ds-group-title\">color</h3><div><button class=\"ds-row\" type=\"button\"><span class=\"ds-row-name\">Single-process color</span><span class=\"ds-row-price\"><em>from</em>$95</span></button><button class=\"ds-row\" type=\"button\"><span class=\"ds-row-name\">Balayage</span><span class=\"ds-row-price\"><em>from</em>$180</span></button><button class=\"ds-row\" type=\"button\"><span class=\"ds-row-name\">Gloss &amp; toner <em>add-on</em></span><span class=\"ds-row-price\">$55</span></button></div></section>",
+      "css": ".ds-group { max-width: 440px; padding: 1rem; background: var(--ground, #E9EDE4); color: var(--ink, #1F2A22); font-family: var(--font, 'Figtree', sans-serif); font-size: 1.0625rem; } .ds-group-title { margin: 0 0 0.25rem; font-weight: 500; font-size: clamp(1.5rem, 2.4vw, 2rem); letter-spacing: -0.035em; padding-bottom: 0.7rem; border-bottom: 1px solid var(--line-strong, rgba(31,42,34,0.32)); } .ds-row { display: flex; align-items: baseline; gap: 0.75rem; width: 100%; padding: 0.85rem 0; border: 0; border-bottom: 1px solid var(--line, rgba(31,42,34,0.16)); background: none; color: inherit; font: inherit; text-align: left; white-space: nowrap; cursor: pointer; } .ds-row::before { content: \"\"; width: 7px; height: 7px; border-radius: 50%; background: var(--accent, #B4552D); flex: none; align-self: center; } .ds-row-name { color: var(--ink, #1F2A22); min-width: 0; overflow: hidden; text-overflow: ellipsis; transition: color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-row-name em { font-style: normal; color: var(--ink-muted, #57655C); margin-left: 0.4rem; font-size: 0.9em; } .ds-row:hover .ds-row-name { color: var(--accent-text, #9A4622); } .ds-row-price { margin-left: auto; font-variant-numeric: tabular-nums; color: var(--ink, #1F2A22); font-weight: 600; flex: none; } .ds-row-price em { font-style: normal; color: var(--accent-text, #9A4622); font-weight: 600; font-size: 0.85em; margin-right: 0.3rem; } .ds-row:focus-visible { outline: 2px solid var(--focus, #9A4622); outline-offset: 3px; border-radius: 12px; }"
+    },
+    {
+      "name": "Stylist Card (the chair)",
+      "kind": "card",
+      "refersTo": "stylist-card",
+      "description": "Signature: a Sage Light card on a Line border at 12px, auto/1fr rows, holding a 4:5 monochrome work frame (8px, the page's only shadow), the name in 500, the role in Copper Text 600, a bio, three chips, and the outline \"Book with <name>\" that carries data-stylist and data-service into the form.",
+      "html": "<article class=\"ds-stylist\"><div class=\"ds-stylist-photo\"><svg viewBox=\"0 0 4 5\" width=\"100%\" aria-hidden=\"true\"><rect width=\"4\" height=\"5\" fill=\"#8a8f88\"/><rect x=\"0.6\" y=\"1.2\" width=\"2.8\" height=\"3.2\" fill=\"#5d625c\"/></svg></div><div class=\"ds-stylist-body\"><h3 class=\"ds-stylist-name\">Tessa Marlowe</h3><p class=\"ds-stylist-role\">Owner · cuts &amp; color</p><p class=\"ds-stylist-bio\">Precision cuts and lived-in color. Fifteen years, most of them in this chair.</p><div class=\"ds-stylist-chips\"><span class=\"ds-chip\">Cut &amp; style</span><span class=\"ds-chip\">Single-process</span><span class=\"ds-chip\">Gloss</span></div><button class=\"ds-btn-outline\" type=\"button\" data-stylist=\"Tessa Marlowe\" data-service=\"Cut &amp; style\">Book with Tessa</button></div></article>",
+      "css": ".ds-stylist { display: grid; grid-template-rows: auto 1fr; gap: 1rem; max-width: 280px; background: var(--ground-3, #F5F7F2); border: 1px solid var(--line, rgba(31,42,34,0.16)); border-radius: 12px; padding: 1rem; color: var(--ink, #1F2A22); font-family: var(--font, 'Figtree', sans-serif); } .ds-stylist-photo { aspect-ratio: 4 / 5; overflow: hidden; border-radius: 8px; box-shadow: var(--shadow, 0 18px 40px -22px rgba(31, 42, 34, 0.35)); background: var(--ground-2, #DDE3D8); } .ds-stylist-photo svg, .ds-stylist-photo img { display: block; width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.05); } .ds-stylist-body { display: grid; align-content: start; gap: 0.5rem; padding: 0.25rem 0.25rem 0.5rem; } .ds-stylist-name { margin: 0; font-weight: 500; font-size: 1.5rem; letter-spacing: -0.035em; line-height: 1.05; } .ds-stylist-role { margin: 0; font-size: 0.9375rem; color: var(--accent-text, #9A4622); font-weight: 600; } .ds-stylist-bio { margin: 0; font-size: 0.9375rem; line-height: 1.5; color: var(--ink-soft, #45524A); } .ds-stylist-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.25rem; } .ds-chip { display: inline-flex; align-items: center; padding: 0.35rem 0.7rem; border-radius: 999px; border: 1px solid var(--line-strong, rgba(31,42,34,0.32)); font-size: 0.8125rem; font-weight: 500; color: var(--ink-soft, #45524A); white-space: nowrap; } .ds-btn-outline { display: inline-flex; align-items: center; justify-content: center; justify-self: start; margin-top: 0.5rem; padding: 0.7rem 1.1rem; border-radius: 999px; border: 1.5px solid var(--line-strong, rgba(31,42,34,0.32)); background: transparent; color: var(--ink, #1F2A22); font: inherit; font-weight: 600; font-size: 0.875rem; line-height: 1; cursor: pointer; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-outline:hover { border-color: var(--ink, #1F2A22); } .ds-btn-outline:focus-visible { outline: 2px solid var(--focus, #9A4622); outline-offset: 3px; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky 72px bar on translucent sage chrome with blur; \"Auburn & Ash\" 500 with the ampersand in Copper Text, three 500 Ink Soft links hovering to Copper Text, small copper pill right.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-nav-brand\" href=\"#\">Auburn <i class=\"ds-amp\">&amp;</i> Ash</a><nav class=\"ds-nav-links\"><a href=\"#\">Prices</a><a href=\"#\">Stylists</a><a href=\"#\">Visit</a></nav><a class=\"ds-nav-cta\" href=\"#\">Book a chair</a></header>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; height: 72px; padding: 0 1.5rem; background: rgba(var(--chrome, 233, 237, 228), 0.9); -webkit-backdrop-filter: blur(14px) saturate(140%); backdrop-filter: blur(14px) saturate(140%); border-bottom: 1px solid var(--line, rgba(31,42,34,0.16)); color: var(--ink, #1F2A22); font-family: var(--font, 'Figtree', sans-serif); } .ds-nav-brand { font-weight: 500; font-size: 1.25rem; letter-spacing: -0.01em; text-decoration: none; color: inherit; white-space: nowrap; } .ds-amp { color: var(--accent-text, #9A4622); font-style: normal; } .ds-nav-links { display: flex; gap: 2rem; } .ds-nav-links a { text-decoration: none; font-weight: 500; font-size: 0.9375rem; color: var(--ink-soft, #45524A); transition: color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-nav-links a:hover { color: var(--accent-text, #9A4622); } .ds-nav-cta { display: inline-flex; align-items: center; padding: 0.7rem 1.1rem; border-radius: 999px; border: 1.5px solid transparent; font-size: 0.875rem; font-weight: 600; line-height: 1; text-decoration: none; background: var(--accent, #B4552D); color: var(--accent-ink, #FFF7F2); transition: background-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-nav-cta:hover { background: var(--accent-hover, #A04A26); transform: translateY(-1px); } .ds-nav a:focus-visible { outline: 2px solid var(--focus, #9A4622); outline-offset: 3px; border-radius: 12px; }"
+    },
+    {
+      "name": "Select Field (open days)",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Sage Light fill on a Line Strong border at 12px with an Ink Muted chevron; hover to Ink Soft, focus to a Copper border with a 22% copper halo. The Day field is a select of the next ten open days filled by auburn.js, never a native date input.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-day\">Day</label><select id=\"ds-day\"><option value=\"\">Which day?</option><option>Today, Tue Sep 15</option><option>Wed Sep 16</option><option>Thu Sep 17</option><option>Fri Sep 18</option><option>Sat Sep 19</option></select></div>",
+      "css": ".ds-field { display: grid; gap: 0.4rem; max-width: 320px; padding: 1rem; background: var(--ground, #E9EDE4); font-family: var(--font, 'Figtree', sans-serif); color: var(--ink, #1F2A22); } .ds-field label { font-size: 0.875rem; font-weight: 600; } .ds-field select { width: 100%; box-sizing: border-box; min-height: 3.25rem; padding: 0.9rem 2.5rem 0.9rem 1.1rem; background: var(--ground-3, #F5F7F2) url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%2357655C' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E\") no-repeat right 1rem center; border: 1px solid var(--line-strong, rgba(31,42,34,0.32)); border-radius: 12px; color: var(--ink, #1F2A22); font: inherit; font-size: 1.0625rem; -webkit-appearance: none; appearance: none; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1), box-shadow 160ms cubic-bezier(0.16,1,0.3,1); } .ds-field select:hover { border-color: var(--ink-soft, #45524A); } .ds-field select:focus-visible { outline: none; border-color: var(--accent, #B4552D); box-shadow: 0 0 0 3px rgba(var(--accent-rgb, 180, 85, 45), 0.22); } .ds-field select[aria-invalid=\"true\"] { border-color: var(--error, #A63A1E); }"
+    },
+    {
+      "name": "Hours Card",
+      "kind": "card",
+      "refersTo": "hours-card",
+      "description": "Sage Light surface on a Line border at 12px with no shadow; 500 lowercase title, hairline rows with tabular figures, today's row in Copper Text 600 with a Label-style suffix.",
+      "html": "<div class=\"ds-hours\"><h3 class=\"ds-hours-title\">hours</h3><table class=\"ds-hours-table\"><tbody><tr><th scope=\"row\">Monday</th><td>Closed</td></tr><tr class=\"is-today\"><th scope=\"row\">Tuesday</th><td>10 am – 7 pm</td></tr><tr><th scope=\"row\">Saturday</th><td>9 am – 5 pm</td></tr><tr><th scope=\"row\">Sunday</th><td>Closed</td></tr></tbody></table><p class=\"ds-hours-note\"><strong>Walk-ins until 5 pm.</strong> Last color appointment starts two hours before close.</p></div>",
+      "css": ".ds-hours { max-width: 360px; background: var(--ground-3, #F5F7F2); border: 1px solid var(--line, rgba(31,42,34,0.16)); border-radius: 12px; padding: clamp(1.5rem, 3vw, 2.25rem); color: var(--ink, #1F2A22); font-family: var(--font, 'Figtree', sans-serif); font-size: 1.0625rem; line-height: 1.6; } .ds-hours-title { margin: 0 0 1rem; font-weight: 500; font-size: 1.6rem; letter-spacing: -0.035em; } .ds-hours-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; } .ds-hours-table th, .ds-hours-table td { padding: 0.7rem 0; border-top: 1px solid var(--line, rgba(31,42,34,0.16)); text-align: left; font-weight: 400; } .ds-hours-table td { text-align: right; color: var(--ink-soft, #45524A); white-space: nowrap; } .ds-hours-table tr.is-today th, .ds-hours-table tr.is-today td { color: var(--accent-text, #9A4622); font-weight: 600; } .ds-hours-table tr.is-today th::after { content: \" · today\"; font-weight: 500; letter-spacing: 0.06em; font-size: 0.75rem; text-transform: uppercase; } .ds-hours-note { margin: 1rem 0 0; font-size: 0.875rem; color: var(--ink-muted, #57655C); } .ds-hours-note strong { color: var(--ink, #1F2A22); font-weight: 600; }"
+    },
+    {
+      "name": "Mobile Action Bar",
+      "kind": "nav",
+      "refersTo": "bar-button-accent",
+      "description": "Fixed bottom bar below 900px on 90% chrome with a Line top rule and no shadow: Book a chair as the copper pill, Call and Directions as Ink pills on a 1.5px Line Strong border.",
+      "html": "<nav class=\"ds-bar\"><a class=\"ds-bar-btn ds-bar-btn-accent\" href=\"#\">Book a chair</a><a class=\"ds-bar-btn\" href=\"#\">Call</a><a class=\"ds-bar-btn\" href=\"#\">Directions</a></nav>",
+      "css": ".ds-bar { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 0.5rem; max-width: 420px; padding: 0.6rem 1.25rem; background: rgba(var(--chrome, 233, 237, 228), 0.9); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-top: 1px solid var(--line, rgba(31,42,34,0.16)); font-family: var(--font, 'Figtree', sans-serif); } .ds-bar-btn { display: flex; align-items: center; justify-content: center; min-height: 48px; border-radius: 999px; font-weight: 600; font-size: 0.9375rem; text-decoration: none; border: 1.5px solid var(--line-strong, rgba(31,42,34,0.32)); color: var(--ink, #1F2A22); white-space: nowrap; } .ds-bar-btn-accent { background: var(--accent, #B4552D); color: var(--accent-ink, #FFF7F2); border-color: transparent; } .ds-bar-btn:focus-visible { outline: 2px solid var(--focus, #9A4622); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The DM, Answered",
+    "overview": "Auburn & Ash is a one-page hair-salon site that answers the message every salon gets (\"how much for X, and do you have anything Thursday?\") before it is sent: the first screen carries the lowercase promise, whether the salon is open today and until when walk-ins are taken, a copper \"Book a chair\", and the three prices the home-page preview promised; the full menu prices color honestly \"from\"; four stylists are shown by their work with a button that books that person; hours, parking, and the cancellation policy are stated before anyone has to ask. The world is a soft sage room with a green door: sage ground, deep green-black ink, and one copper that is worn by the action pill, the ampersand in the wordmark, the dots on price rows, and the \"from\" on color prices. Photography is monochrome, so copper is the only chroma on the page. Remove the copy and you would still recognize it: sage ground, one copper pill, a lowercase medium-weight headline at tight tracking, dotted price rows with copper \"from\".\n\nIt is VINCERE's fourth template base (\"one structure, many skins\") and the sibling of Sasso, Apex, and Kestrel. Every color on the page lives in one token block at the top of `auburn.css`; a skin is a second, complete token block on `html[data-skin]` and nothing structural changes beneath it. Two alternate skins ship (Blush, Noir) and match the three-way switcher in the VINCERE home page's concept panel. Like Kestrel, the accent is split into a fill (`--accent`) and what copper wears as running text (`--accent-text`), deeper on the two light skins so it clears contrast on the ground and identical on Noir; the `--veil` and `--chrome` triplets equal the ground so the hero veil and the nav dissolve into the page. Auburn & Ash is fictional, carries `noindex, nofollow`, and is never listed in the sitemap; its palette and type are deliberately not VINCERE tokens (see the root DESIGN.md's \"Concept Previews\" exception).\n\nDensity is that of a printed service menu: sections breathe on a clamp(4.5rem, 9vw, 8rem) rhythm, copy is capped at 40 to 62ch, and prices sit on hairline rows with a copper dot rather than in cards. Only three things are raised surfaces (fields, the four stylist cards, the hours card), and only photographs carry a shadow. Confirmed rejections: a full-bleed color moodboard hero, \"DM for prices\", a Booksy button as the only content, a gallery of headshots with no way to book the person in them, reviews or ratings, and a tracked-caps eyebrow above any headline.",
+    "keyCharacteristics": [
+      "Three sage steps (#E9EDE4, #DDE3D8, #F5F7F2) do the sectioning; hairlines at 16% and 32% ink do the ruling (18% and 34% on Noir)",
+      "One copper in two roles: #B4552D as fill (the pill, the dots, selection, the caret, the status-box wash and focus halo) and #9A4622 as text (the ampersand, the status line, the \"from\", stylist roles, today's hours row, link hover); Noir uses one value for both",
+      "Figtree 500 at -0.035 to -0.045em for the lowercase H1, every lowercase H2, group titles, stylist names, the hours title, and the wordmark; Figtree 400 to 600 for everything read, at 1.0625rem base; 600 is the ceiling",
+      "Two radii: pills (999px) on every action and chip, 12px on cards, photos, fields, and the status box; circles only as 7px and 9px dots",
+      "One shadow, under photographs only: the 4:5 stylist frames carry `0 18px 40px -22px` at 35% ink; no surface, button, or card is lifted",
+      "Monochrome photography: the hero interior is a black-and-white image under a sage veil; the four stylist frames render through `grayscale(1) contrast(1.05)` so they read as one set",
+      "Tabular numerals on prices, the status line, the hours table, and the footer hours; copper \"from\" only on color prices",
+      "A skin is a token block on `html[data-skin]`, selected by `?skin=<id>`, with the accent split into fill and text and the veil equal to the ground",
+      "One easing (out-expo) and three durations (160/320/700ms); the hero rises in an 80ms stagger and the hero photograph drifts 4% over 12s"
+    ],
+    "rules": [
+      { "name": "The Two-Copper Rule", "body": "Every use of the accent names which role it is: `--accent` on a fill with `--accent-ink` on it, `--accent-text` as text on the ground. On a light skin the text value is deeper than the fill, so the same copper clears contrast in a word that it clears in a pill; a light skin that sets `color: var(--accent)` on running text is a bug. A dark skin may set both to one value.", "section": "colors" },
+      { "name": "The Veil Is the Ground Rule", "body": "`--veil` and `--chrome` are the ground as an RGB triplet, never a separate tint. The hero veil fades the photograph into the page, and the nav and mobile bar are the page at 60% and 90% opacity with blur. A skin that changes its ground changes all three.", "section": "colors" },
+      { "name": "The Token Block Rule", "body": "Every color on the page resolves to a token in section 1 of `auburn.css`. A skin redefines that block and nothing else; the only skin-scoped selector below it is `color-scheme`. A brand that needs a structural override is a new base, not a skin.", "section": "colors" },
+      { "name": "The One Chroma Rule", "body": "Copper is the only saturated color on the page; photographs are monochrome (the hero interior by choice of image, the stylist frames through a grayscale filter) so nothing competes with it. Skins swap the copper, never add a second accent.", "section": "colors" },
+      { "name": "The Sage Hairline Rule", "body": "Rules are 1px of ink at 16% (Line) or 32% (Line Strong); there are no solid divider colors and no border in the accent except the sent-form status box. The dot does the pointing; the line does the ruling.", "section": "colors" },
+      { "name": "The Lowercase Medium Rule", "body": "Figtree 500 with negative tracking sets the wordmark, the H1, every H2, group titles, stylist names, and the hours title, and every heading except a stylist's name is lowercase and ends in a period. It never sets a paragraph, a label, a button, or a link. Nothing on the page is heavier than 600.", "section": "typography" },
+      { "name": "The Sentence-Case Signal Rule", "body": "The hero's context sits below the H1 as a sentence-case status line in Copper Text, never above it as a tracked-caps eyebrow. A stylist's card leads with the name, then the role in copper, never a label.", "section": "typography" },
+      { "name": "The Tabular Rule", "body": "Anything with a digit that lines up (prices, the status line, the hours table, the footer hours) sets `font-variant-numeric: tabular-nums`. \"from\" is a 600-weight `em` at 0.85em in Copper Text before a color price and nowhere else; cuts, blowouts, and treatments are one number with no prefix.", "section": "typography" },
+      { "name": "The Print on the Counter Rule", "body": "A photograph is the only thing that casts a shadow, and only when it sits inside a card. Surfaces are flat at rest and flat on hover; hover is a 1px rise, a border change, a fill change, or a color change, never a shadow.", "section": "elevation" },
+      { "name": "The Monochrome Photo Rule", "body": "A photograph is black and white. The hero interior is chosen monochrome and sits under the sage veil; a stylist frame is forced through `grayscale(1) contrast(1.05)` so four different sources read as one set. Copper stays the only chroma. Both are Unsplash placeholders the client replaces, and the replacement inherits the filter.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do put every color in the section 1 token block and add a client's brand as a new `html[data-skin=\"<id>\"]` block that redefines all of them, including `--accent-text`, `--accent-rgb`, `--veil`, `--chrome`, and `--shadow`; on a light ground set `--accent-text` deeper than `--accent`, and set `--veil` and `--chrome` to the ground.",
+      "Do keep Figtree 500 with negative tracking for the wordmark, headlines, titles, and stylist names only, keep headings lowercase with a period, and keep 600 as the ceiling for anything read.",
+      "Do keep the hero's context below the H1 as a sentence-case status line in Copper Text, and lead a stylist card with the name and then the role.",
+      "Do rule with ink hairlines (16% and 32%) and section with the three sage steps; pill every action and chip; cut surfaces, photos, and fields at 12px; point with a 7px copper dot.",
+      "Do set tabular numerals on prices, the status line, and hours, and put a copper \"from\" only on color prices.",
+      "Do keep photography monochrome: choose a black-and-white hero and leave the grayscale filter on stylist frames; keep the photo shadow as the only shadow.",
+      "Do keep Book, Call, and Directions in the fixed bar below 900px and the copper \"Book a chair\" in the nav above it, and keep the status line, the pill, and the three teaser prices inside the hero.",
+      "Do drive hours from the one `HOURS` table: status line, today's row, and the Day select.",
+      "Do carry `data-stylist` and `data-service` on every card button and price row so the form is always prefilled.",
+      "Do cap running copy at 40 to 62ch, the H1 at 12ch, and H2s at 16ch."
+    ],
+    "donts": [
+      "Don't set `--accent` as text on a light skin, add a second accent, or let a photograph carry color; don't use `--accent` where `--accent-text` is meant, or the reverse.",
+      "Don't put a tracked-caps eyebrow above the H1 or an H2, and don't set a heading in title case or with a weight above 500 (names excepted).",
+      "Don't add a radius other than the pill or 12px (8px inside a card), a border in the accent outside the status box, or a shadow on any surface, button, card, or field.",
+      "Don't veil a photograph with a tint other than the ground, and don't put a shadow under the hero image.",
+      "Don't add a native date input, a headshot gallery, \"DM for prices\", a third-party booking button as the only path, ratings, reviews, or any proof device; Auburn & Ash is fictional and the page must not fabricate.",
+      "Don't write skin-specific selectors below the token block except `color-scheme`; if a skin needs one, it is a new base.",
+      "Don't index this page: keep `noindex, nofollow` and keep it out of `sitemap.xml`."
+    ]
+  }
+}

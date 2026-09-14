@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-14T00:00:00Z",
+  "title": "Design System: Kestrel Plumbing & Heating",
+  "extensions": {
+    "colorMeta": {
+      "ground": { "role": "neutral", "displayName": "Paper", "canonical": "#F6F5F0", "tonalRamp": ["oklch(15% 0.006 90)", "oklch(27% 0.006 90)", "oklch(39% 0.006 90)", "oklch(51% 0.006 90)", "oklch(63% 0.006 90)", "oklch(75% 0.006 90)", "oklch(87% 0.006 90)", "oklch(97% 0.005 90)"] },
+      "ground-2": { "role": "neutral", "displayName": "Paper Deep", "canonical": "#ECEBE4", "tonalRamp": ["oklch(15% 0.008 90)", "oklch(27% 0.008 90)", "oklch(39% 0.008 90)", "oklch(51% 0.008 90)", "oklch(63% 0.008 90)", "oklch(75% 0.008 90)", "oklch(87% 0.008 90)", "oklch(94% 0.007 90)"] },
+      "ground-3": { "role": "neutral", "displayName": "White", "canonical": "#FFFFFF" },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#1C1F26", "tonalRamp": ["oklch(15% 0.012 270)", "oklch(24% 0.012 270)", "oklch(36% 0.012 270)", "oklch(48% 0.012 270)", "oklch(60% 0.012 270)", "oklch(72% 0.012 270)", "oklch(84% 0.012 270)", "oklch(95% 0.006 270)"] },
+      "ink-soft": { "role": "neutral", "displayName": "Ink Soft", "canonical": "#454A55", "tonalRamp": ["oklch(15% 0.012 270)", "oklch(27% 0.012 270)", "oklch(39% 0.012 270)", "oklch(51% 0.012 270)", "oklch(63% 0.012 270)", "oklch(75% 0.012 270)", "oklch(87% 0.012 270)", "oklch(95% 0.006 270)"] },
+      "ink-muted": { "role": "neutral", "displayName": "Ink Muted", "canonical": "#646A76", "tonalRamp": ["oklch(15% 0.014 270)", "oklch(27% 0.014 270)", "oklch(39% 0.014 270)", "oklch(51% 0.014 270)", "oklch(63% 0.014 270)", "oklch(75% 0.014 270)", "oklch(87% 0.014 270)", "oklch(95% 0.006 270)"] },
+      "accent": { "role": "primary", "displayName": "Safety Yellow", "canonical": "#FFC531", "tonalRamp": ["oklch(22% 0.06 85)", "oklch(35% 0.09 85)", "oklch(48% 0.12 85)", "oklch(61% 0.15 85)", "oklch(74% 0.17 85)", "oklch(85% 0.17 85)", "oklch(92% 0.09 85)", "oklch(97% 0.03 85)"] },
+      "accent-text": { "role": "primary", "displayName": "Signal Text (ink on Safety)", "canonical": "#1C1F26" },
+      "accent-ink": { "role": "primary", "displayName": "Accent Ink", "canonical": "#1C1F26" },
+      "accent-hover": { "role": "primary", "displayName": "Accent Hover", "canonical": "#FFD261" },
+      "band": { "role": "primary", "displayName": "Band", "canonical": "#FFC531" },
+      "band-ink": { "role": "primary", "displayName": "Band Ink", "canonical": "#1C1F26" },
+      "line": { "role": "neutral", "displayName": "Line", "canonical": "rgba(28, 31, 38, 0.16)" },
+      "line-strong": { "role": "neutral", "displayName": "Line Strong", "canonical": "rgba(28, 31, 38, 0.32)" },
+      "error": { "role": "secondary", "displayName": "Error", "canonical": "#B4321B", "tonalRamp": ["oklch(15% 0.06 35)", "oklch(27% 0.10 35)", "oklch(39% 0.14 35)", "oklch(51% 0.17 35)", "oklch(63% 0.16 35)", "oklch(75% 0.12 35)", "oklch(87% 0.07 35)", "oklch(95% 0.03 35)"] },
+      "focus": { "role": "primary", "displayName": "Focus", "canonical": "#1C1F26" },
+      "navy-ground": { "role": "neutral", "displayName": "Navy Ground", "canonical": "#12263B" },
+      "navy-ground-2": { "role": "neutral", "displayName": "Navy Ground 2", "canonical": "#0E1F30" },
+      "navy-ground-3": { "role": "neutral", "displayName": "Navy Ground 3", "canonical": "#1A3450" },
+      "navy-ink": { "role": "neutral", "displayName": "Navy Ink", "canonical": "#F2F6FA" },
+      "navy-ink-soft": { "role": "neutral", "displayName": "Navy Ink Soft", "canonical": "#C3CEDA" },
+      "navy-ink-muted": { "role": "neutral", "displayName": "Navy Ink Muted", "canonical": "#93A3B5" },
+      "navy-accent": { "role": "primary", "displayName": "Navy Yellow (fill)", "canonical": "#FFC531" },
+      "navy-accent-text": { "role": "primary", "displayName": "Navy Yellow (text)", "canonical": "#FFC531" },
+      "navy-accent-ink": { "role": "primary", "displayName": "Navy Accent Ink", "canonical": "#12263B" },
+      "navy-accent-hover": { "role": "primary", "displayName": "Navy Accent Hover", "canonical": "#FFD261" },
+      "navy-band": { "role": "primary", "displayName": "Navy Band", "canonical": "#FFC531" },
+      "navy-band-ink": { "role": "primary", "displayName": "Navy Band Ink", "canonical": "#12263B" },
+      "navy-line": { "role": "neutral", "displayName": "Navy Line", "canonical": "rgba(242, 246, 250, 0.18)" },
+      "navy-line-strong": { "role": "neutral", "displayName": "Navy Line Strong", "canonical": "rgba(242, 246, 250, 0.34)" },
+      "navy-error": { "role": "secondary", "displayName": "Navy Error", "canonical": "#FFA98A" },
+      "navy-focus": { "role": "primary", "displayName": "Navy Focus", "canonical": "#FFC531" },
+      "forest-ground": { "role": "neutral", "displayName": "Forest Ground", "canonical": "#EEF3EC" },
+      "forest-ground-2": { "role": "neutral", "displayName": "Forest Ground 2", "canonical": "#E1EADF" },
+      "forest-ground-3": { "role": "neutral", "displayName": "Forest Ground 3", "canonical": "#FFFFFF" },
+      "forest-ink": { "role": "neutral", "displayName": "Forest Ink", "canonical": "#163122" },
+      "forest-ink-soft": { "role": "neutral", "displayName": "Forest Ink Soft", "canonical": "#3E5546" },
+      "forest-ink-muted": { "role": "neutral", "displayName": "Forest Ink Muted", "canonical": "#57705F" },
+      "forest-accent": { "role": "primary", "displayName": "Forest Green (fill)", "canonical": "#277A4D" },
+      "forest-accent-text": { "role": "primary", "displayName": "Forest Green (text)", "canonical": "#1F6B42" },
+      "forest-accent-ink": { "role": "primary", "displayName": "Forest Accent Ink", "canonical": "#FFFFFF" },
+      "forest-accent-hover": { "role": "primary", "displayName": "Forest Accent Hover", "canonical": "#1F6B42" },
+      "forest-band": { "role": "primary", "displayName": "Forest Band", "canonical": "#277A4D" },
+      "forest-band-ink": { "role": "primary", "displayName": "Forest Band Ink", "canonical": "#FFFFFF" },
+      "forest-line": { "role": "neutral", "displayName": "Forest Line", "canonical": "rgba(22, 49, 34, 0.16)" },
+      "forest-line-strong": { "role": "neutral", "displayName": "Forest Line Strong", "canonical": "rgba(22, 49, 34, 0.32)" },
+      "forest-error": { "role": "secondary", "displayName": "Forest Error", "canonical": "#B4321B" },
+      "forest-focus": { "role": "primary", "displayName": "Forest Focus", "canonical": "#1F6B42" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero H1 only, Public Sans 800 at -0.04em, capped at 16ch; fixed 2.5rem below 480px." },
+      "headline": { "displayName": "Headline", "purpose": "Section H2s, Public Sans 800 at -0.03em, capped at 16ch." },
+      "band-title": { "displayName": "Band Title", "purpose": "The emergency band's H2 in Band Ink." },
+      "title": { "displayName": "Title", "purpose": "Price group titles over a Line Strong rule; the hours title is the same face at a fixed 1.5rem." },
+      "step-title": { "displayName": "Step Title", "purpose": "Each step's heading; the counter is the same face at 1.35rem in Signal Text, tabular." },
+      "wordmark": { "displayName": "Wordmark", "purpose": "KESTREL in the nav and footer, 800 uppercase at -0.02em, shown at every width." },
+      "wordmark-trade": { "displayName": "Wordmark Trade", "purpose": "\"Plumbing & Heating\" beside the wordmark at 500 and 60% opacity." },
+      "status": { "displayName": "Dispatch Line", "purpose": "Live line under the H1 in Signal Text 600 tabular, led by a 10px dot." },
+      "lede": { "displayName": "Lede", "purpose": "Paragraph under each H2 in Ink Soft, 40 to 46ch; the hero lede is one sentence at 44ch." },
+      "body": { "displayName": "Body", "purpose": "Base text at 1.0625rem; about copy at 54ch." },
+      "body-sm": { "displayName": "Body Small", "purpose": "Trust strip, towns, step text, notes, footer, nav links, fine print, bar buttons." },
+      "button": { "displayName": "Button", "purpose": "Every button at 700 with tabular figures; lg 1.0625rem, sm 0.875rem." },
+      "label": { "displayName": "Label", "purpose": "The \" · today\" suffix and the \"Optional\" mark: 500 uppercase at 0.06em in Ink Muted. Never above a headline." },
+      "caption": { "displayName": "Caption", "purpose": "Teaser caption at 600 in Ink Muted; demo note, field errors, and concept credit reuse the size at 400." }
+    },
+    "skins": [
+      { "id": "safety", "selector": ":root", "label": "Safety", "swatch": ["#F6F5F0", "#FFC531"], "purpose": "Default. Warm off-white paper, near-black ink, one high-visibility yellow as fill only; --accent-text resolves to ink." },
+      { "id": "navy", "selector": "html[data-skin=\"navy\"]", "label": "Navy", "swatch": ["#12263B", "#FFC531"], "purpose": "Deep navy ground, cool white ink, the same yellow as fill and text (9.7:1); hairlines at 18% and 34%; color-scheme dark." },
+      { "id": "forest", "selector": "html[data-skin=\"forest\"]", "label": "Forest", "swatch": ["#EEF3EC", "#277A4D"], "purpose": "Pale green-grey ground, deep green ink, two greens in place of the yellow: fill #277A4D (white label), text #1F6B42." }
+    ],
+    "shadows": [
+      { "name": "bar-lift", "value": "0 -10px 30px -18px rgba(28, 31, 38, 0.3)", "purpose": "The fixed mobile bar only; the one elevation shadow on the page. Literal ink, does not follow the skin." },
+      { "name": "ring-status-dot", "value": "0 0 0 2px var(--ground), 0 0 0 3px var(--line-strong)", "purpose": "The 10px dispatch dot's paper-and-line halo. State, not depth." },
+      { "name": "ring-field-focus", "value": "0 0 0 3px rgba(var(--accent-rgb), 0.45)", "purpose": "Field focus halo alongside an Ink border." },
+      { "name": "ring-focus", "value": "outline: 2px solid var(--focus); outline-offset: 3px; border-radius: 6px", "purpose": "Global focus-visible ring in ink (yellow on Navy, text green on Forest)." },
+      { "name": "chrome", "value": "background: rgba(var(--chrome), 0.7); backdrop-filter: blur(14px) saturate(140%)", "purpose": "Nav at rest; 0.92 when stuck and on the fixed bar (bar without saturate)." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "The one easing (out-expo) for every transition and entrance." },
+      { "name": "t-fast", "value": "160ms", "purpose": "Color, border, transform on hover and press; field borders and halos; link underline." },
+      { "name": "t-mid", "value": "320ms", "purpose": "Nav chrome and the skip link." },
+      { "name": "t-slow", "value": "700ms", "purpose": "Hero rise (14px; 0/80/160/240/320/400ms across title, dispatch line, lede, actions, trust, teaser) and scroll reveals (12px, 60ms stagger in groups of four, 8% threshold)." },
+      { "name": "no-hero-drift", "value": "none", "purpose": "There is no hero photograph, so there is no drift." },
+      { "name": "reduced-motion", "value": "prefers-reduced-motion: reduce removes every animation, collapses transitions to 0.01ms, disables smooth scroll, and skips the reveal observer", "purpose": "Accessibility gate." }
+    ],
+    "breakpoints": [
+      { "name": "hero-compact", "value": "480px (max)" },
+      { "name": "actions-inline, form-rows, form-foot", "value": "600px" },
+      { "name": "nav-links", "value": "700px" },
+      { "name": "prices-2", "value": "760px" },
+      { "name": "nav-cta, band-row, splits, sticky-hours, bar-hides", "value": "900px" },
+      { "name": "hero-grid", "value": "1024px" },
+      { "name": "wrap", "value": "1120px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Accent Button",
+      "kind": "button",
+      "refersTo": "button-accent",
+      "description": "The one yellow action: Call. Accent Ink on Safety Yellow at 6px with a 1.5px transparent border, an inline stroke phone icon, tabular figures; pales and rises 1px on hover, presses 1px on active.",
+      "html": "<a class=\"ds-btn ds-btn-accent ds-btn-lg\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z\"/></svg><span>Call (970) 555-0147</span></a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; padding: 1rem 1.5rem; border-radius: 6px; font-family: var(--font, 'Public Sans', sans-serif); font-weight: 700; font-size: 1rem; line-height: 1; text-decoration: none; white-space: nowrap; border: 1.5px solid transparent; cursor: pointer; font-variant-numeric: tabular-nums; transition: background-color 160ms cubic-bezier(0.16,1,0.3,1), color 160ms cubic-bezier(0.16,1,0.3,1), border-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn svg { flex: none; } .ds-btn-lg { padding: 1.15rem 1.7rem; font-size: 1.0625rem; } .ds-btn-accent { background: var(--accent, #FFC531); color: var(--accent-ink, #1C1F26); } .ds-btn-accent:hover { background: var(--accent-hover, #FFD261); transform: translateY(-1px); } .ds-btn-accent:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--focus, #1C1F26); outline-offset: 3px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "The second thumb action: Text us. Ink on transparent with a 1.5px Line Strong border that turns Ink on hover; an inline stroke chat icon.",
+      "html": "<a class=\"ds-btn ds-btn-outline ds-btn-lg\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 5h16v11H8l-4 4z\"/></svg><span>Text us</span></a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; padding: 1rem 1.5rem; border-radius: 6px; font-family: var(--font, 'Public Sans', sans-serif); font-weight: 700; font-size: 1rem; line-height: 1; text-decoration: none; white-space: nowrap; border: 1.5px solid transparent; cursor: pointer; font-variant-numeric: tabular-nums; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn svg { flex: none; } .ds-btn-lg { padding: 1.15rem 1.7rem; font-size: 1.0625rem; } .ds-btn-outline { background: transparent; color: var(--ink, #1C1F26); border-color: var(--line-strong, rgba(28,31,38,0.32)); } .ds-btn-outline:hover { border-color: var(--ink, #1C1F26); } .ds-btn:focus-visible { outline: 2px solid var(--focus, #1C1F26); outline-offset: 3px; }"
+    },
+    {
+      "name": "Dispatch Line",
+      "kind": "custom",
+      "refersTo": "label",
+      "description": "Signature: the live hours-and-next-truck line computed by kestrel.js from the HOURS table and the four-truck TRUCKS board. Signal Text 600 tabular under the H1 with a 10px yellow dot ringed in paper and Line Strong; the dot turns Ink Muted when closed. Sentence case, never an eyebrow.",
+      "html": "<div class=\"ds-hero\"><h1 class=\"ds-hero-title\">Same-day service.<br>Upfront pricing.</h1><p class=\"ds-status\">Open now · next truck 2:30 pm · Fort Collins</p><p class=\"ds-status is-closed\">After hours · emergency line open · next scheduled truck tomorrow 7 am · Fort Collins</p></div>",
+      "css": ".ds-hero { padding: 1.5rem; background: var(--ground, #F6F5F0); color: var(--ink, #1C1F26); font-family: var(--font, 'Public Sans', sans-serif); } .ds-hero-title { margin: 0; font-weight: 800; font-size: clamp(2.4rem, 6vw, 4rem); line-height: 0.96; letter-spacing: -0.04em; max-width: 16ch; } .ds-status { margin: 1.4rem 0 0; font-size: 1.0625rem; font-weight: 600; color: var(--accent-text, #1C1F26); font-variant-numeric: tabular-nums; } .ds-status + .ds-status { margin-top: 0.75rem; } .ds-status::before { content: \"\"; display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--accent, #FFC531); margin-right: 0.6rem; vertical-align: 0.02em; box-shadow: 0 0 0 2px var(--ground, #F6F5F0), 0 0 0 3px var(--line-strong, rgba(28,31,38,0.32)); } .ds-status.is-closed::before { background: var(--ink-muted, #646A76); }"
+    },
+    {
+      "name": "Trust Strip",
+      "kind": "custom",
+      "refersTo": "label",
+      "description": "License, insurance, and service area on one Line-ruled row under the hero actions: each item a 7px yellow dot and a 700 Ink fact in Body Small Ink Soft, tabular.",
+      "html": "<div class=\"ds-trust\"><span><strong>Lic. #MP-00481</strong></span><span><strong>Insured</strong> to $2M</span><span><strong>Fort Collins</strong> + 25 miles</span></div>",
+      "css": ".ds-trust { display: flex; flex-wrap: wrap; gap: 0.5rem 2rem; padding: 1.25rem 1rem 1rem; border-top: 1px solid var(--line, rgba(28,31,38,0.16)); background: var(--ground, #F6F5F0); font-family: var(--font, 'Public Sans', sans-serif); font-size: 0.9375rem; color: var(--ink-soft, #454A55); font-variant-numeric: tabular-nums; } .ds-trust strong { color: var(--ink, #1C1F26); font-weight: 700; } .ds-trust span { display: flex; align-items: baseline; gap: 0.5rem; white-space: nowrap; } .ds-trust span::before { content: \"\"; width: 7px; height: 7px; border-radius: 50%; background: var(--accent, #FFC531); flex: none; align-self: center; }"
+    },
+    {
+      "name": "Price Rows",
+      "kind": "custom",
+      "refersTo": "label",
+      "description": "Group title in 800 over a Line Strong rule; each job a hairline row with an 8px yellow dot, the name in Ink with an Ink Muted qualifier, and the price at the right edge in Signal Text 700 tabular. Installs carry a 500-weight \"from\" in Ink Muted; flat prices carry nothing.",
+      "html": "<section class=\"ds-group\"><h3 class=\"ds-group-title\">Water heaters</h3><ul class=\"ds-jobs\"><li class=\"ds-job\"><span class=\"ds-job-name\">Tank install <em>40–50 gal</em></span><span class=\"ds-job-price\"><small>from</small>$1,250</span></li><li class=\"ds-job\"><span class=\"ds-job-name\">Flush and anode check</span><span class=\"ds-job-price\">$139</span></li><li class=\"ds-job\"><span class=\"ds-job-name\">Emergency call-out <em>24/7</em></span><span class=\"ds-job-price\">$189</span></li></ul></section>",
+      "css": ".ds-group { max-width: 440px; padding: 1rem; background: var(--ground, #F6F5F0); color: var(--ink, #1C1F26); font-family: var(--font, 'Public Sans', sans-serif); font-size: 1.0625rem; } .ds-group-title { margin: 0 0 0.25rem; font-weight: 800; font-size: clamp(1.35rem, 2.2vw, 1.75rem); letter-spacing: -0.025em; padding-bottom: 0.7rem; border-bottom: 1px solid var(--line-strong, rgba(28,31,38,0.32)); } .ds-jobs { list-style: none; margin: 0; padding: 0; } .ds-job { display: flex; align-items: baseline; gap: 0.75rem; padding: 0.8rem 0; border-bottom: 1px solid var(--line, rgba(28,31,38,0.16)); white-space: nowrap; } .ds-job::before { content: \"\"; width: 8px; height: 8px; border-radius: 50%; background: var(--accent, #FFC531); flex: none; align-self: center; } .ds-job-name { color: var(--ink, #1C1F26); min-width: 0; overflow: hidden; text-overflow: ellipsis; } .ds-job-name em { font-style: normal; color: var(--ink-muted, #646A76); margin-left: 0.4rem; font-size: 0.9em; } .ds-job-price { margin-left: auto; font-variant-numeric: tabular-nums; color: var(--accent-text, #1C1F26); font-weight: 700; flex: none; } .ds-job-price small { font-weight: 500; font-size: 0.85em; color: var(--ink-muted, #646A76); margin-right: 0.3rem; }"
+    },
+    {
+      "name": "Emergency Band",
+      "kind": "custom",
+      "refersTo": "emergency-band",
+      "description": "Signature: the one solid block on the page. Band ground, Band Ink text, an 800 title, the after-hours rate in 700 at 90% opacity, and the inverted ink button (Band Ink fill, Band text).",
+      "html": "<section class=\"ds-band\"><h2 class=\"ds-band-title\">Water where it shouldn't be?</h2><p class=\"ds-band-text\">Shut the main valve first, then call. <strong>After-hours call-out is $189</strong>, 7 pm to 7 am and Sundays, and it's credited to the repair.</p><a class=\"ds-band-btn\" href=\"#\">Call the emergency line</a></section>",
+      "css": ".ds-band { display: grid; gap: 1.25rem; align-items: center; padding: clamp(1.75rem, 4vw, 2.75rem) 1.5rem; background: var(--band, #FFC531); color: var(--band-ink, #1C1F26); font-family: var(--font, 'Public Sans', sans-serif); } .ds-band-title { margin: 0; font-weight: 800; font-size: clamp(1.4rem, 2.6vw, 2rem); letter-spacing: -0.03em; line-height: 1.1; } .ds-band-text { margin: 0; font-size: 1rem; line-height: 1.5; max-width: 52ch; opacity: 0.9; } .ds-band-text strong { font-weight: 700; } .ds-band-btn { display: inline-flex; align-items: center; justify-content: center; justify-self: start; padding: 1rem 1.5rem; border-radius: 6px; border: 1.5px solid transparent; font-weight: 700; font-size: 1rem; line-height: 1; text-decoration: none; white-space: nowrap; background: var(--band-ink, #1C1F26); color: var(--band, #FFC531); transition: transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-band-btn:hover { transform: translateY(-1px); } .ds-band-btn:focus-visible { outline: 2px solid var(--band-ink, #1C1F26); outline-offset: 3px; } @media (min-width: 600px) { .ds-band { grid-template-columns: auto 1fr auto; gap: 2.5rem; } }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky 72px bar on translucent paper chrome with blur; KESTREL 800 uppercase with the trade at 500 and 60% opacity, three 600 Ink Soft links hovering to Ink, small yellow Call now right.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-nav-brand\" href=\"#\"><span class=\"ds-nav-name\">Kestrel</span><span class=\"ds-nav-trade\">Plumbing &amp; Heating</span></a><nav class=\"ds-nav-links\"><a href=\"#\">Prices</a><a href=\"#\">Service area</a><a href=\"#\">About</a></nav><a class=\"ds-nav-cta\" href=\"#\">Call now</a></header>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; height: 72px; padding: 0 1.5rem; background: rgba(var(--chrome, 246, 245, 240), 0.92); -webkit-backdrop-filter: blur(14px) saturate(140%); backdrop-filter: blur(14px) saturate(140%); border-bottom: 1px solid var(--line, rgba(28,31,38,0.16)); color: var(--ink, #1C1F26); font-family: var(--font, 'Public Sans', sans-serif); } .ds-nav-brand { display: inline-flex; align-items: baseline; gap: 0.5rem; text-decoration: none; color: inherit; white-space: nowrap; } .ds-nav-name { font-weight: 800; font-size: 1.2rem; letter-spacing: -0.02em; text-transform: uppercase; } .ds-nav-trade { font-weight: 500; font-size: 0.9375rem; opacity: 0.6; } .ds-nav-links { display: flex; gap: 2rem; } .ds-nav-links a { text-decoration: none; font-weight: 600; font-size: 0.9375rem; color: var(--ink-soft, #454A55); transition: color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-nav-links a:hover { color: var(--ink, #1C1F26); } .ds-nav-cta { display: inline-flex; align-items: center; padding: 0.7rem 1.1rem; border-radius: 6px; border: 1.5px solid transparent; font-size: 0.875rem; font-weight: 700; line-height: 1; text-decoration: none; background: var(--accent, #FFC531); color: var(--accent-ink, #1C1F26); transition: background-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-nav-cta:hover { background: var(--accent-hover, #FFD261); transform: translateY(-1px); } .ds-nav a:focus-visible { outline: 2px solid var(--focus, #1C1F26); outline-offset: 3px; border-radius: 6px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "White fill on a Line Strong border at 6px; hover to Ink Soft, focus to an Ink border with a 45% yellow halo. Error border in brick red with a message below.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-zip\">Address or ZIP</label><input id=\"ds-zip\" type=\"text\" inputmode=\"numeric\" placeholder=\"80525\"></div>",
+      "css": ".ds-field { display: grid; gap: 0.4rem; max-width: 320px; padding: 1rem; background: var(--ground, #F6F5F0); font-family: var(--font, 'Public Sans', sans-serif); color: var(--ink, #1C1F26); } .ds-field label { font-size: 0.875rem; font-weight: 700; } .ds-field input { width: 100%; box-sizing: border-box; min-height: 3.25rem; padding: 0.9rem 1rem; background: var(--ground-3, #FFFFFF); border: 1px solid var(--line-strong, rgba(28,31,38,0.32)); border-radius: 6px; color: var(--ink, #1C1F26); font: inherit; font-size: 1.0625rem; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1), box-shadow 160ms cubic-bezier(0.16,1,0.3,1); } .ds-field input::placeholder { color: var(--ink-muted, #646A76); } .ds-field input:hover { border-color: var(--ink-soft, #454A55); } .ds-field input:focus-visible { outline: none; border-color: var(--ink, #1C1F26); box-shadow: 0 0 0 3px rgba(var(--accent-rgb, 255, 197, 49), 0.45); } .ds-field input[aria-invalid=\"true\"] { border-color: var(--error, #B4321B); }"
+    },
+    {
+      "name": "Hours Card",
+      "kind": "card",
+      "refersTo": "hours-card",
+      "description": "White surface on a Line border at 6px with no shadow; 800 title, hairline rows with tabular figures, today's row in Ink 700 with a Label-style suffix in Ink Muted.",
+      "html": "<div class=\"ds-hours\"><h3 class=\"ds-hours-title\">Hours</h3><table class=\"ds-hours-table\"><tbody><tr><th scope=\"row\">Monday</th><td>7 am – 7 pm</td></tr><tr class=\"is-today\"><th scope=\"row\">Tuesday</th><td>7 am – 7 pm</td></tr><tr><th scope=\"row\">Saturday</th><td>8 am – 4 pm</td></tr><tr><th scope=\"row\">Sunday</th><td>Emergency only</td></tr></tbody></table><p class=\"ds-hours-note\"><strong>Emergency line answered 24/7.</strong> After-hours call-out $189, credited to the repair.</p></div>",
+      "css": ".ds-hours { max-width: 360px; background: var(--ground-3, #FFFFFF); border: 1px solid var(--line, rgba(28,31,38,0.16)); border-radius: 6px; padding: clamp(1.5rem, 3vw, 2.25rem); color: var(--ink, #1C1F26); font-family: var(--font, 'Public Sans', sans-serif); font-size: 1.0625rem; line-height: 1.6; } .ds-hours-title { margin: 0 0 1rem; font-weight: 800; font-size: 1.5rem; letter-spacing: -0.025em; } .ds-hours-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; } .ds-hours-table th, .ds-hours-table td { padding: 0.7rem 0; border-top: 1px solid var(--line, rgba(28,31,38,0.16)); text-align: left; font-weight: 400; } .ds-hours-table td { text-align: right; color: var(--ink-soft, #454A55); white-space: nowrap; } .ds-hours-table tr.is-today th, .ds-hours-table tr.is-today td { color: var(--ink, #1C1F26); font-weight: 700; } .ds-hours-table tr.is-today th::after { content: \" · today\"; font-weight: 500; letter-spacing: 0.06em; font-size: 0.75rem; text-transform: uppercase; color: var(--ink-muted, #646A76); } .ds-hours-note { margin: 1rem 0 0; font-size: 0.875rem; color: var(--ink-muted, #646A76); } .ds-hours-note strong { color: var(--ink, #1C1F26); font-weight: 700; }"
+    },
+    {
+      "name": "Mobile Action Bar",
+      "kind": "nav",
+      "refersTo": "bar-button-accent",
+      "description": "Fixed bottom bar below 900px on 92% chrome with a Line top rule and the page's only elevation shadow: Call as the yellow 6px button with a phone icon, Text and Quote as Ink buttons on a 1.5px Line Strong border.",
+      "html": "<nav class=\"ds-bar\"><a class=\"ds-bar-btn ds-bar-btn-accent\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z\"/></svg>Call</a><a class=\"ds-bar-btn\" href=\"#\">Text</a><a class=\"ds-bar-btn\" href=\"#\">Quote</a></nav>",
+      "css": ".ds-bar { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 0.5rem; max-width: 420px; padding: 0.6rem 1.25rem; background: rgba(var(--chrome, 246, 245, 240), 0.92); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-top: 1px solid var(--line, rgba(28,31,38,0.16)); box-shadow: 0 -10px 30px -18px rgba(28, 31, 38, 0.3); font-family: var(--font, 'Public Sans', sans-serif); } .ds-bar-btn { display: flex; align-items: center; justify-content: center; gap: 0.4rem; min-height: 48px; border-radius: 6px; font-weight: 700; font-size: 0.9375rem; text-decoration: none; border: 1.5px solid var(--line-strong, rgba(28,31,38,0.32)); color: var(--ink, #1C1F26); white-space: nowrap; } .ds-bar-btn-accent { background: var(--accent, #FFC531); color: var(--accent-ink, #1C1F26); border-color: transparent; } .ds-bar-btn:focus-visible { outline: 2px solid var(--focus, #1C1F26); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Dispatcher Picking Up",
+    "overview": "Kestrel is a one-page plumbing-and-heating site that behaves like a dispatcher answering the phone: the first screen says whether someone is on shift and when the next truck can roll, puts Call and Text under the thumb, shows the license and insurance line, and posts the price of the three most common jobs, all before a single sentence of pitch. The world is a printed work order on a clipboard: warm off-white paper, near-black ink, and one high-visibility yellow that is only ever a block of fill (the Call button, the emergency band, the dots on price rows, the mobile bar). There is no hero photograph by decision; the page paints instantly and the yellow button is the picture. Remove the copy and you would still recognize it: off-white ground, one yellow block, heavy black type, dotted price rows.\n\nIt is VINCERE's third template base (\"one structure, many skins\") and the sibling of Sasso and Apex. Every color on the page lives in one token block at the top of `kestrel.css`; a skin is a second, complete token block on `html[data-skin]` and nothing structural changes beneath it. Two alternate skins ship (Navy, Forest) and match the three-way switcher in the VINCERE home page's concept panel. What Kestrel adds to the Apex pattern is a fill/text split with a separate band pair: `--accent` for fills, `--accent-text` for what signal text wears on the ground, and `--band` / `--band-ink` for the one solid block. On the default Safety skin `--accent-text` resolves to ink, because the yellow cannot clear contrast as text on the light ground; on Navy the same yellow is both fill and text; Forest swaps the yellow for two greens. Kestrel is fictional, carries `noindex, nofollow`, and is never listed in the sitemap; its palette and type are deliberately not VINCERE tokens.\n\nDensity is that of a rate card: sections breathe on a clamp(4.5rem, 9vw, 8rem) rhythm, copy is capped at 40 to 62ch, and data (jobs, steps, towns, hours, license facts) sits on hairline rows with a yellow dot rather than in cards. The surfaces are flat: no shadow is used for depth anywhere, and the only box-shadow on the page is the lift under the fixed mobile bar. Confirmed rejections: a slideshow of smiling vans, \"call for a free estimate\" with no prices, a wall of badges, reviews or ratings, a contact form as the only way in, and a tracked-caps eyebrow above any headline.",
+    "keyCharacteristics": [
+      "Three paper steps (#F6F5F0, #ECEBE4, #FFFFFF) do the sectioning; hairlines at 16% and 32% ink do the ruling",
+      "One yellow (#FFC531) worn only as fill: the Call button, the emergency band, the 7px and 8px dots, the mobile bar, text selection; on the light ground it is never text, and signal text (prices, step numbers, the dispatch line) wears ink through `--accent-text`",
+      "Public Sans 800 at -0.02 to -0.04em for the wordmark, every headline, band title, group title, step title, step counter, and hours title; Public Sans 400 to 700 for everything read, at 1.0625rem base",
+      "One radius: 6px on every control, field, surface, and photo; no pills; circles only as 7px, 8px, and 10px dots",
+      "Flat surfaces: no elevation shadow anywhere except the fixed mobile bar; photographs are cut to 6px and carry nothing",
+      "Tabular numerals on every number: prices, the dispatch line, the trust strip, the hours table, the license box, the footer, step counters, and every button",
+      "A skin is a token block on `html[data-skin]`, selected by `?skin=<id>`, with the accent split into fill, text, and band",
+      "One easing (out-expo) and three durations (160/320/700ms); the hero rises in an 80ms stagger; no hero drift because there is no hero photograph"
+    ],
+    "rules": [
+      { "name": "The Fill-Only Yellow Rule", "body": "On a light ground the yellow is a block, a dot, or a bar, never a letter. Signal text (dispatch line, prices, counters) goes through `--accent-text`, which Safety and Forest resolve to a dark value. A new element that sets `color: var(--accent)` on Safety is a bug.", "section": "colors" },
+      { "name": "The Two-Pair Accent Rule", "body": "Every use of the accent names which role it is: `--accent` on a fill with `--accent-ink` on it, `--accent-text` as text on the ground, `--band` with `--band-ink` for the one solid block. A skin may set all of them to two values (Navy) or three (Safety, Forest); a light skin must be able to make `--accent-text` dark.", "section": "colors" },
+      { "name": "The Token Block Rule", "body": "Every color on the page resolves to a token in section 1 of `kestrel.css`. A skin redefines that block and nothing else; the only skin-scoped selectors below it are `color-scheme` and the Forest band button's text. A brand that needs a structural override is a new base, not a skin.", "section": "colors" },
+      { "name": "The Paper Hairline Rule", "body": "Rules are 1px of ink at 16% (Line) or 32% (Line Strong); there are no solid divider colors and no border in the accent anywhere. The dot does the pointing; the line does the ruling.", "section": "colors" },
+      { "name": "The Heavy-Only-Loud Rule", "body": "Public Sans 800 sets the wordmark, headlines, the band title, group titles, step titles, counters, and the hours title, always with negative tracking. It never sets a paragraph, a label, a button, or a link; 700 is the ceiling for anything read.", "section": "typography" },
+      { "name": "The Sentence-Case Signal Rule", "body": "The hero's context sits below the H1 as a sentence-case dispatch line, never above it as a tracked-caps eyebrow. The trust strip and the license box lead with a 700 Ink fact, not a label.", "section": "typography" },
+      { "name": "The Tabular Rule", "body": "Anything with a digit (prices, the dispatch line, the trust strip, the hours table, the license box, the footer, step counters, every button) sets `font-variant-numeric: tabular-nums`. \"from\" is a 500-weight `small` at 0.85em in Ink Muted before an install price and nowhere else; flat prices carry no prefix.", "section": "typography" },
+      { "name": "The Clipboard Rule", "body": "Surfaces are flat at rest and flat on hover; hover is a 1px rise, a border change, or a fill change, never a shadow. The mobile bar is the one thing allowed to float, because it is the one thing that is not on the page.", "section": "elevation" },
+      { "name": "The Bare Photo Rule", "body": "A photograph is cut to 6px and carries nothing: no shadow, no veil, no desaturation, no caption chrome. It is a placeholder the client replaces, and the page must not depend on it.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do put every color in the section 1 token block and add a client's brand as a new `html[data-skin=\"<id>\"]` block that redefines all of them, including `--accent-text`, `--band`, and `--band-ink`; on a light ground set `--accent-text` to a dark value.",
+      "Do keep Public Sans 800 with negative tracking for the wordmark, headlines, titles, and counters only, and keep 700 as the ceiling for anything read.",
+      "Do keep the hero's context below the H1 as a sentence-case dispatch line, and lead facts with a 700 Ink term rather than a label.",
+      "Do rule with ink hairlines (16% and 32%) and section with the three paper steps; cut everything at 6px; point with a 7px or 8px yellow dot.",
+      "Do set tabular numerals on every number and put \"from\" only on install prices.",
+      "Do keep every surface and photograph flat; the mobile bar's lift is the only shadow.",
+      "Do keep Call, Text, and Quote in the fixed bar below 900px and the accent \"Call now\" in the nav above it, and keep the dispatch line, Call/Text, trust strip, and three prices inside one phone viewport above the bar.",
+      "Do drive hours from the one `HOURS` table and the `TRUCKS` board: dispatch line and today's row.",
+      "Do cap running copy at 40 to 62ch and headings at 16ch."
+    ],
+    "donts": [
+      "Don't set the yellow as text on a light ground, use it as a running ground outside the emergency band, or add a second accent; don't use `--accent` where `--accent-text` is meant, or the reverse.",
+      "Don't put a tracked-caps eyebrow above the H1 or an H2, and don't set Public Sans 800 at body sizes or in a paragraph.",
+      "Don't add pills, radii other than 6px, borders in the accent, or a shadow on any surface, button, card, or photograph.",
+      "Don't veil, desaturate, or frame a photograph, and don't add a hero photograph: the hero paints on the plain ground.",
+      "Don't add van slideshows, \"call for a free estimate\", badge walls, ratings, reviews, or any proof device; Kestrel is fictional and the page must not fabricate.",
+      "Don't write skin-specific selectors below the token block except `color-scheme` and the Forest band button; if a skin needs one, it is a new base.",
+      "Don't index this page: keep `noindex, nofollow` and keep it out of `sitemap.xml`."
+    ]
+  }
+}

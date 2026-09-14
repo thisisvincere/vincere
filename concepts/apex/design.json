@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-14T00:00:00Z",
+  "title": "Design System: Apex Auto",
+  "extensions": {
+    "colorMeta": {
+      "ground": { "role": "neutral", "displayName": "Graphite", "canonical": "#121418", "tonalRamp": ["oklch(15% 0.008 260)", "oklch(24% 0.008 260)", "oklch(36% 0.008 260)", "oklch(48% 0.008 260)", "oklch(60% 0.008 260)", "oklch(72% 0.008 260)", "oklch(84% 0.008 260)", "oklch(95% 0.005 260)"] },
+      "ground-2": { "role": "neutral", "displayName": "Graphite Deep", "canonical": "#0C0E11", "tonalRamp": ["oklch(12% 0.008 260)", "oklch(22% 0.008 260)", "oklch(34% 0.008 260)", "oklch(46% 0.008 260)", "oklch(58% 0.008 260)", "oklch(70% 0.008 260)", "oklch(82% 0.008 260)", "oklch(95% 0.005 260)"] },
+      "ground-3": { "role": "neutral", "displayName": "Graphite Raised", "canonical": "#1A1D22", "tonalRamp": ["oklch(18% 0.01 260)", "oklch(27% 0.01 260)", "oklch(39% 0.01 260)", "oklch(51% 0.01 260)", "oklch(63% 0.01 260)", "oklch(75% 0.01 260)", "oklch(87% 0.01 260)", "oklch(95% 0.005 260)"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#E8EAED", "tonalRamp": ["oklch(15% 0.006 250)", "oklch(27% 0.006 250)", "oklch(39% 0.006 250)", "oklch(51% 0.006 250)", "oklch(63% 0.006 250)", "oklch(75% 0.006 250)", "oklch(87% 0.006 250)", "oklch(95% 0.004 250)"] },
+      "ink-soft": { "role": "neutral", "displayName": "Ink Soft", "canonical": "#B9BEC6", "tonalRamp": ["oklch(15% 0.008 250)", "oklch(27% 0.008 250)", "oklch(39% 0.008 250)", "oklch(51% 0.008 250)", "oklch(63% 0.008 250)", "oklch(75% 0.008 250)", "oklch(87% 0.008 250)", "oklch(95% 0.004 250)"] },
+      "ink-muted": { "role": "neutral", "displayName": "Ink Muted", "canonical": "#8E949D", "tonalRamp": ["oklch(15% 0.01 250)", "oklch(27% 0.01 250)", "oklch(39% 0.01 250)", "oklch(51% 0.01 250)", "oklch(63% 0.01 250)", "oklch(75% 0.01 250)", "oklch(87% 0.01 250)", "oklch(95% 0.004 250)"] },
+      "accent": { "role": "primary", "displayName": "Signal Orange", "canonical": "#FF5A1F", "tonalRamp": ["oklch(20% 0.08 40)", "oklch(32% 0.13 40)", "oklch(44% 0.18 40)", "oklch(56% 0.21 40)", "oklch(68% 0.21 40)", "oklch(78% 0.15 40)", "oklch(88% 0.08 40)", "oklch(95% 0.03 40)"] },
+      "accent-text": { "role": "primary", "displayName": "Signal Text", "canonical": "#FF5A1F" },
+      "accent-hero": { "role": "primary", "displayName": "Signal Hero", "canonical": "#FF5A1F" },
+      "accent-ink": { "role": "primary", "displayName": "Signal Ink", "canonical": "#0C0E11" },
+      "accent-hover": { "role": "primary", "displayName": "Signal Hover", "canonical": "#FF7040" },
+      "line": { "role": "neutral", "displayName": "Line", "canonical": "rgba(232, 234, 237, 0.2)" },
+      "line-strong": { "role": "neutral", "displayName": "Line Strong", "canonical": "rgba(232, 234, 237, 0.36)" },
+      "error": { "role": "secondary", "displayName": "Error", "canonical": "#FF9B7A", "tonalRamp": ["oklch(15% 0.06 40)", "oklch(27% 0.09 40)", "oklch(39% 0.11 40)", "oklch(51% 0.13 40)", "oklch(63% 0.13 40)", "oklch(75% 0.11 40)", "oklch(87% 0.06 40)", "oklch(95% 0.03 40)"] },
+      "focus": { "role": "primary", "displayName": "Focus", "canonical": "#FFB38A" },
+      "signal-ground": { "role": "neutral", "displayName": "Signal Ground", "canonical": "#F3F4F6" },
+      "signal-ground-2": { "role": "neutral", "displayName": "Signal Ground 2", "canonical": "#E7E9EE" },
+      "signal-ground-3": { "role": "neutral", "displayName": "Signal Ground 3", "canonical": "#FFFFFF" },
+      "signal-ink": { "role": "neutral", "displayName": "Signal Ink", "canonical": "#14161A" },
+      "signal-ink-soft": { "role": "neutral", "displayName": "Signal Ink Soft", "canonical": "#3D4148" },
+      "signal-ink-muted": { "role": "neutral", "displayName": "Signal Ink Muted", "canonical": "#5F6570" },
+      "signal-accent": { "role": "primary", "displayName": "Signal Red (fill)", "canonical": "#D2321A" },
+      "signal-accent-text": { "role": "primary", "displayName": "Signal Red (text)", "canonical": "#C42E14" },
+      "signal-accent-hero": { "role": "primary", "displayName": "Signal Red (hero)", "canonical": "#FF7A45" },
+      "signal-accent-ink": { "role": "primary", "displayName": "Signal Red Ink", "canonical": "#FFFFFF" },
+      "signal-accent-hover": { "role": "primary", "displayName": "Signal Red Hover", "canonical": "#B92B16" },
+      "signal-hero-button": { "role": "primary", "displayName": "Signal Hero Button", "canonical": "#E2391B" },
+      "signal-hero-button-hover": { "role": "primary", "displayName": "Signal Hero Button Hover", "canonical": "#F04A2C" },
+      "signal-line": { "role": "neutral", "displayName": "Signal Line", "canonical": "rgba(20, 22, 26, 0.18)" },
+      "signal-line-strong": { "role": "neutral", "displayName": "Signal Line Strong", "canonical": "rgba(20, 22, 26, 0.34)" },
+      "signal-error": { "role": "secondary", "displayName": "Signal Error", "canonical": "#B4321B" },
+      "signal-focus": { "role": "primary", "displayName": "Signal Focus", "canonical": "#C42E14" },
+      "racing-ground": { "role": "neutral", "displayName": "Racing Ground", "canonical": "#0F2A1F" },
+      "racing-ground-2": { "role": "neutral", "displayName": "Racing Ground 2", "canonical": "#0B2019" },
+      "racing-ground-3": { "role": "neutral", "displayName": "Racing Ground 3", "canonical": "#16382B" },
+      "racing-ink": { "role": "neutral", "displayName": "Racing Ink", "canonical": "#E6F2EA" },
+      "racing-ink-soft": { "role": "neutral", "displayName": "Racing Ink Soft", "canonical": "#B6CBBE" },
+      "racing-ink-muted": { "role": "neutral", "displayName": "Racing Ink Muted", "canonical": "#8FA899" },
+      "racing-accent": { "role": "primary", "displayName": "Racing Lime", "canonical": "#BDF24A" },
+      "racing-accent-text": { "role": "primary", "displayName": "Racing Lime (text)", "canonical": "#BDF24A" },
+      "racing-accent-hero": { "role": "primary", "displayName": "Racing Lime (hero)", "canonical": "#BDF24A" },
+      "racing-accent-ink": { "role": "primary", "displayName": "Racing Lime Ink", "canonical": "#0B2019" },
+      "racing-accent-hover": { "role": "primary", "displayName": "Racing Lime Hover", "canonical": "#CDF873" },
+      "racing-line": { "role": "neutral", "displayName": "Racing Line", "canonical": "rgba(230, 242, 234, 0.18)" },
+      "racing-line-strong": { "role": "neutral", "displayName": "Racing Line Strong", "canonical": "rgba(230, 242, 234, 0.34)" },
+      "racing-error": { "role": "secondary", "displayName": "Racing Error", "canonical": "#FFA98A" },
+      "racing-focus": { "role": "primary", "displayName": "Racing Focus", "canonical": "#D7F58C" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero H1 only, Barlow Semi Condensed 700, capped at 15ch with a veil-tinted text shadow." },
+      "headline": { "displayName": "Headline", "purpose": "Section H2s, Barlow Semi Condensed 700, capped at 16ch." },
+      "title": { "displayName": "Title", "purpose": "Service group titles over a Line Strong rule; hours card title at a fixed 1.6rem." },
+      "tile": { "displayName": "Tile", "purpose": "Bay tile times and step titles, condensed 700 tabular; the step counter is the same face at 1.5rem." },
+      "wordmark": { "displayName": "Wordmark", "purpose": "APEX AUTO in the nav and footer: condensed 500 at 0.1em, AUTO in the accent at 700. The only tracked display use." },
+      "lede": { "displayName": "Lede", "purpose": "Paragraph under each H2 in Ink Soft, 42 to 46ch." },
+      "body": { "displayName": "Body", "purpose": "Base text at 1.0625rem; shop copy at 54ch." },
+      "body-sm": { "displayName": "Body Small", "purpose": "Facts, step text, notes, footer, nav links, and mobile bar buttons." },
+      "button": { "displayName": "Button", "purpose": "The accent button; btn--sm drops to 0.875rem." },
+      "label": { "displayName": "Label", "purpose": "Tracked uppercase label that names a fact (visit list, accent) or a tile (bay name, 70% ink); never above a headline." }
+    },
+    "skins": [
+      { "id": "graphite", "selector": ":root", "label": "Graphite", "swatch": ["#121418", "#FF5A1F"], "purpose": "Default. Near-black graphite, cool light ink, one orange signal; all three accent roles share one value." },
+      { "id": "signal", "selector": "html[data-skin=\"signal\"]", "label": "Signal", "swatch": ["#F3F4F6", "#D2321A"], "purpose": "Light steel-grey ground with three reds: fill #D2321A, text #C42E14, hero #FF7A45; color-scheme light, pale chrome. Hero stays dark via skin-scoped overrides on its accent button." },
+      { "id": "racing", "selector": "html[data-skin=\"racing\"]", "label": "Racing", "swatch": ["#0F2A1F", "#BDF24A"], "purpose": "British-green grounds, lime signal; all three accent roles share one value." }
+    ],
+    "shadows": [
+      { "name": "shadow", "value": "0 24px 48px -24px rgba(0, 0, 0, 0.7)", "purpose": "Surface: shop figure and hours card. Signal: 0 24px 48px -24px rgba(20, 22, 26, 0.35)." },
+      { "name": "shadow-button", "value": "0 10px 24px -14px rgba(0, 0, 0, 0.7)", "purpose": "Accent button at rest." },
+      { "name": "shadow-display", "value": "text-shadow: 0 2px 28px rgba(var(--veil), 0.6)", "purpose": "Hero H1 over the photograph." },
+      { "name": "veil-hero", "value": "linear-gradient(180deg, rgba(veil, 0.5) 0%, rgba(veil, 0.25) 28%, rgba(veil, 0.82) 60%, rgba(veil, 0.98) 100%), linear-gradient(100deg, rgba(veil, 0.7) 0%, rgba(veil, 0.35) 45%, rgba(veil, 0) 78%)", "purpose": "Hero veil from the --veil RGB triplet; darkens the photo toward the bottom-left text." },
+      { "name": "veil-photo", "value": "filter: saturate(0.35) contrast(1.05); overlay linear-gradient(180deg, rgba(veil, 0.18) 0%, rgba(veil, 0.55) 100%)", "purpose": "How-it-works photo pair: desaturated then tinted graphite so the orange stays the only color." },
+      { "name": "veil-figure", "value": "filter: saturate(0.35) contrast(1.05); overlay linear-gradient(180deg, rgba(veil, 0.12) 0%, rgba(veil, 0.5) 100%)", "purpose": "Shop figure: the same treatment, slightly lighter." },
+      { "name": "tile-glass", "value": "background: rgba(var(--veil), 0.55); backdrop-filter: blur(6px); border: 1px solid rgba(232, 234, 237, 0.28)", "purpose": "Bay tile at rest over the hero photograph." },
+      { "name": "ring-focus", "value": "outline: 2px solid var(--focus); outline-offset: 3px; border-radius: 6px", "purpose": "Global focus-visible ring in pale peach." },
+      { "name": "ring-field-focus", "value": "0 0 0 3px rgba(var(--accent-rgb), 0.22)", "purpose": "Field focus halo alongside an accent border." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "The one easing (out-expo) for every transition and entrance." },
+      { "name": "t-fast", "value": "160ms", "purpose": "Color, border, transform on hover and press; tile hover." },
+      { "name": "t-mid", "value": "320ms", "purpose": "Nav chrome, button shadow, skip link." },
+      { "name": "t-slow", "value": "700ms", "purpose": "Hero rise (14px; 0/80/160/240/320ms across title, status, lede, actions, board) and scroll reveals (12px, 60ms stagger in groups of four)." },
+      { "name": "tile-rise", "value": "600ms, delay calc(360ms + var(--i) * 70ms)", "purpose": "The four bay tiles cascade in after the board." },
+      { "name": "hero-drift", "value": "12s, scale 1.04 to 1", "purpose": "Hero photograph settles on load." },
+      { "name": "reduced-motion", "value": "prefers-reduced-motion: reduce removes every animation, collapses transitions to 0.01ms, disables smooth scroll, skips the reveal observer, and makes the bay-tap scroll instant", "purpose": "Accessibility gate." }
+    ],
+    "breakpoints": [
+      { "name": "job-qualifier-own-line", "value": "599px (max)" },
+      { "name": "bays-4, form-rows, form-foot", "value": "600px" },
+      { "name": "nav-links, facts-2, services-2", "value": "700px" },
+      { "name": "nav-cta, splits, sticky-hours, bar-hides", "value": "900px" },
+      { "name": "facts-4", "value": "1000px" },
+      { "name": "wrap", "value": "1120px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Accent Button",
+      "kind": "button",
+      "refersTo": "button-accent",
+      "description": "The one orange action: Schedule service. Signal Ink on Signal Orange at 6px, lightens and rises 1px on hover, presses 1px on active.",
+      "html": "<a class=\"ds-btn ds-btn-accent\" href=\"#\">Schedule service</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 1rem 1.6rem; border-radius: 6px; font-family: var(--font, 'Barlow', sans-serif); font-weight: 600; font-size: 1rem; line-height: 1; text-decoration: none; white-space: nowrap; border: 1px solid transparent; cursor: pointer; transition: background-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-accent { background: var(--accent, #FF5A1F); color: var(--accent-ink, #0C0E11); box-shadow: 0 10px 24px -14px rgba(0,0,0,0.7); } .ds-btn-accent:hover { background: var(--accent-hover, #FF7040); transform: translateY(-1px); } .ds-btn-accent:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--focus, #FFB38A); outline-offset: 3px; }"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Inherits color with a Line Strong underline at 0.2em offset; text and underline turn Signal Text on hover.",
+      "html": "<p class=\"ds-p\">Brannan Road just south of Main. <a class=\"ds-link\" href=\"#\">Get directions</a></p>",
+      "css": ".ds-p { font-family: var(--font, 'Barlow', sans-serif); font-size: 1.0625rem; line-height: 1.6; color: var(--ink, #E8EAED); background: var(--ground, #121418); padding: 1rem; margin: 0; } .ds-link { color: inherit; text-decoration: underline; text-decoration-color: var(--line-strong, rgba(232,234,237,0.36)); text-underline-offset: 0.2em; text-decoration-thickness: 1px; transition: text-decoration-color 160ms cubic-bezier(0.16,1,0.3,1), color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-link:hover { color: var(--accent-text, #FF5A1F); text-decoration-color: currentColor; } .ds-link:focus-visible { outline: 2px solid var(--focus, #FFB38A); outline-offset: 3px; border-radius: 6px; }"
+    },
+    {
+      "name": "Bay Board",
+      "kind": "custom",
+      "refersTo": "bay-tile",
+      "description": "Signature: four 6px glass tiles over the hero photograph, each with a tracked bay name, a condensed tabular time, and a state. The earliest open bay wears the accent border, a 16% wash, and an 8px dot; full bays are disabled at 72%.",
+      "html": "<div class=\"ds-board\"><p class=\"ds-board-caption\">Today's bays — tap an open one to book that time.</p><div class=\"ds-bays\"><button class=\"ds-bay\" type=\"button\"><span class=\"ds-bay-name\">Bay 1</span><span class=\"ds-bay-time\">4:00 pm</span><span class=\"ds-bay-state\">Next opening</span></button><button class=\"ds-bay is-open\" type=\"button\"><span class=\"ds-bay-name\">Bay 2</span><span class=\"ds-bay-time\">2:30 pm</span><span class=\"ds-bay-state\">Open now</span></button><button class=\"ds-bay\" type=\"button\"><span class=\"ds-bay-name\">Bay 3</span><span class=\"ds-bay-time\">3:00 pm</span><span class=\"ds-bay-state\">Next opening</span></button><button class=\"ds-bay\" type=\"button\" disabled><span class=\"ds-bay-name\">Bay 4</span><span class=\"ds-bay-time\">Full</span><span class=\"ds-bay-state\">No openings today</span></button></div></div>",
+      "css": ".ds-board { padding: 1.25rem; background: var(--ground-2, #0C0E11); color: #E8EAED; font-family: var(--font, 'Barlow', sans-serif); } .ds-board-caption { margin: 0 0 0.75rem; font-size: 0.8125rem; opacity: 0.7; } .ds-bays { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.6rem; max-width: 720px; } .ds-bay { position: relative; display: grid; gap: 0.2rem; text-align: left; width: 100%; padding: 0.85rem 0.95rem; border: 1px solid rgba(232,234,237,0.28); border-radius: 6px; background: rgba(var(--veil, 12, 14, 17), 0.55); color: #E8EAED; font: inherit; cursor: pointer; -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); transition: border-color 160ms cubic-bezier(0.16,1,0.3,1), background-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-bay-name { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.7; } .ds-bay-time { font-family: var(--display, 'Barlow Semi Condensed', 'Arial Narrow', sans-serif); font-weight: 700; font-size: 1.35rem; line-height: 1.1; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; } .ds-bay-state { font-size: 0.8125rem; opacity: 0.75; } .ds-bay.is-open { border-color: var(--accent-hero, #FF5A1F); background: rgba(var(--accent-rgb, 255, 90, 31), 0.16); } .ds-bay.is-open .ds-bay-time { color: var(--accent-hero, #FF5A1F); } .ds-bay.is-open .ds-bay-state { opacity: 1; } .ds-bay.is-open::after { content: \"\"; position: absolute; top: 0.9rem; right: 0.9rem; width: 8px; height: 8px; border-radius: 50%; background: var(--accent-hero, #FF5A1F); } .ds-bay:not([disabled]):hover { border-color: var(--accent-hero, #FF5A1F); transform: translateY(-1px); } .ds-bay[disabled] { cursor: default; opacity: 0.72; } .ds-bay:focus-visible { outline: 2px solid var(--focus, #FFB38A); outline-offset: 3px; }"
+    },
+    {
+      "name": "Status Line",
+      "kind": "custom",
+      "refersTo": "label",
+      "description": "Live hours line computed by apex.js from the HOURS table and the board: Signal Hero 600 tabular with a 9px dot that dims to 40% when closed. Sits under the hero H1, never above it.",
+      "html": "<div class=\"ds-hero\"><h1 class=\"ds-hero-title\">Book the bay.<br>Skip the wait.</h1><p class=\"ds-status\">Open until 6 pm · next open bay 2:30 pm · 1480 Brannan Rd</p><p class=\"ds-status is-closed\">Closed now · opens tomorrow at 7:30 am · 1480 Brannan Rd</p></div>",
+      "css": ".ds-hero { padding: 1.5rem; background: var(--ground-2, #0C0E11); color: #E8EAED; font-family: var(--font, 'Barlow', sans-serif); } .ds-hero-title { margin: 0; font-family: var(--display, 'Barlow Semi Condensed', 'Arial Narrow', sans-serif); font-weight: 700; font-size: clamp(2.4rem, 6vw, 4rem); line-height: 0.95; letter-spacing: -0.025em; max-width: 15ch; text-shadow: 0 2px 28px rgba(var(--veil, 12, 14, 17), 0.6); } .ds-status { margin: 1.4rem 0 0; font-size: 1rem; font-weight: 600; color: var(--accent-hero, #FF5A1F); font-variant-numeric: tabular-nums; } .ds-status + .ds-status { margin-top: 0.75rem; } .ds-status::before { content: \"\"; display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: currentColor; margin-right: 0.6rem; vertical-align: 0.05em; } .ds-status.is-closed::before { opacity: 0.4; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky 72px bar on translucent graphite chrome with blur; condensed APEX AUTO wordmark left with AUTO in the accent, three Ink Soft links hovering to Signal Text, small accent button right.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-nav-brand\" href=\"#\">Apex <b>Auto</b></a><nav class=\"ds-nav-links\"><a href=\"#\">Services</a><a href=\"#\">How it works</a><a href=\"#\">Visit</a></nav><a class=\"ds-nav-cta\" href=\"#\">Schedule service</a></header>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; height: 72px; padding: 0 1.5rem; background: rgba(var(--chrome, 12, 14, 17), 0.88); -webkit-backdrop-filter: blur(14px) saturate(140%); backdrop-filter: blur(14px) saturate(140%); border-bottom: 1px solid var(--line, rgba(232,234,237,0.2)); color: var(--ink, #E8EAED); font-family: var(--font, 'Barlow', sans-serif); } .ds-nav-brand { font-family: var(--display, 'Barlow Semi Condensed', 'Arial Narrow', sans-serif); font-weight: 500; font-size: 1.125rem; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; color: inherit; white-space: nowrap; } .ds-nav-brand b { color: var(--accent-text, #FF5A1F); font-weight: 700; } .ds-nav-links { display: flex; gap: 2rem; } .ds-nav-links a { text-decoration: none; font-weight: 500; font-size: 0.9375rem; color: var(--ink-soft, #B9BEC6); transition: color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-nav-links a:hover { color: var(--accent-text, #FF5A1F); } .ds-nav-cta { display: inline-flex; align-items: center; padding: 0.7rem 1.1rem; border-radius: 6px; font-size: 0.875rem; font-weight: 600; line-height: 1; text-decoration: none; background: var(--accent, #FF5A1F); color: var(--accent-ink, #0C0E11); box-shadow: 0 10px 24px -14px rgba(0,0,0,0.7); transition: background-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-nav-cta:hover { background: var(--accent-hover, #FF7040); transform: translateY(-1px); } .ds-nav a:focus-visible { outline: 2px solid var(--focus, #FFB38A); outline-offset: 3px; border-radius: 6px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Graphite Raised fill on a Line border at 6px; hover to Line Strong, focus to an accent border with a 22% orange halo. Error border in salmon with a message below.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-vehicle\">Vehicle</label><input id=\"ds-vehicle\" type=\"text\" placeholder=\"2019 Toyota Tacoma\"></div>",
+      "css": ".ds-field { display: grid; gap: 0.4rem; max-width: 320px; padding: 1rem; background: var(--ground, #121418); font-family: var(--font, 'Barlow', sans-serif); color: var(--ink, #E8EAED); } .ds-field label { font-size: 0.875rem; font-weight: 600; } .ds-field input { width: 100%; box-sizing: border-box; min-height: 3.25rem; padding: 0.9rem 1rem; background: var(--ground-3, #1A1D22); border: 1px solid var(--line, rgba(232,234,237,0.2)); border-radius: 6px; color: var(--ink, #E8EAED); font: inherit; font-size: 1.0625rem; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1), box-shadow 160ms cubic-bezier(0.16,1,0.3,1); } .ds-field input::placeholder { color: var(--ink-muted, #8E949D); } .ds-field input:hover { border-color: var(--line-strong, rgba(232,234,237,0.36)); } .ds-field input:focus-visible { outline: none; border-color: var(--accent, #FF5A1F); box-shadow: 0 0 0 3px rgba(255,90,31,0.22); } .ds-field input[aria-invalid=\"true\"] { border-color: var(--error, #FF9B7A); }"
+    },
+    {
+      "name": "Price Board Row",
+      "kind": "custom",
+      "refersTo": "label",
+      "description": "Service group title in condensed 700 over a Line Strong rule; each job a hairline row with the name in Ink, an Ink Muted qualifier, and the price in Signal Text 600 tabular with a 500-weight dollar sign. Free rows drop the sign.",
+      "html": "<section class=\"ds-group\"><h3 class=\"ds-group-title\">Brakes</h3><ul class=\"ds-jobs\"><li class=\"ds-job\"><span class=\"ds-job-name\">Front pads and rotors</span><span class=\"ds-job-price\">389</span></li><li class=\"ds-job\"><span class=\"ds-job-name\">Caliper <em>each</em></span><span class=\"ds-job-price\">189</span></li><li class=\"ds-job\"><span class=\"ds-job-name\">Brake inspection</span><span class=\"ds-job-price is-free\">Free</span></li></ul></section>",
+      "css": ".ds-group { max-width: 420px; padding: 1rem; background: var(--ground, #121418); color: var(--ink, #E8EAED); font-family: var(--font, 'Barlow', sans-serif); font-size: 1.0625rem; } .ds-group-title { margin: 0 0 0.25rem; font-family: var(--display, 'Barlow Semi Condensed', 'Arial Narrow', sans-serif); font-weight: 700; font-size: clamp(1.5rem, 2.4vw, 2rem); letter-spacing: -0.01em; padding-bottom: 0.75rem; border-bottom: 1px solid var(--line-strong, rgba(232,234,237,0.36)); } .ds-jobs { list-style: none; margin: 0; padding: 0; } .ds-job { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 0.85rem 0; border-bottom: 1px solid var(--line, rgba(232,234,237,0.2)); } .ds-job-name { line-height: 1.4; } .ds-job-name em { font-style: normal; color: var(--ink-muted, #8E949D); margin-left: 0.4rem; font-size: 0.9em; } .ds-job-price { font-variant-numeric: tabular-nums; color: var(--accent-text, #FF5A1F); font-weight: 600; flex: none; } .ds-job-price::before { content: \"$\"; font-weight: 500; opacity: 0.8; } .ds-job-price.is-free::before { content: none; }"
+    },
+    {
+      "name": "Step",
+      "kind": "custom",
+      "refersTo": "label",
+      "description": "Ordered step on a hairline row: a condensed zero-padded counter in Signal Text spanning both rows, a condensed 700 title, and Body Small text in Ink Soft.",
+      "html": "<ol class=\"ds-steps\"><li class=\"ds-step\"><h3 class=\"ds-step-title\">Book a bay</h3><p class=\"ds-step-text\">Pick a time online. Same-day openings show on the board at the top.</p></li><li class=\"ds-step\"><h3 class=\"ds-step-title\">Approve by text</h3><p class=\"ds-step-text\">You get photos and a written estimate. Nothing starts until you reply yes.</p></li></ol>",
+      "css": ".ds-steps { list-style: none; margin: 0; padding: 1rem; max-width: 52ch; counter-reset: step; background: var(--ground-2, #0C0E11); color: var(--ink, #E8EAED); font-family: var(--font, 'Barlow', sans-serif); } .ds-step { display: grid; grid-template-columns: 2.75rem 1fr; gap: 0.5rem 1rem; padding: 1.25rem 0; border-top: 1px solid var(--line, rgba(232,234,237,0.2)); } .ds-step:last-child { border-bottom: 1px solid var(--line, rgba(232,234,237,0.2)); } .ds-step::before { counter-increment: step; content: counter(step, decimal-leading-zero); font-family: var(--display, 'Barlow Semi Condensed', 'Arial Narrow', sans-serif); font-weight: 700; font-size: 1.5rem; line-height: 1.1; color: var(--accent-text, #FF5A1F); font-variant-numeric: tabular-nums; grid-row: 1 / 3; } .ds-step-title { margin: 0; font-family: var(--display, 'Barlow Semi Condensed', 'Arial Narrow', sans-serif); font-weight: 700; font-size: 1.35rem; line-height: 1.1; letter-spacing: -0.01em; } .ds-step-text { margin: 0; color: var(--ink-soft, #B9BEC6); font-size: 0.9375rem; line-height: 1.55; }"
+    },
+    {
+      "name": "Hours Card",
+      "kind": "card",
+      "refersTo": "hours-card",
+      "description": "Graphite Raised surface at 6px with the Surface shadow; condensed 700 title, hairline rows with tabular figures, today's row in Signal Text 600 with a tracked suffix.",
+      "html": "<div class=\"ds-hours\"><h3 class=\"ds-hours-title\">Hours</h3><table class=\"ds-hours-table\"><tbody><tr><th scope=\"row\">Monday</th><td>7:30 am – 6 pm</td></tr><tr class=\"is-today\"><th scope=\"row\">Tuesday</th><td>7:30 am – 6 pm</td></tr><tr><th scope=\"row\">Saturday</th><td>8 am – 2 pm</td></tr><tr><th scope=\"row\">Sunday</th><td>Closed</td></tr></tbody></table><p class=\"ds-hours-note\">Last drop-off for same-day work is 3 pm.</p></div>",
+      "css": ".ds-hours { max-width: 360px; background: var(--ground-3, #1A1D22); border: 1px solid var(--line, rgba(232,234,237,0.2)); border-radius: 6px; padding: clamp(1.5rem, 3vw, 2.25rem); box-shadow: 0 24px 48px -24px rgba(0,0,0,0.7); color: var(--ink, #E8EAED); font-family: var(--font, 'Barlow', sans-serif); font-size: 1.0625rem; line-height: 1.6; } .ds-hours-title { margin: 0 0 1rem; font-family: var(--display, 'Barlow Semi Condensed', 'Arial Narrow', sans-serif); font-weight: 700; font-size: 1.6rem; letter-spacing: -0.01em; } .ds-hours-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; } .ds-hours-table th, .ds-hours-table td { padding: 0.7rem 0; border-top: 1px solid var(--line, rgba(232,234,237,0.2)); text-align: left; font-weight: 400; } .ds-hours-table td { text-align: right; color: var(--ink-soft, #B9BEC6); } .ds-hours-table tr.is-today th, .ds-hours-table tr.is-today td { color: var(--accent-text, #FF5A1F); font-weight: 600; } .ds-hours-table tr.is-today th::after { content: \" · today\"; font-weight: 400; letter-spacing: 0.08em; font-size: 0.75rem; text-transform: uppercase; } .ds-hours-note { margin: 1rem 0 0; font-size: 0.875rem; color: var(--ink-muted, #8E949D); }"
+    },
+    {
+      "name": "Mobile Action Bar",
+      "kind": "nav",
+      "refersTo": "bar-button-accent",
+      "description": "Fixed bottom bar below 900px on 88% chrome with a Line top rule: Schedule as the accent 6px button, Call and Directions as Ink buttons on a Line Strong border.",
+      "html": "<nav class=\"ds-bar\"><a class=\"ds-bar-btn ds-bar-btn-accent\" href=\"#\">Schedule</a><a class=\"ds-bar-btn\" href=\"#\">Call</a><a class=\"ds-bar-btn\" href=\"#\">Directions</a></nav>",
+      "css": ".ds-bar { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 0.5rem; max-width: 420px; padding: 0.6rem 1.25rem; background: rgba(var(--chrome, 12, 14, 17), 0.88); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-top: 1px solid var(--line, rgba(232,234,237,0.2)); font-family: var(--font, 'Barlow', sans-serif); } .ds-bar-btn { display: flex; align-items: center; justify-content: center; min-height: 46px; border-radius: 6px; font-weight: 600; font-size: 0.9375rem; text-decoration: none; border: 1px solid var(--line-strong, rgba(232,234,237,0.36)); color: var(--ink, #E8EAED); } .ds-bar-btn-accent { background: var(--accent, #FF5A1F); color: var(--accent-ink, #0C0E11); border-color: transparent; } .ds-bar-btn:focus-visible { outline: 2px solid var(--focus, #FFB38A); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Posted Price Board",
+    "overview": "Apex Auto is a one-page independent auto-service site that answers a Maps visitor's questions in the order a driver with a warning light asks them (open now?, next open bay?, what does it cost?, where do I drop it?) and keeps \"Schedule\" within thumb reach on every screen. The world is a service bay after hours: graphite ground, cool light ink, one orange signal, and a heavy semi-condensed sans that only speaks in headlines, tile times, and step numbers. Nothing decorates; the photograph under its graphite veil, the hairlines, and the bay board do the atmospheric work. Remove the copy and you would still recognize it: graphite, one orange, squared-off 6px controls, the four-tile strip.\n\nIt is VINCERE's second template base (\"one structure, many skins\") and the sibling of Sasso. Every color on the page lives in one token block at the top of `apex.css`; a skin is a second, complete token block on `html[data-skin]` and nothing structural changes beneath it. Two alternate skins ship (Signal, Racing) and match the three-way switcher in the VINCERE home page's concept panel. What Apex adds to the Sasso pattern is a three-way accent split: `--accent` for fills, `--accent-text` for text on the ground, `--accent-hero` for the status line and open tile over the veiled photograph. Graphite and Racing set all three to one value; the light Signal skin needs three different reds to clear AA in each place. Apex is fictional, carries `noindex, nofollow`, and is never listed in the sitemap; its palette and type are deliberately not VINCERE tokens.\n\nDensity is that of a price list rather than a brochure: sections breathe on a clamp(4.5rem, 9vw, 8rem) rhythm, copy is capped at 42 to 60ch, and data (jobs, steps, hours, facts) sits on hairline rows rather than in cards. Confirmed rejections: a hero slideshow of shiny cars, \"call for a quote\", a stock handshake, a phone number as the only next step, ratings or certifications, and a tracked-caps eyebrow above any headline.",
+    "keyCharacteristics": [
+      "Three graphite steps (#121418, #0C0E11, #1A1D22) do the sectioning; hairlines at 20% and 36% ink do the ruling",
+      "One orange (#FF5A1F) worn by actions, the status line, the open bay, prices, step numbers, data labels, and today's row; never a ground, never running text",
+      "Barlow Semi Condensed 700 at tight tracking for every headline, tile time, step title, and step number; the wordmark alone is 500 at 0.1em with AUTO in the accent at 700",
+      "Barlow 400/500/600 for everything read, at 1.0625rem base",
+      "One radius: 6px on every control, tile, field, surface, and photo; no pills anywhere; circles only as 8px and 9px status dots",
+      "Tabular numerals on every number that lines up: prices, times, hours, the status line, step counters",
+      "A skin is a token block on `html[data-skin]`, selected by `?skin=<id>`, with the accent split three ways",
+      "One easing (out-expo) and three durations (160/320/700ms); the hero photo drifts 4% over 12s; the four tiles rise in a 70ms cascade"
+    ],
+    "rules": [
+      { "name": "The One Orange Rule", "body": "The accent is worn by actions and by data the driver is scanning for (status, open bay, prices, step numbers, labels, today). It never fills a section, never colors running text, and never appears as a second tint.", "section": "colors" },
+      { "name": "The Three-Way Accent Rule", "body": "Every use of the accent names which of the three it is: `--accent` on a fill, `--accent-text` as text on the ground, `--accent-hero` over the veiled photograph. Dark skins may set all three to one value; a light skin must be able to set three. A new element that uses `--accent` as text is a bug.", "section": "colors" },
+      { "name": "The Token Block Rule", "body": "Every color on the page resolves to a token in section 1 of `apex.css`. A skin redefines that block and nothing else; the only skin-scoped selectors below it are `color-scheme`, the hero's accent button, and the native date-picker icon. A brand that needs a structural override is a new base, not a skin.", "section": "colors" },
+      { "name": "The Graphite Hairline Rule", "body": "Rules are 1px of ink at 20% (Line) or 36% (Line Strong); there are no solid divider colors and no borders in the accent except on a focused field, the open bay tile, and the sent-form status box.", "section": "colors" },
+      { "name": "The Condensed-Only-Loud Rule", "body": "Barlow Semi Condensed appears at 700 in headlines, titles, tile times, step titles, and step numbers, and at 500 or 600 only in the wordmark and sign-off. It never sets a paragraph, a label, a button, or a link.", "section": "typography" },
+      { "name": "The Label-Names-Data Rule", "body": "The tracked label names a fact (Address, Phone, Key drop) or a tile (Bay 1); it never precedes a headline. The hero carries its context below the H1 as a sentence-case status line, and the facts strip has no labels at all: its lead lines are 600 Ink.", "section": "typography" },
+      { "name": "The Tabular Rule", "body": "Anything that lines up (prices, tile times, the status line, the hours table, the footer hours, step counters) sets `font-variant-numeric: tabular-nums`. Prices carry a \"$\" via `::before` at 500 and 80% opacity; \"Free\" drops it.", "section": "typography" },
+      { "name": "The Veil, Not Glow Rule", "body": "Darkness sits over the photograph, not around the objects. Shadows are single, deep, and offset; there are no colored glows and no shadow on text except the hero H1.", "section": "elevation" },
+      { "name": "The Desaturated Photo Rule", "body": "Every photograph except the hero runs at 35% saturation under a graphite gradient. A photograph is never allowed to introduce a second color.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do put every color in the section 1 token block and add a client's brand as a new `html[data-skin=\"<id>\"]` block that redefines all of them, including all three accent roles; test it against the hero, which stays dark.",
+      "Do keep Barlow Semi Condensed 700 for headlines, titles, tile times, step titles, and counters only; the wordmark is the sole tracked use, at 500 with AUTO in the accent at 700.",
+      "Do keep the tracked label for naming facts and tiles, and keep the hero's context below the H1 as a sentence-case status line.",
+      "Do rule with ink hairlines (20% and 36%) and section with the three graphite steps; cut everything at 6px.",
+      "Do set tabular numerals on every number that lines up and prefix prices with the 500-weight \"$\".",
+      "Do run every non-hero photograph at 35% saturation under the graphite photo veil.",
+      "Do keep Schedule, Call, and Directions in the fixed bar below 900px and the accent button in the nav above it.",
+      "Do drive hours from the one `HOURS` table: status line, bay board, today's row, and date validation.",
+      "Do cap running copy at 42 to 60ch and headings at 15 to 16ch."
+    ],
+    "donts": [
+      "Don't add a second accent or use orange as a ground, a band, or running text; don't use `--accent` as text or `--accent-text` as a fill.",
+      "Don't put a tracked-caps eyebrow above the H1 or an H2, and don't set Barlow Semi Condensed light, at body sizes, or in a paragraph.",
+      "Don't add pills, radii other than 6px, colored glows, or zero-offset shadows on surfaces.",
+      "Don't ship a saturated secondary photograph or let an image carry a color the palette does not.",
+      "Don't add hero slideshows, \"call for a quote\", ratings, reviews, certifications, press, or any proof device; Apex is fictional and the page must not fabricate.",
+      "Don't write skin-specific selectors below the token block except `color-scheme`, the hero accent button, and the native picker; if a skin needs one, it is a new base.",
+      "Don't index this page: keep `noindex, nofollow` and keep it out of `sitemap.xml`."
+    ]
+  }
+}

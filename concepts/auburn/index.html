@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Auburn &amp; Ash — Hair salon on Haywood Road, Asheville</title>
+<meta name="description" content="Auburn & Ash is a hair salon in West Asheville: cuts, color, and blowouts with the prices in the open. Book a chair with the stylist you want, or walk in until 5 pm.">
+<!-- Concept site for a fictional salon: keep it out of search results. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#E9EDE4">
+<meta name="color-scheme" content="light">
+
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="auburn.css">
+
+<script>
+  document.documentElement.classList.add('js');
+  // Skin from the query string (?skin=blush|noir) so the home page can open the same look.
+  (function () {
+    var m = /[?&]skin=(blush|noir)\b/.exec(location.search);
+    if (m) document.documentElement.setAttribute('data-skin', m[1]);
+  })();
+</script>
+</head>
+
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" data-nav>
+  <div class="wrap nav__inner">
+    <a class="brand" href="#top" aria-label="Auburn & Ash — home">Auburn <i class="amp">&amp;</i> Ash</a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#prices">Prices</a>
+      <a href="#stylists">Stylists</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a class="btn btn--accent btn--sm nav__cta" href="#book">Book a chair</a>
+  </div>
+</header>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero" aria-labelledby="hero-title">
+  <picture class="hero__media" aria-hidden="true">
+    <img class="hero__img"
+         src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1600&q=75&auto=format&fit=crop"
+         srcset="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=900&q=70&auto=format&fit=crop 900w,
+                 https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1600&q=75&auto=format&fit=crop 1600w,
+                 https://images.unsplash.com/photo-1560066984-138dadb4c035?w=2400&q=75&auto=format&fit=crop 2400w"
+         sizes="100vw" alt="" fetchpriority="high" decoding="async">
+  </picture>
+  <div class="hero__veil" aria-hidden="true"></div>
+
+  <div class="wrap hero__inner">
+    <h1 class="hero__title" id="hero-title">good hair,<br>no drama.</h1>
+    <p class="hero__status" data-status aria-live="polite">Tuesday to Saturday · Haywood Rd</p>
+    <p class="hero__sub">Cut · Color · Blowout — walk in or book ahead.</p>
+    <div class="hero__actions">
+      <a class="btn btn--accent" href="#book">Book a chair</a>
+      <a class="link" href="#prices">See prices</a>
+    </div>
+
+    <!-- The three rows the preview promised. Tapping one carries the service into the form. -->
+    <div class="teaser" aria-label="Common services and prices">
+      <button class="row" type="button" data-service="Cut & style"><span class="row__name">Cut &amp; style</span><span class="row__price">$65</span></button>
+      <button class="row" type="button" data-service="Balayage"><span class="row__name">Balayage</span><span class="row__price"><em>from</em>$180</span></button>
+      <button class="row" type="button" data-service="Blowout"><span class="row__name">Blowout</span><span class="row__price">$45</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ MENU ============================ -->
+<section class="menu" id="prices" aria-labelledby="prices-title">
+  <div class="wrap">
+    <div class="menu__head">
+      <h2 class="h2" id="prices-title">prices, in the open.</h2>
+      <p class="lede">
+        Cuts and blowouts are one number. Color starts "from" because length and density decide
+        the rest; you'll have the exact price at the consult, before anything gets mixed.
+      </p>
+    </div>
+
+    <div class="menu__grid">
+      <section class="group" aria-labelledby="g-cuts">
+        <h3 class="group__title" id="g-cuts">cuts</h3>
+        <div role="list">
+          <button class="row" type="button" data-service="Cut & style"><span class="row__name">Cut &amp; style <em>wash included</em></span><span class="row__price">$65</span></button>
+          <button class="row" type="button" data-service="Clipper cut"><span class="row__name">Clipper cut</span><span class="row__price">$40</span></button>
+          <button class="row" type="button" data-service="Bang trim"><span class="row__name">Bang trim</span><span class="row__price">$15</span></button>
+          <button class="row" type="button" data-service="Kids cut"><span class="row__name">Kids cut <em>under 12</em></span><span class="row__price">$35</span></button>
+        </div>
+      </section>
+
+      <section class="group" aria-labelledby="g-color">
+        <h3 class="group__title" id="g-color">color</h3>
+        <div role="list">
+          <button class="row" type="button" data-service="Single-process color"><span class="row__name">Single-process color</span><span class="row__price"><em>from</em>$95</span></button>
+          <button class="row" type="button" data-service="Balayage"><span class="row__name">Balayage</span><span class="row__price"><em>from</em>$180</span></button>
+          <button class="row" type="button" data-service="Partial highlights"><span class="row__name">Partial highlights</span><span class="row__price"><em>from</em>$130</span></button>
+          <button class="row" type="button" data-service="Gloss & toner"><span class="row__name">Gloss &amp; toner</span><span class="row__price">$55</span></button>
+        </div>
+      </section>
+
+      <section class="group" aria-labelledby="g-blow">
+        <h3 class="group__title" id="g-blow">blowouts &amp; styling</h3>
+        <div role="list">
+          <button class="row" type="button" data-service="Blowout"><span class="row__name">Blowout</span><span class="row__price">$45</span></button>
+          <button class="row" type="button" data-service="Blowout with a wave"><span class="row__name">Blowout with a wave</span><span class="row__price">$55</span></button>
+          <button class="row" type="button" data-service="Event hair"><span class="row__name">Event hair <em>updo or set</em></span><span class="row__price">$85</span></button>
+        </div>
+      </section>
+
+      <section class="group" aria-labelledby="g-treat">
+        <h3 class="group__title" id="g-treat">treatments</h3>
+        <div role="list">
+          <button class="row" type="button" data-service="Deep conditioning"><span class="row__name">Deep conditioning</span><span class="row__price">$35</span></button>
+          <button class="row" type="button" data-service="Scalp treatment"><span class="row__name">Scalp treatment</span><span class="row__price">$40</span></button>
+          <button class="row" type="button" data-service="Keratin smoothing"><span class="row__name">Keratin smoothing</span><span class="row__price">$275</span></button>
+        </div>
+      </section>
+    </div>
+
+    <p class="menu__note">
+      <strong>Tap any service to start a booking with it.</strong> Color corrections get a consult first, no charge.
+      Every cut includes a wash and a style; add a blowout to any color for $30.
+    </p>
+  </div>
+</section>
+
+<!-- ============================ STYLISTS ============================ -->
+<section class="stylists" id="stylists" aria-labelledby="stylists-title">
+  <div class="wrap">
+    <div class="stylists__head">
+      <h2 class="h2" id="stylists-title">who's behind the chair.</h2>
+      <p class="lede">
+        Four stylists, four specialties. Pick the one whose work looks like what you want, and
+        the booking already knows who you're asking for.
+      </p>
+    </div>
+
+    <div class="stylists__grid">
+      <article class="stylist">
+        <div class="stylist__photo">
+          <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&q=75&auto=format&fit=crop"
+               srcset="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=500&q=70&auto=format&fit=crop 500w,
+                       https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&q=75&auto=format&fit=crop 800w,
+                       https://images.unsplash.com/photo-1562322140-8baeececf3df?w=1200&q=75&auto=format&fit=crop 1200w"
+               sizes="(min-width: 1000px) 24vw, (min-width: 600px) 46vw, 100vw"
+               alt="A stylist blow-drying a short cut at the mirror." loading="lazy" decoding="async" width="800" height="1000">
+        </div>
+        <div class="stylist__body">
+          <h3 class="stylist__name">Tessa Marlowe</h3>
+          <p class="stylist__role">Owner · cuts &amp; color</p>
+          <p class="stylist__bio">Precision cuts and lived-in color. Fifteen years, most of them in this chair.</p>
+          <div class="stylist__chips"><span class="chip">Cut &amp; style</span><span class="chip">Single-process</span><span class="chip">Gloss</span></div>
+          <button class="btn btn--outline btn--sm" type="button" data-stylist="Tessa Marlowe" data-service="Cut & style">Book with Tessa</button>
+        </div>
+      </article>
+
+      <article class="stylist">
+        <div class="stylist__photo">
+          <img src="https://images.unsplash.com/photo-1521490683712-35a1cb235d1c?w=800&q=75&auto=format&fit=crop"
+               srcset="https://images.unsplash.com/photo-1521490683712-35a1cb235d1c?w=500&q=70&auto=format&fit=crop 500w,
+                       https://images.unsplash.com/photo-1521490683712-35a1cb235d1c?w=800&q=75&auto=format&fit=crop 800w,
+                       https://images.unsplash.com/photo-1521490683712-35a1cb235d1c?w=1200&q=75&auto=format&fit=crop 1200w"
+               sizes="(min-width: 1000px) 24vw, (min-width: 600px) 46vw, 100vw"
+               alt="A clipper cut in progress at the chair." loading="lazy" decoding="async" width="800" height="533">
+        </div>
+        <div class="stylist__body">
+          <h3 class="stylist__name">Devin Okafor</h3>
+          <p class="stylist__role">Cuts · clippers &amp; kids</p>
+          <p class="stylist__bio">Clipper cuts, fades, and kids who would rather be anywhere else. Fast, tidy, no fuss.</p>
+          <div class="stylist__chips"><span class="chip">Clipper cut</span><span class="chip">Kids cut</span><span class="chip">Bang trim</span></div>
+          <button class="btn btn--outline btn--sm" type="button" data-stylist="Devin Okafor" data-service="Clipper cut">Book with Devin</button>
+        </div>
+      </article>
+
+      <article class="stylist">
+        <div class="stylist__photo">
+          <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?w=800&q=75&auto=format&fit=crop"
+               srcset="https://images.unsplash.com/photo-1560869713-7d0a29430803?w=500&q=70&auto=format&fit=crop 500w,
+                       https://images.unsplash.com/photo-1560869713-7d0a29430803?w=800&q=75&auto=format&fit=crop 800w,
+                       https://images.unsplash.com/photo-1560869713-7d0a29430803?w=1200&q=75&auto=format&fit=crop 1200w"
+               sizes="(min-width: 1000px) 24vw, (min-width: 600px) 46vw, 100vw"
+               alt="A curling iron finishing hand-painted highlights at the chair." loading="lazy" decoding="async" width="800" height="1000">
+        </div>
+        <div class="stylist__body">
+          <h3 class="stylist__name">Priya Anand</h3>
+          <p class="stylist__role">Balayage &amp; blonding</p>
+          <p class="stylist__bio">Slow, even color. Bring photos, and your real hair history; both change the price.</p>
+          <div class="stylist__chips"><span class="chip">Balayage</span><span class="chip">Highlights</span><span class="chip">Toner</span></div>
+          <button class="btn btn--outline btn--sm" type="button" data-stylist="Priya Anand" data-service="Balayage">Book with Priya</button>
+        </div>
+      </article>
+
+      <article class="stylist">
+        <div class="stylist__photo">
+          <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=800&q=75&auto=format&fit=crop"
+               srcset="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=500&q=70&auto=format&fit=crop 500w,
+                       https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=800&q=75&auto=format&fit=crop 800w,
+                       https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=1200&q=75&auto=format&fit=crop 1200w"
+               sizes="(min-width: 1000px) 24vw, (min-width: 600px) 46vw, 100vw"
+               alt="A round-brush blowout in progress on shoulder-length hair." loading="lazy" decoding="async" width="800" height="1000">
+        </div>
+        <div class="stylist__body">
+          <h3 class="stylist__name">Sam Whitfield</h3>
+          <p class="stylist__role">Blowouts &amp; event hair</p>
+          <p class="stylist__bio">Blowouts, updos, wedding mornings, and the honest "you don't need that" when you don't.</p>
+          <div class="stylist__chips"><span class="chip">Blowout</span><span class="chip">Event hair</span><span class="chip">Wave</span></div>
+          <button class="btn btn--outline btn--sm" type="button" data-stylist="Sam Whitfield" data-service="Blowout">Book with Sam</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ BOOK ============================ -->
+<section class="book" id="book" aria-labelledby="book-title">
+  <div class="wrap book__inner">
+    <div class="book__copy">
+      <h2 class="h2" id="book-title">book a chair.</h2>
+      <p class="lede">
+        Pick the service and the person. We confirm by text within the hour, or call
+        <a class="link" href="tel:+18285550188">(828) 555-0188</a>.
+      </p>
+      <p class="book__fine">
+        Walk-ins are welcome until 5 pm, Tuesday to Saturday. After that, the chairs are booked.
+      </p>
+    </div>
+
+    <form class="form" id="book-form" novalidate>
+      <div class="form__row">
+        <div class="field">
+          <label for="b-service">Service</label>
+          <select id="b-service" name="service" required>
+            <option value="">What are we doing?</option>
+            <optgroup label="Cuts"><option>Cut &amp; style</option><option>Clipper cut</option><option>Bang trim</option><option>Kids cut</option></optgroup>
+            <optgroup label="Color"><option>Single-process color</option><option>Balayage</option><option>Partial highlights</option><option>Gloss &amp; toner</option></optgroup>
+            <optgroup label="Blowouts &amp; styling"><option>Blowout</option><option>Blowout with a wave</option><option>Event hair</option></optgroup>
+            <optgroup label="Treatments"><option>Deep conditioning</option><option>Scalp treatment</option><option>Keratin smoothing</option></optgroup>
+          </select>
+          <p class="field__error" id="b-service-err" hidden>Pick a service; the price list is just above.</p>
+        </div>
+        <div class="field">
+          <label for="b-stylist">Stylist</label>
+          <select id="b-stylist" name="stylist" required>
+            <option value="">Who would you like?</option>
+            <option>First available</option>
+            <option>Tessa Marlowe</option>
+            <option>Devin Okafor</option>
+            <option>Priya Anand</option>
+            <option>Sam Whitfield</option>
+          </select>
+          <p class="field__error" id="b-stylist-err" hidden>Pick a stylist, or "First available".</p>
+        </div>
+      </div>
+      <div class="form__row">
+        <div class="field">
+          <label for="b-date">Day</label>
+          <select id="b-date" name="date" required data-open-days>
+            <option value="">Which day?</option>
+          </select>
+          <p class="field__error" id="b-date-err" hidden>Pick a day; we're closed Sunday and Monday.</p>
+        </div>
+        <div class="field">
+          <label for="b-time">Time of day</label>
+          <select id="b-time" name="time" required>
+            <option value="">When works?</option>
+            <option>Morning (10–1)</option>
+            <option>Afternoon (1–4)</option>
+            <option>Evening (4–7)</option>
+          </select>
+          <p class="field__error" id="b-time-err" hidden>Morning, afternoon, or evening.</p>
+        </div>
+      </div>
+      <div class="form__row">
+        <div class="field">
+          <label for="b-name">Name</label>
+          <input id="b-name" name="name" type="text" required autocomplete="name" placeholder="Who's the chair for?">
+          <p class="field__error" id="b-name-err" hidden>We need a name for the booking.</p>
+        </div>
+        <div class="field">
+          <label for="b-phone">Mobile number</label>
+          <input id="b-phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel" placeholder="For the confirmation text">
+          <p class="field__error" id="b-phone-err" hidden>Enter a number we can text.</p>
+        </div>
+      </div>
+      <div class="field">
+        <label for="b-notes">Anything we should know? <span class="optional">Optional</span></label>
+        <input id="b-notes" name="notes" type="text" placeholder="Last color date, a photo you'll bring, a hard stop">
+      </div>
+      <div class="form__foot">
+        <button class="btn btn--accent" type="submit" data-submit><span data-submit-label>Request this chair</span></button>
+        <p class="form__demo">Concept form. On a live site this sends the request to your booking system (Square Appointments, Vagaro, Boulevard) or straight to the front desk's phone.</p>
+      </div>
+      <p class="form__status" id="book-status" role="status" aria-live="polite" hidden></p>
+    </form>
+  </div>
+</section>
+
+<!-- ============================ VISIT ============================ -->
+<section class="visit" id="visit" aria-labelledby="visit-title">
+  <div class="wrap visit__inner">
+    <div class="visit__copy">
+      <h2 class="h2" id="visit-title">find us.</h2>
+      <p class="lede">Haywood Road in West Asheville, between the bakery and the record shop. Green door.</p>
+
+      <dl class="visit__facts">
+        <div>
+          <dt>Address</dt>
+          <dd>418 Haywood Rd, Asheville, NC 28806<br>
+            <a class="link" href="https://www.google.com/maps/dir/?api=1&destination=418+Haywood+Rd+Asheville+NC+28806" target="_blank" rel="noopener">Open in Maps</a></dd>
+        </div>
+        <div>
+          <dt>Parking</dt>
+          <dd>Free lot behind the building, entrance off Vermont Ave. Two-hour street parking on Haywood.</dd>
+        </div>
+        <div>
+          <dt>Walk-ins</dt>
+          <dd>Welcome until 5 pm, Tuesday to Saturday. Color needs a booking; cuts and blowouts usually don't.</dd>
+        </div>
+        <div>
+          <dt>Cancellations</dt>
+          <dd>24 hours' notice, by text is fine. Late cancels and no-shows are charged half the service.</dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="hours" aria-labelledby="hours-title">
+      <h3 class="hours__title" id="hours-title">hours</h3>
+      <table class="hours__table" data-hours>
+        <tbody>
+          <tr data-day="1"><th scope="row">Monday</th><td>Closed</td></tr>
+          <tr data-day="2"><th scope="row">Tuesday</th><td>10 am – 7 pm</td></tr>
+          <tr data-day="3"><th scope="row">Wednesday</th><td>10 am – 7 pm</td></tr>
+          <tr data-day="4"><th scope="row">Thursday</th><td>10 am – 7 pm</td></tr>
+          <tr data-day="5"><th scope="row">Friday</th><td>10 am – 7 pm</td></tr>
+          <tr data-day="6"><th scope="row">Saturday</th><td>9 am – 5 pm</td></tr>
+          <tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr>
+        </tbody>
+      </table>
+      <p class="hours__note"><strong>Walk-ins until 5 pm.</strong> Last color appointment starts two hours before close.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <span class="brand footer__word">Auburn <i class="amp">&amp;</i> Ash</span>
+      <p>418 Haywood Rd, Asheville, NC 28806<br><a class="link" href="tel:+18285550188">(828) 555-0188</a> · <a class="link" href="https://instagram.com/" target="_blank" rel="noopener">@auburnandash.avl</a></p>
+    </div>
+    <p class="footer__hours">Tue–Fri 10–7 · Sat 9–5 · Closed Sun–Mon</p>
+    <p class="footer__concept">
+      Concept site designed and built by <a class="link" href="../../index.html#work">VINCERE</a>. Auburn &amp; Ash is a fictional
+      salon; the stylists, prices, and policies are illustrative and the photographs are placeholders from Unsplash.
+    </p>
+  </div>
+</footer>
+
+<!-- Mobile action bar: the three things a would-be DM does, within thumb reach on every screen. -->
+<nav class="bar" aria-label="Quick actions">
+  <a class="bar__btn bar__btn--accent" href="#book">Book a chair</a>
+  <a class="bar__btn" href="tel:+18285550188">Call</a>
+  <a class="bar__btn" href="https://www.google.com/maps/dir/?api=1&destination=418+Haywood+Rd+Asheville+NC+28806" target="_blank" rel="noopener">Directions</a>
+</nav>
+
+<script src="auburn.js" defer></script>
+</body>
+</html>

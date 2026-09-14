@@ -187,6 +187,7 @@
       apex: {
         tag: 'Automotive service',
         title: 'Apex Auto',
+        url: 'concepts/apex/index.html',
         desc: 'Technical and precise, with online scheduling at the center. Service pricing is visible up front instead of hidden behind a phone call.',
         points: [
           'Scheduling flow built for a phone in a parking lot',
@@ -203,6 +204,7 @@
       auburn: {
         tag: 'Hair salon',
         title: 'Auburn & Ash',
+        url: 'concepts/auburn/index.html',
         desc: 'Soft ground, one copper action, and the price list in the open. The site answers the two questions every salon gets by DM, how much and when, before anyone has to ask.',
         points: [
           'Service menu with prices on the first screen, not in a PDF',
@@ -219,6 +221,7 @@
       kestrel: {
         tag: 'Service contractor',
         title: 'Kestrel Plumbing & Heating',
+        url: 'concepts/kestrel/index.html',
         desc: 'Built for someone standing in a flooded kitchen. Call and quote actions come first, the license number and prices are visible, and there is nothing to read before tapping.',
         points: [
           'Tap-to-call and tap-to-text fixed on every mobile screen',
