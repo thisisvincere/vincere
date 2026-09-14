@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-14T00:00:00Z",
+  "title": "Design System: Halston & Co.",
+  "extensions": {
+    "colorMeta": {
+      "ground": { "role": "neutral", "displayName": "Black", "canonical": "#101012", "tonalRamp": ["oklch(15% 0.004 285)", "oklch(27% 0.004 285)", "oklch(39% 0.004 285)", "oklch(51% 0.004 285)", "oklch(63% 0.004 285)", "oklch(75% 0.004 285)", "oklch(87% 0.003 285)", "oklch(95% 0.002 285)"] },
+      "ground-deep": { "role": "neutral", "displayName": "Black Deep", "canonical": "#08080A", "tonalRamp": ["oklch(10% 0.004 285)", "oklch(22% 0.004 285)", "oklch(34% 0.004 285)", "oklch(46% 0.004 285)", "oklch(58% 0.004 285)", "oklch(70% 0.004 285)", "oklch(82% 0.003 285)", "oklch(95% 0.002 285)"] },
+      "ink": { "role": "neutral", "displayName": "Off-White", "canonical": "#F2F2F0", "tonalRamp": ["oklch(15% 0.003 110)", "oklch(27% 0.003 110)", "oklch(39% 0.003 110)", "oklch(51% 0.003 110)", "oklch(63% 0.003 110)", "oklch(75% 0.003 110)", "oklch(87% 0.003 110)", "oklch(96% 0.003 110)"] },
+      "ink-soft": { "role": "neutral", "displayName": "Ink Soft", "canonical": "#A9A9A7", "tonalRamp": ["oklch(15% 0.002 110)", "oklch(27% 0.002 110)", "oklch(39% 0.002 110)", "oklch(51% 0.002 110)", "oklch(63% 0.002 110)", "oklch(73% 0.002 110)", "oklch(85% 0.002 110)", "oklch(95% 0.002 110)"] },
+      "ink-muted": { "role": "neutral", "displayName": "Ink Muted", "canonical": "#8C8C8A", "tonalRamp": ["oklch(15% 0.002 110)", "oklch(27% 0.002 110)", "oklch(39% 0.002 110)", "oklch(51% 0.002 110)", "oklch(62% 0.002 110)", "oklch(74% 0.002 110)", "oklch(86% 0.002 110)", "oklch(95% 0.002 110)"] },
+      "accent": { "role": "primary", "displayName": "Ink as Action", "canonical": "#F2F2F0", "tonalRamp": ["oklch(15% 0.003 110)", "oklch(27% 0.003 110)", "oklch(39% 0.003 110)", "oklch(51% 0.003 110)", "oklch(63% 0.003 110)", "oklch(75% 0.003 110)", "oklch(87% 0.003 110)", "oklch(96% 0.003 110)"] },
+      "accent-ink": { "role": "primary", "displayName": "Ink on Action", "canonical": "#08080A" },
+      "accent-hover": { "role": "primary", "displayName": "Action Hover", "canonical": "#FFFFFF" },
+      "line": { "role": "neutral", "displayName": "Line", "canonical": "rgba(242, 242, 240, 0.18)" },
+      "line-strong": { "role": "neutral", "displayName": "Line Strong", "canonical": "rgba(242, 242, 240, 0.38)" },
+      "error": { "role": "tertiary", "displayName": "Error", "canonical": "#FF8A72", "tonalRamp": ["oklch(15% 0.05 35)", "oklch(27% 0.09 35)", "oklch(39% 0.13 35)", "oklch(51% 0.16 35)", "oklch(63% 0.16 35)", "oklch(74% 0.14 35)", "oklch(86% 0.08 35)", "oklch(95% 0.03 35)"] },
+      "focus": { "role": "primary", "displayName": "Focus", "canonical": "#F2F2F0" },
+      "ivory-ground": { "role": "neutral", "displayName": "Ivory Ground", "canonical": "#F4F0E8", "tonalRamp": ["oklch(15% 0.008 85)", "oklch(27% 0.01 85)", "oklch(39% 0.012 85)", "oklch(51% 0.012 85)", "oklch(63% 0.012 85)", "oklch(75% 0.012 85)", "oklch(87% 0.01 85)", "oklch(96% 0.008 85)"] },
+      "ivory-ground-deep": { "role": "neutral", "displayName": "Ivory Ground Deep", "canonical": "#EAE4D8" },
+      "ivory-ink": { "role": "neutral", "displayName": "Ivory Ink", "canonical": "#121212" },
+      "ivory-ink-soft": { "role": "neutral", "displayName": "Ivory Ink Soft", "canonical": "#4A4744" },
+      "ivory-ink-muted": { "role": "neutral", "displayName": "Ivory Ink Muted", "canonical": "#66625D" },
+      "ivory-accent": { "role": "primary", "displayName": "Ivory Ink as Action", "canonical": "#121212", "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(95% 0 0)"] },
+      "ivory-accent-ink": { "role": "primary", "displayName": "Ivory Ink on Action", "canonical": "#F4F0E8" },
+      "ivory-accent-hover": { "role": "primary", "displayName": "Ivory Action Hover", "canonical": "#000000" },
+      "ivory-line": { "role": "neutral", "displayName": "Ivory Line", "canonical": "rgba(18, 18, 18, 0.16)" },
+      "ivory-line-strong": { "role": "neutral", "displayName": "Ivory Line Strong", "canonical": "rgba(18, 18, 18, 0.36)" },
+      "ivory-error": { "role": "tertiary", "displayName": "Ivory Error", "canonical": "#B4321B" },
+      "ivory-focus": { "role": "primary", "displayName": "Ivory Focus", "canonical": "#121212" },
+      "oxblood-ground": { "role": "neutral", "displayName": "Oxblood Ground", "canonical": "#431719", "tonalRamp": ["oklch(15% 0.05 20)", "oklch(25% 0.07 20)", "oklch(37% 0.09 20)", "oklch(49% 0.1 20)", "oklch(61% 0.09 20)", "oklch(73% 0.07 20)", "oklch(85% 0.04 20)", "oklch(95% 0.015 20)"] },
+      "oxblood-ground-deep": { "role": "neutral", "displayName": "Oxblood Ground Deep", "canonical": "#2C0F11" },
+      "oxblood-ink": { "role": "neutral", "displayName": "Oxblood Ink", "canonical": "#F6E9E3" },
+      "oxblood-ink-soft": { "role": "neutral", "displayName": "Oxblood Ink Soft", "canonical": "#CDB2AA" },
+      "oxblood-ink-muted": { "role": "neutral", "displayName": "Oxblood Ink Muted", "canonical": "#B39790" },
+      "oxblood-accent": { "role": "primary", "displayName": "Rose (fill)", "canonical": "#E9CFC3", "tonalRamp": ["oklch(15% 0.02 45)", "oklch(27% 0.03 45)", "oklch(39% 0.04 45)", "oklch(51% 0.05 45)", "oklch(63% 0.05 45)", "oklch(75% 0.05 45)", "oklch(86% 0.04 45)", "oklch(95% 0.02 45)"] },
+      "oxblood-accent-ink": { "role": "primary", "displayName": "Oxblood Ink on Action", "canonical": "#2C0F11" },
+      "oxblood-accent-hover": { "role": "primary", "displayName": "Oxblood Action Hover", "canonical": "#F6E9E3" },
+      "oxblood-line": { "role": "neutral", "displayName": "Oxblood Line", "canonical": "rgba(246, 233, 227, 0.2)" },
+      "oxblood-line-strong": { "role": "neutral", "displayName": "Oxblood Line Strong", "canonical": "rgba(246, 233, 227, 0.4)" },
+      "oxblood-error": { "role": "tertiary", "displayName": "Oxblood Error", "canonical": "#FFB4A0" },
+      "oxblood-focus": { "role": "primary", "displayName": "Oxblood Focus", "canonical": "#E9CFC3" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero H1 only, Archivo 800 uppercase at -0.04em / 0.92, three explicit lines spanning the wrap, below 900px." },
+      "display-wide": { "displayName": "Display Wide", "purpose": "The same H1 from 900px, where the side column tucks into the room right of \"CUT.\"." },
+      "headline": { "displayName": "Headline", "purpose": "Section H2s, 800 uppercase at -0.04em / 0.95, each ending in a period at 40% opacity." },
+      "hours-title": { "displayName": "Hours Title", "purpose": "\"Hours\" in the hours block, 800 uppercase at -0.03em." },
+      "monogram": { "displayName": "Monogram", "purpose": "Two initials in each barber's 4.5rem hairline box, 800 at 0.08em with matching text-indent." },
+      "title": { "displayName": "Title", "purpose": "The four barber names, 700 at -0.02em." },
+      "ledger": { "displayName": "Ledger", "purpose": "A service's name and, tabular, its price at the right edge; 700 at -0.01em." },
+      "wordmark": { "displayName": "Wordmark", "purpose": "\"Halston & Co.\" in the nav and footer, 700 uppercase at 0.16em; shown at every width." },
+      "hero-sub": { "displayName": "Hero Sub", "purpose": "The one hero sentence in Ink Soft, capped at 30ch." },
+      "lede": { "displayName": "Lede", "purpose": "Paragraph beside each H2 in Ink Soft, 40ch, right-aligned from 800px." },
+      "body": { "displayName": "Body", "purpose": "Base text at 1.0625rem; facts, footer address, the status box, field text at 1rem." },
+      "body-sm": { "displayName": "Body Small", "purpose": "Ledger notes, barber text, fine print, the hours note, the footer." },
+      "caption": { "displayName": "Caption", "purpose": "The demo note, the concept credit, field errors. The floor for running copy." },
+      "button": { "displayName": "Button", "purpose": "Every .btn: 700 uppercase at 0.12em, line-height 1." },
+      "button-sm": { "displayName": "Button Small", "purpose": "btn--sm (nav BOOK, Book with <name>) and the ledger Book square." },
+      "bar-button": { "displayName": "Bar Button", "purpose": "The fixed mobile bar's two buttons and the skip link (0.1em)." },
+      "label": { "displayName": "Label", "purpose": "Nav links, the hours bar, facts' terms, barber roles and days, field labels, footer hours: 500 uppercase at 0.14em (0.12em on roles and days). Sits with what it names, never above a headline." },
+      "chip": { "displayName": "Chip", "purpose": "The two hero chips and the \" · today\" suffix: 500 uppercase at 0.1em. The smallest type on the page; a box or a suffix, never a sentence." }
+    },
+    "skins": [
+      { "id": "mono", "selector": ":root", "label": "Mono", "swatch": ["#101012", "#F2F2F0"], "purpose": "Default. Near-black ground (#101012 settling to #08080A), off-white ink (#F2F2F0) that is also the fill with the deep black on it; hairlines at 18% and 38%; chrome equals the ground; color-scheme dark." },
+      { "id": "ivory", "selector": "html[data-skin=\"ivory\"]", "label": "Ivory", "swatch": ["#F4F0E8", "#121212"], "purpose": "Warm off-white ground (#F4F0E8 settling to #EAE4D8), near-black ink (#121212) that is also the fill; hover pure black; hairlines at 16% and 36%; error brick; color-scheme light. The only light skin." },
+      { "id": "oxblood", "selector": "html[data-skin=\"oxblood\"]", "label": "Oxblood", "swatch": ["#431719", "#E9CFC3"], "purpose": "Deep oxblood ground (#431719 settling to #2C0F11), rose-white ink (#F6E9E3), and the one skin where the fill is not the ink: a pale rose (#E9CFC3) with the deep oxblood on it; hairlines at 20% and 40%; error pale salmon; dark." }
+    ],
+    "shadows": [
+      { "name": "none", "value": "none", "purpose": "box-shadow does not appear in halston.css. Nothing is lifted, including the fixed mobile bar, which separates by its Line rule and 94% chrome." },
+      { "name": "ring-focus", "value": "outline: 2px solid var(--focus); outline-offset: 3px; border-radius: 2px", "purpose": "Global focus-visible ring in Ink (the rose on Oxblood). State, not depth." },
+      { "name": "chrome", "value": "background: rgba(var(--chrome), 0.7); backdrop-filter: blur(14px)", "purpose": "Nav at rest; 0.92 when stuck (with a Line rule); 0.94 on the fixed bar. The chrome triplet equals the ground." },
+      { "name": "settle", "value": "linear-gradient(180deg, var(--ground) 0%, var(--ground) 40%, var(--ground-deep) 100%)", "purpose": "The body ground, the page's one gradient; sections carry no fill and are cut apart by Line hairlines." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "The one easing (out-expo) for every transition and the headline rise." },
+      { "name": "t-fast", "value": "160ms", "purpose": "Button fill, color, border, and transform on hover and press; ledger Book fill; link underline; nav link color; field borders." },
+      { "name": "t-mid", "value": "320ms", "purpose": "Nav chrome and border, and the skip link." },
+      { "name": "t-slow", "value": "600ms", "purpose": "The three headline lines rise 12px, staggered 0/60/120ms. The only entrance on the page; nothing below the hero animates." },
+      { "name": "reduced-motion", "value": "prefers-reduced-motion: reduce removes every animation, collapses transitions to 0.01ms, and disables smooth scroll", "purpose": "Accessibility gate; the ledger's and barbers' scroll-to-form and focus also become instant." }
+    ],
+    "breakpoints": [
+      { "name": "ledger-2col (below), crew-2, form-rows, form-foot", "value": "600px" },
+      { "name": "hours-bar-3col (below: hero shortens by the bar, live line first)", "value": "700px" },
+      { "name": "nav-links", "value": "760px" },
+      { "name": "section-head-split", "value": "800px" },
+      { "name": "nav-cta, hero-actions, display-wide, side-column-tucks, visit, sticky-hours, book, footer, bar-hides, section-book-links-show", "value": "900px" },
+      { "name": "crew-4", "value": "1000px" },
+      { "name": "wrap", "value": "1120px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Fill Button",
+      "kind": "button",
+      "refersTo": "button-fill",
+      "description": "The one action, and it is the ink as a block: Black Deep on Off-White at 2px with a 1px border in its own fill, 700 uppercase tracked 0.12em; brightens and rises 1px on hover, presses 1px on active.",
+      "html": "<a class=\"ds-btn ds-btn-fill\" href=\"#\"><span>Book a chair</span></a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; padding: 1.05rem 1.6rem; border-radius: 2px; border: 1px solid transparent; font-family: var(--font, 'Archivo', sans-serif); font-weight: 700; font-size: 0.875rem; line-height: 1; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; white-space: nowrap; cursor: pointer; transition: background-color 160ms cubic-bezier(0.16,1,0.3,1), color 160ms cubic-bezier(0.16,1,0.3,1), border-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-fill { background: var(--accent, #F2F2F0); color: var(--accent-ink, #08080A); border-color: var(--accent, #F2F2F0); } .ds-btn-fill:hover { background: var(--accent-hover, #FFFFFF); border-color: var(--accent-hover, #FFFFFF); transform: translateY(-1px); } .ds-btn-fill:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--focus, #F2F2F0); outline-offset: 3px; }"
+    },
+    {
+      "name": "Outline Button (call)",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "The hero's CALL and, small, the four Book with <name> buttons: Off-White on transparent with a 1px Line Strong border that turns Ink on hover. Same size as the fill so the pair aligns.",
+      "html": "<a class=\"ds-btn ds-btn-outline\" href=\"tel:+15045550188\"><span>Call</span></a> <button class=\"ds-btn ds-btn-outline ds-btn-sm\" type=\"button\"><span>Book with Ray</span></button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; padding: 1.05rem 1.6rem; border-radius: 2px; border: 1px solid transparent; font-family: var(--font, 'Archivo', sans-serif); font-weight: 700; font-size: 0.875rem; line-height: 1; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; white-space: nowrap; background: none; cursor: pointer; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-sm { padding: 0.8rem 1.1rem; font-size: 0.75rem; } .ds-btn-outline { background: transparent; color: var(--ink, #F2F2F0); border-color: var(--line-strong, rgba(242,242,240,0.38)); } .ds-btn-outline:hover { border-color: var(--ink, #F2F2F0); } .ds-btn:focus-visible { outline: 2px solid var(--focus, #F2F2F0); outline-offset: 3px; }"
+    },
+    {
+      "name": "Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Two facts a man wants before he scrolls, as 2px hairline boxes: transparent on a Line Strong border, 0.6875rem 500 uppercase tracked 0.1em in Off-White. Static; not filters.",
+      "html": "<div class=\"ds-chips\" aria-label=\"Good to know\"><span class=\"ds-chip\">Walk-ins welcome</span><span class=\"ds-chip\">Hot towel shave</span></div>",
+      "css": ".ds-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 1rem; background: var(--ground, #101012); font-family: var(--font, 'Archivo', sans-serif); } .ds-chip { display: inline-flex; align-items: center; padding: 0.5rem 0.75rem; border-radius: 2px; border: 1px solid var(--line-strong, rgba(242,242,240,0.38)); font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink, #F2F2F0); white-space: nowrap; }"
+    },
+    {
+      "name": "Hours Bar (signature)",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "The foot of the hero: a Line rule, then one Label line in Ink Soft with tabular figures, 1fr auto 1fr. Fixed hours left, address right, and in the middle the live line in Off-White with a 7px Ink dot, computed by halston.js from HOURS and OPENINGS; closed drops the line to Ink Soft and the dot to Ink Muted.",
+      "html": "<div class=\"ds-hours-bar\"><span class=\"ds-hours-cell\">Mon–Sat · 9–7</span><span class=\"ds-hours-cell ds-hours-status\">Open · closes 7 pm · next chair 3:40 pm</span><span class=\"ds-hours-cell ds-hours-addr\">412 Canal St</span></div><div class=\"ds-hours-bar\"><span class=\"ds-hours-cell\">Mon–Sat · 9–7</span><span class=\"ds-hours-cell ds-hours-status is-closed\">Closed · opens tomorrow 9 am · next chair tomorrow 9 am</span><span class=\"ds-hours-cell ds-hours-addr\">412 Canal St</span></div>",
+      "css": ".ds-hours-bar { display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.5rem 1.5rem; padding: 1.1rem 1rem 1.25rem; border-top: 1px solid var(--line, rgba(242,242,240,0.18)); background: var(--ground, #101012); font-family: var(--font, 'Archivo', sans-serif); font-size: 0.75rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft, #A9A9A7); font-variant-numeric: tabular-nums; } .ds-hours-cell { white-space: nowrap; } .ds-hours-status { color: var(--ink, #F2F2F0); } .ds-hours-status::before { content: \"\"; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--ink, #F2F2F0); margin-right: 0.65rem; vertical-align: 0.1em; } .ds-hours-status.is-closed { color: var(--ink-soft, #A9A9A7); } .ds-hours-status.is-closed::before { background: var(--ink-muted, #8C8C8A); } .ds-hours-addr { text-align: right; }"
+    },
+    {
+      "name": "Ledger (signature)",
+      "kind": "custom",
+      "refersTo": "ledger-book",
+      "description": "The price list: a Line Strong top, then each service on a Line rule with the name in 700, a dotted Line Strong leader flexed to the tabular price, a note in Ink Muted under the name, and a 2px hairline Book square that fills with the accent on hover and carries data-book-service into the form.",
+      "html": "<ol class=\"ds-ledger\"><li class=\"ds-ledger-row\"><span class=\"ds-ledger-name\">Classic cut</span><span class=\"ds-ledger-note\">Scissors or clippers, hot towel finish · 40 min</span><span class=\"ds-ledger-price\">$38</span><button class=\"ds-ledger-book\" type=\"button\" data-book-service=\"Classic cut\">Book</button></li><li class=\"ds-ledger-row\"><span class=\"ds-ledger-name\">Hot towel shave</span><span class=\"ds-ledger-note\">Straight razor, two passes, cold towel to finish · 40 min</span><span class=\"ds-ledger-price\">$45</span><button class=\"ds-ledger-book\" type=\"button\" data-book-service=\"Hot towel shave\">Book</button></li></ol>",
+      "css": ".ds-ledger { list-style: none; margin: 0; padding: 0 1rem; max-width: 640px; border-top: 1px solid var(--line-strong, rgba(242,242,240,0.38)); background: var(--ground, #101012); color: var(--ink, #F2F2F0); font-family: var(--font, 'Archivo', sans-serif); font-size: 1.0625rem; line-height: 1.55; } .ds-ledger-row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; grid-template-areas: \"name price book\" \"note price book\"; column-gap: 1.25rem; align-items: baseline; padding: 1.1rem 0; border-bottom: 1px solid var(--line, rgba(242,242,240,0.18)); } .ds-ledger-name { grid-area: name; display: flex; align-items: baseline; gap: 1rem; font-weight: 700; font-size: 1.125rem; letter-spacing: -0.01em; white-space: nowrap; min-width: 0; } .ds-ledger-name::after { content: \"\"; flex: 1; border-bottom: 1px dotted var(--line-strong, rgba(242,242,240,0.38)); transform: translateY(-0.3em); } .ds-ledger-note { grid-area: note; font-size: 0.9375rem; color: var(--ink-muted, #8C8C8A); margin-top: 0.2rem; } .ds-ledger-price { grid-area: price; font-weight: 700; font-size: 1.125rem; font-variant-numeric: tabular-nums; white-space: nowrap; align-self: start; } .ds-ledger-book { grid-area: book; align-self: start; font: inherit; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.5rem 0.75rem; border: 1px solid var(--line-strong, rgba(242,242,240,0.38)); border-radius: 2px; background: none; color: var(--ink, #F2F2F0); cursor: pointer; transform: translateY(-0.3rem); transition: border-color 160ms cubic-bezier(0.16,1,0.3,1), background-color 160ms cubic-bezier(0.16,1,0.3,1), color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-ledger-book:hover { background: var(--accent, #F2F2F0); color: var(--accent-ink, #08080A); border-color: var(--accent, #F2F2F0); } .ds-ledger-book:focus-visible { outline: 2px solid var(--focus, #F2F2F0); outline-offset: 3px; }"
+    },
+    {
+      "name": "Barber (signature)",
+      "kind": "card",
+      "refersTo": "monogram",
+      "description": "One of four: a Line Strong top rule, a 4.5rem monogram in a 2px hairline box at 800 tracked 0.08em (the portrait this world does not take), the name at 700, the role as a Label in Ink Muted, short copy, the days as a Label in Ink, and a small outline Book with <name> carrying data-book-barber.",
+      "html": "<div class=\"ds-barber\"><span class=\"ds-mono\" aria-hidden=\"true\">RM</span><h3 class=\"ds-barber-name\">Ray Marchetti</h3><p class=\"ds-barber-role\">Owner · Chair 1 · 19 years</p><p class=\"ds-barber-text\">Scissor work and classic tapers. Cut the same men every three weeks since 2009. Doesn't do trends, does do your father's haircut properly.</p><p class=\"ds-barber-days\">Tue–Sat</p><button class=\"ds-btn ds-btn-outline ds-btn-sm\" type=\"button\" data-book-barber=\"Ray Marchetti\"><span>Book with Ray</span></button></div>",
+      "css": ".ds-barber { display: grid; gap: 0.5rem; align-items: start; max-width: 260px; padding: 1.25rem 1rem 1rem; border-top: 1px solid var(--line-strong, rgba(242,242,240,0.38)); background: var(--ground, #101012); color: var(--ink, #F2F2F0); font-family: var(--font, 'Archivo', sans-serif); } .ds-mono { display: inline-grid; place-items: center; width: 4.5rem; height: 4.5rem; margin-bottom: 0.75rem; border: 1px solid var(--line-strong, rgba(242,242,240,0.38)); border-radius: 2px; font-weight: 800; font-size: 1.375rem; letter-spacing: 0.08em; text-indent: 0.08em; text-transform: uppercase; } .ds-barber-name { margin: 0; font-weight: 700; font-size: 1.25rem; letter-spacing: -0.02em; line-height: 1.15; } .ds-barber-role { margin: 0; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-muted, #8C8C8A); font-variant-numeric: tabular-nums; } .ds-barber-text { margin: 0.35rem 0 0; color: var(--ink-soft, #A9A9A7); font-size: 0.9375rem; line-height: 1.5; } .ds-barber-days { margin: 0.35rem 0 0; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; } .ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; margin-top: 0.75rem; justify-self: start; padding: 0.8rem 1.1rem; border-radius: 2px; border: 1px solid var(--line-strong, rgba(242,242,240,0.38)); background: transparent; color: var(--ink, #F2F2F0); font: inherit; font-weight: 700; font-size: 0.75rem; line-height: 1; letter-spacing: 0.12em; text-transform: uppercase; white-space: nowrap; cursor: pointer; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn:hover { border-color: var(--ink, #F2F2F0); } .ds-btn:focus-visible { outline: 2px solid var(--focus, #F2F2F0); outline-offset: 3px; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky 72px bar on translucent black chrome with blur; \"Halston & Co.\" 700 uppercase at 0.16em, four Label links in Ink Soft hovering to Ink, a small filled BOOK right.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-nav-brand\" href=\"#\">Halston &amp; Co.</a><nav class=\"ds-nav-links\"><a href=\"#\">Services</a><a href=\"#\">Barbers</a><a href=\"#\">Hours</a><a href=\"#\">Visit</a></nav><a class=\"ds-nav-cta\" href=\"#\">Book</a></header>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; height: 72px; padding: 0 1.5rem; background: rgba(var(--chrome, 16, 16, 18), 0.92); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line, rgba(242,242,240,0.18)); color: var(--ink, #F2F2F0); font-family: var(--font, 'Archivo', sans-serif); } .ds-nav-brand { font-weight: 700; font-size: 0.9375rem; letter-spacing: 0.16em; text-transform: uppercase; text-decoration: none; color: inherit; white-space: nowrap; } .ds-nav-links { display: flex; gap: 1.75rem; } .ds-nav-links a { text-decoration: none; font-weight: 500; font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft, #A9A9A7); transition: color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-nav-links a:hover { color: var(--ink, #F2F2F0); } .ds-nav-cta { display: inline-flex; align-items: center; padding: 0.8rem 1.1rem; border-radius: 2px; border: 1px solid var(--accent, #F2F2F0); font-size: 0.75rem; font-weight: 700; line-height: 1; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; background: var(--accent, #F2F2F0); color: var(--accent-ink, #08080A); transition: background-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-nav-cta:hover { background: var(--accent-hover, #FFFFFF); transform: translateY(-1px); } .ds-nav a:focus-visible { outline: 2px solid var(--focus, #F2F2F0); outline-offset: 3px; border-radius: 2px; }"
+    },
+    {
+      "name": "Select Field (open days)",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Transparent on a 1px Line Strong border at 2px with a 16px Ink Soft chevron, 3.375rem tall at 1rem; label above as a Label in Ink Soft; hover to Ink Soft, focus to an Ink border with no halo. The Day field lists the next ten open days from halston.js, never a native date input.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-day\">Day</label><select id=\"ds-day\"><option value=\"\">Which day?</option><option>Today</option><option>Tomorrow</option><option>Wed Sep 16</option><option>Thu Sep 17</option><option>Fri Sep 18</option><option>Sat Sep 19</option></select></div>",
+      "css": ".ds-field { display: grid; gap: 0.5rem; max-width: 340px; padding: 1rem; background: var(--ground, #101012); font-family: var(--font, 'Archivo', sans-serif); color: var(--ink, #F2F2F0); } .ds-field label { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft, #A9A9A7); } .ds-field select { width: 100%; box-sizing: border-box; min-height: 3.375rem; padding: 0.95rem 2.75rem 0.95rem 1rem; background: transparent url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23A9A9A7' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E\") no-repeat right 1rem center; border: 1px solid var(--line-strong, rgba(242,242,240,0.38)); border-radius: 2px; color: var(--ink, #F2F2F0); font: inherit; font-size: 1rem; -webkit-appearance: none; appearance: none; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-field select option { color: initial; } .ds-field select:hover { border-color: var(--ink-soft, #A9A9A7); } .ds-field select:focus-visible { outline: none; border-color: var(--ink, #F2F2F0); } .ds-field select[aria-invalid=\"true\"] { border-color: var(--error, #FF8A72); }"
+    },
+    {
+      "name": "Hours Block",
+      "kind": "card",
+      "refersTo": "status-box",
+      "description": "Not a card: a Line Strong top rule, the 800 uppercase title, hairline rows at Body with tabular figures in Ink Soft, today's row in Ink 700 with a Chip-size suffix in Ink Muted, and a note in Ink Muted.",
+      "html": "<div class=\"ds-hours\"><h3 class=\"ds-hours-title\">Hours</h3><table class=\"ds-hours-table\"><tbody><tr class=\"is-today\"><th scope=\"row\">Monday</th><td>9 – 7</td></tr><tr><th scope=\"row\">Tuesday</th><td>9 – 7</td></tr><tr><th scope=\"row\">Saturday</th><td>9 – 7</td></tr><tr><th scope=\"row\">Sunday</th><td>Closed</td></tr></tbody></table><p class=\"ds-hours-note\">Last chair at 6:30. Closed on major holidays; we post it on the door a week ahead.</p></div>",
+      "css": ".ds-hours { max-width: 380px; padding: 1.25rem 1rem 1rem; border-top: 1px solid var(--line-strong, rgba(242,242,240,0.38)); background: var(--ground, #101012); color: var(--ink, #F2F2F0); font-family: var(--font, 'Archivo', sans-serif); font-size: 1.0625rem; line-height: 1.55; } .ds-hours-title { margin: 0 0 1rem; font-weight: 800; font-size: 1.5rem; letter-spacing: -0.03em; text-transform: uppercase; } .ds-hours-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; } .ds-hours-table th, .ds-hours-table td { padding: 0.7rem 0; border-top: 1px solid var(--line, rgba(242,242,240,0.18)); text-align: left; font-weight: 400; color: var(--ink-soft, #A9A9A7); } .ds-hours-table td { text-align: right; white-space: nowrap; } .ds-hours-table tr.is-today th, .ds-hours-table tr.is-today td { color: var(--ink, #F2F2F0); font-weight: 700; } .ds-hours-table tr.is-today th::after { content: \" · today\"; font-weight: 500; letter-spacing: 0.1em; font-size: 0.6875rem; text-transform: uppercase; color: var(--ink-muted, #8C8C8A); } .ds-hours-note { margin: 1rem 0 0; font-size: 0.9375rem; color: var(--ink-muted, #8C8C8A); line-height: 1.5; }"
+    },
+    {
+      "name": "Mobile Action Bar",
+      "kind": "nav",
+      "refersTo": "bar-button-fill",
+      "description": "Fixed bottom bar below 900px on 94% chrome with a Line top rule and no shadow: Book a chair as the filled square at 1.6fr, Call as Ink on a Line Strong border at 1fr, 50px tall at 0.8125rem 700 uppercase tracked 0.12em. The one repeat of Book/Call on mobile.",
+      "html": "<nav class=\"ds-bar\"><a class=\"ds-bar-btn ds-bar-btn-fill\" href=\"#\">Book a chair</a><a class=\"ds-bar-btn\" href=\"tel:+15045550188\">Call</a></nav>",
+      "css": ".ds-bar { display: grid; grid-template-columns: 1.6fr 1fr; gap: 0.5rem; max-width: 420px; padding: 0.6rem 1.25rem; background: rgba(var(--chrome, 16, 16, 18), 0.94); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-top: 1px solid var(--line, rgba(242,242,240,0.18)); font-family: var(--font, 'Archivo', sans-serif); } .ds-bar-btn { display: flex; align-items: center; justify-content: center; min-height: 50px; border-radius: 2px; font-weight: 700; font-size: 0.8125rem; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border: 1px solid var(--line-strong, rgba(242,242,240,0.38)); color: var(--ink, #F2F2F0); white-space: nowrap; } .ds-bar-btn-fill { background: var(--accent, #F2F2F0); color: var(--accent-ink, #08080A); border-color: var(--accent, #F2F2F0); } .ds-bar-btn:focus-visible { outline: 2px solid var(--focus, #F2F2F0); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "One Button and the Board Behind It",
+    "overview": "Halston & Co. is a one-page barber-shop site that is one action (\"Book a chair\") and everything a man on his phone needs before pressing it: whether he can get in, with whom, what it costs, and when the door is open, each within one scroll. The first screen carries the name, a three-line headline the size of the screen (\"THE / CLASSIC / CUT.\"), two chips (\"Walk-ins welcome\", \"Hot towel shave\"), one sentence, the filled BOOK A CHAIR beside an outline CALL, and along the foot of the hero a hairline hours bar whose middle is live (\"Open · closes 7 pm · next chair 3:40 pm\"). Below it the services are a price ledger with dotted leaders and one price each, the four barbers are tracked monograms rather than portraits, the hours and address sit in the middle for the visitor who only wanted to check them, and the form arrives with the barber and the service already chosen. Remove the copy and you would still recognize it: black, one off-white block button, uppercase tracked hairline labels, a headline the size of the screen.\n\nIt is VINCERE's sixth template base (\"one structure, many skins\") and the sibling of Sasso, Apex, Kestrel, Auburn, and Northline. Every color on the page lives in one token block at the top of `halston.css`; a skin is a second, complete token block on `html[data-skin]` and nothing structural changes beneath it. Two alternate skins ship (Ivory, Oxblood) and match the three-way switcher in the VINCERE home page's concept panel. Unlike the siblings, there is no accent hue: the ink is the action. `--accent` equals `--ink` on Mono and Ivory (Oxblood alone tints it to a pale rose), so the filled button is the page's own text color as a block and there is no second hue anywhere. The `--chrome` triplet equals the ground so the nav and the mobile bar are the page at 70%, 92%, and 94%. The ground is not one value but a settle: the body is a gradient from `--ground` (held to 40%) into `--ground-deep` by the foot, which is the only gradient on the page and the only thing that could be mistaken for a band fill. Halston is fictional, carries `noindex, nofollow`, and is never listed in the sitemap; its palette and type are deliberately not VINCERE tokens (see the root DESIGN.md's \"Concept Previews\" exception).\n\nThe type is the argument: the card sells \"a type-led layout that needs no photography to feel finished\", and the page proves it with Archivo alone, loaded at 400, 500, 700, and 800 from Google Fonts. 800 uppercase at -0.04em for the H1 and every H2; 500 tracked uppercase at 0.10 to 0.16em for every label, nav link, and chip; 700 for names, prices, and buttons; 400 for the little running text there is, at 1.0625rem. Density is tight: sections sit on a clamp(4.5rem, 9vw, 8rem) rhythm, copy is capped at 30 to 60ch, and there is not one card on the page; hairlines rule the rows, the barbers, the hours, and the seams. Nothing is lifted, nothing is photographed, nothing is rounded past 2px. Confirmed rejections (from the direction contract and held in the build): a moody photograph of a straight razor, an Instagram embed in place of a menu, \"prices vary\" or \"call for details\", a booking link that opens someone else's app, reviews, ratings, \"voted best\", and an eyebrow kicker above the headline.",
+    "keyCharacteristics": [
+      "Two blacks (#101012 settling to #08080A) do the sectioning as one gradient; hairlines at 18% and 38% ink do the ruling; there are no band fills and no cards",
+      "One color for the action and it is the ink: #F2F2F0 fills BOOK, is the caret, the selection, the focus ring, the hours-bar dot, and the sent-form border; Oxblood is the only skin where `--accent` and `--ink` differ",
+      "Archivo 800 uppercase at -0.04em for the H1 (0.92) and every H2 (0.95); 500 tracked uppercase at 0.14em for labels; 700 for names, prices, and buttons; 400 at 1.0625rem for reading; nothing bolder than 800, nothing at 600",
+      "One radius: 2px on every button, chip, field, monogram, status box, and focus outline; circles only as the 7px hours-bar dot and the scrollbar thumb",
+      "Flat and dry: no shadow anywhere, not even under the fixed mobile bar; chrome is the ground at 70/92/94% with a 14px blur",
+      "Tabular numerals on every price, every time, the hours bar, the hours table, the barber roles, and the footer hours",
+      "Dotted leaders on the ledger (1px dotted Line Strong), a tracked 4.5rem monogram in a hairline box for each barber, and a hairline hours bar whose middle is live",
+      "A skin is a token block on `html[data-skin]`, selected by `?skin=<id>`, and the `<head>` script rewrites `theme-color` and `color-scheme` to match; below the token block only `color-scheme` and the select chevron are skin-scoped",
+      "One easing (out-expo) and three durations (160/320/600ms); the three headline lines rise once with a 60ms stagger and nothing else on the page animates but hovers"
+    ],
+    "rules": [
+      { "name": "The Ink Is the Action Rule", "body": "There is no accent hue. The filled button is `--accent` with `--accent-ink` on it, and on Mono and Ivory `--accent` equals `--ink`: the action is the text color as a block. A skin may warm the fill (Oxblood) but may not introduce a second hue; anything on the page that is not text and not a hairline is the ink as a block, and there are exactly six of them plus the bar.", "section": "colors" },
+      { "name": "The Settle Rule", "body": "The ground is one gradient, from `--ground` (held to 40%) into `--ground-deep` by the foot, on `<body>`; sections carry no fill of their own and are cut apart by Line hairlines. There are no band fills, no tinted sections, and no other gradient on the page.", "section": "colors" },
+      { "name": "The Hairline Rule", "body": "Rules are 1px of ink at 18% (Line) or 38% (Line Strong), and the ledger's leaders are 1px dotted Line Strong. Line Strong tops what begins (the ledger, a barber, the hours block) and borders what is pressable at rest; Line rules what repeats (rows, seams) and tops the chrome. There is no solid divider color and no border in the accent except a hovered ledger \"Book\" and the sent-form status box (which borders in Ink).", "section": "colors" },
+      { "name": "The Chrome Is the Ground Rule", "body": "`--chrome` is the ground as an RGB triplet, never a separate tint. The nav is the page at 70% (92% once stuck, when it gains its Line rule) and the mobile bar is the page at 94%, both with `blur(14px)`. A skin that changes its ground changes the chrome.", "section": "colors" },
+      { "name": "The Token Block Rule", "body": "Every color on the page resolves to a token in section 1 of `halston.css`. A skin redefines that block and nothing else; the only skin-scoped selectors below it are `color-scheme` and the select chevron's stroke (one data-URI per skin, each in that skin's Ink Soft). A brand that needs a structural override is a new base, not a skin.", "section": "colors" },
+      { "name": "The Capital Rule", "body": "Headlines are 800 uppercase at -0.04em with a line-height under 1 (0.92 for the H1, 0.95 for H2s); labels are 500 uppercase tracked 0.10 to 0.16em; buttons are 700 uppercase tracked 0.12em. Everything read (the hero sentence, ledes, notes, barber text, field text) is 400 sentence case with no tracking. A weight of 600 does not exist on the page, and nothing is uppercase without tracking.", "section": "typography" },
+      { "name": "The Below-Not-Above Rule", "body": "The hero's context is the hours bar along the foot of the hero and the chips beside the sentence, never a kicker above the H1. An H2 is followed by its lede, never preceded by a label. Tracked uppercase labels are this world's native voice for naming a thing (a field, a fact, a role), and they sit with the thing they name.", "section": "typography" },
+      { "name": "The Tabular Rule", "body": "Anything with a digit that lines up (ledger prices, the hours bar, the hours table, the footer hours, barber roles with their years) sets `font-variant-numeric: tabular-nums`. Prices are one number in Ink 700 with no prefix and no \"from\"; every service on the page has a price.", "section": "typography" },
+      { "name": "The No-Shadow Rule", "body": "Nothing on the page is lifted, including the fixed bar. Surfaces are flat at rest and flat on hover; hover is a 1px rise, a border to Ink, or a fill to the accent, never a shadow, never a glow. A future surface that needs separation from scrolling content gets a Line rule and denser chrome, not a cast.", "section": "elevation" },
+      { "name": "The No-Picture Rule", "body": "The page ships no rasters and no illustration: no hero photograph, no portraits, no product shots, no razor. A barber is a two-letter monogram in a hairline box; a service is a name, a note, and a price. A client's photographs, if any, are a new base's problem, not this one's.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do put every color in the section 1 token block and add a client's brand as a new `html[data-skin=\"<id>\"]` block that redefines all of them, including `--accent`, `--accent-ink`, `--accent-hover`, `--chrome`, `--error`, and `--focus`; keep `--accent` equal to `--ink` unless the skin warms it, set `--chrome` to the ground, add the skin to the `<head>` script's chrome map, and add a select chevron in the skin's Ink Soft.",
+      "Do keep Archivo 800 uppercase at -0.04em with a line-height under 1 for the H1 and H2s only; 500 tracked uppercase at 0.10 to 0.16em for labels, nav links, and chips; 700 for names, prices, and buttons; 400 sentence case at 1.0625rem for reading; weights 400, 500, 700, 800 and nothing at 600.",
+      "Do keep the hero's context along its foot as the hours bar and beside the sentence as chips; follow an H2 with its lede and end it with a period at 40% opacity.",
+      "Do rule with ink hairlines (18% and 38%) and dotted leaders; cut every control at 2px; top what begins with Line Strong and rule what repeats with Line; let the ground settle from Black to Black Deep as the page's one gradient.",
+      "Do set tabular numerals on prices, the hours bar, the hours table, barber roles, and the footer hours; price every service as one number with a duration and no prefix.",
+      "Do keep the page flat with no shadow anywhere, including the fixed bar, and keep it free of rasters: a barber is a monogram in a hairline box.",
+      "Do keep Book a chair and Call in the fixed bar below 900px as the one repeat, and the filled BOOK in the nav, the hero pair, and the section-level \"Book a chair\" links above it; keep the ledger \"Book\" and \"Book with\" buttons at every width.",
+      "Do drive the hours bar, today's row, and the Day select from the one `HOURS` table and the next chair from the one `OPENINGS` table.",
+      "Do carry `data-book-service` on every ledger row and `data-book-barber` on every barber so the form always arrives prefilled, and keep the Service select's options identical to the ledger.",
+      "Do cap running copy at 30 to 48ch (the concept line at 60ch), ledes at 40ch, and the hero sentence at 30ch."
+    ],
+    "donts": [
+      "Don't add a second hue, a colored accent, a tinted section, or a band fill; don't set the filled button in anything but `--accent` with `--accent-ink` on it.",
+      "Don't put a kicker above the H1 or a label above an H2, set a headline in anything but 800 uppercase, or use a weight of 600 anywhere.",
+      "Don't add a radius other than 2px (the 7px dot and the scrollbar thumb are the only circles), a pill, a card, a border in the accent outside a hovered ledger \"Book\" and the sent status box, or a shadow on anything, including the bar.",
+      "Don't add a photograph, a portrait, an illustration, or an icon beyond the select chevron; don't replace a monogram with a face.",
+      "Don't add a native date input, \"prices vary\", \"call for details\", a booking link into someone else's app, an Instagram embed, ratings, reviews, \"voted best\", or any proof device; Halston is fictional and the page must not fabricate.",
+      "Don't write skin-specific selectors below the token block except `color-scheme` and the select chevron; if a skin needs one, it is a new base.",
+      "Don't index this page: keep `noindex, nofollow` and keep it out of `sitemap.xml`."
+    ]
+  }
+}

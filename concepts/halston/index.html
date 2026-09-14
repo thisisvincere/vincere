@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Halston &amp; Co. — Barbers on Canal Street. Book a chair.</title>
+<meta name="description" content="Halston & Co., a four-chair barber shop on Canal Street. Classic cuts from $38, hot towel shaves, walk-ins welcome, open Monday to Saturday 9–7. Book a chair with the barber you want.">
+<!-- Concept site for a fictional shop: keep it out of search results. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#101012">
+<meta name="color-scheme" content="dark">
+
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="halston.css">
+
+<script>
+  document.documentElement.classList.add('js');
+  // Skin from the query string (?skin=ivory|oxblood) so the home page can open the same look.
+  // The browser chrome follows the skin: theme-color is the skin's ground, color-scheme its polarity.
+  (function () {
+    var m = /[?&]skin=(ivory|oxblood)\b/.exec(location.search);
+    if (!m) return;
+    var chrome = { ivory: ['#F4F0E8', 'light'], oxblood: ['#431719', 'dark'] }[m[1]];
+    document.documentElement.setAttribute('data-skin', m[1]);
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', chrome[0]);
+    document.querySelector('meta[name="color-scheme"]').setAttribute('content', chrome[1]);
+  })();
+</script>
+</head>
+
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" data-nav>
+  <div class="wrap nav__inner">
+    <a class="brand" href="#top" aria-label="Halston & Co. — home">Halston &amp; Co.</a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#barbers">Barbers</a>
+      <a href="#hours">Hours</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a class="btn btn--fill btn--sm nav__cta" href="#book"><span>Book</span></a>
+  </div>
+</header>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero__inner">
+    <h1 class="hero__title" id="hero-title">
+      <span class="hero__line">The</span>
+      <span class="hero__line">Classic</span>
+      <span class="hero__line">Cut.</span>
+    </h1>
+
+    <div class="hero__side">
+      <div class="chips" aria-label="Good to know">
+        <span class="chip">Walk-ins welcome</span>
+        <span class="chip">Hot towel shave</span>
+      </div>
+      <p class="hero__sub">Four chairs, no gimmicks. Cuts from $38, in and out in forty minutes.</p>
+      <div class="hero__actions">
+        <a class="btn btn--fill" href="#book"><span>Book a chair</span></a>
+        <a class="btn btn--outline" href="tel:+15045550188"><span>Call</span></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- The hours bar: one tracked line, the middle of it live (halston.js). -->
+  <div class="wrap hours-bar" aria-label="Hours and address">
+    <span class="hours-bar__cell">Mon–Sat · 9–7</span>
+    <span class="hours-bar__cell hours-bar__status" data-status aria-live="polite">Canal Street</span>
+    <span class="hours-bar__cell hours-bar__addr">412 Canal St</span>
+  </div>
+</section>
+
+<!-- ============================ SERVICES ============================ -->
+<section class="services" id="services" aria-labelledby="services-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="h2" id="services-title">Services<span class="h2__dot">.</span></h2>
+      <p class="lede">One price each. No "call for details", no upsell in the chair.</p>
+    </div>
+
+    <ol class="ledger" data-ledger>
+      <li class="ledger__row">
+        <span class="ledger__name">Classic cut</span>
+        <span class="ledger__note">Scissors or clippers, hot towel finish · 40 min</span>
+        <span class="ledger__price">$38</span>
+        <button class="ledger__book" type="button" data-book-service="Classic cut">Book</button>
+      </li>
+      <li class="ledger__row">
+        <span class="ledger__name">Skin fade</span>
+        <span class="ledger__note">Down to the skin, blended by hand · 45 min</span>
+        <span class="ledger__price">$42</span>
+        <button class="ledger__book" type="button" data-book-service="Skin fade">Book</button>
+      </li>
+      <li class="ledger__row">
+        <span class="ledger__name">Beard trim</span>
+        <span class="ledger__note">Shaped, lined, oiled · 20 min</span>
+        <span class="ledger__price">$22</span>
+        <button class="ledger__book" type="button" data-book-service="Beard trim">Book</button>
+      </li>
+      <li class="ledger__row">
+        <span class="ledger__name">Hot towel shave</span>
+        <span class="ledger__note">Straight razor, two passes, cold towel to finish · 40 min</span>
+        <span class="ledger__price">$45</span>
+        <button class="ledger__book" type="button" data-book-service="Hot towel shave">Book</button>
+      </li>
+      <li class="ledger__row">
+        <span class="ledger__name">Cut &amp; shave</span>
+        <span class="ledger__note">The full hour · 75 min</span>
+        <span class="ledger__price">$75</span>
+        <button class="ledger__book" type="button" data-book-service="Cut &amp; shave">Book</button>
+      </li>
+      <li class="ledger__row">
+        <span class="ledger__name">Grey blending</span>
+        <span class="ledger__note">Subtle, washes out over weeks · add to any cut · 15 min</span>
+        <span class="ledger__price">$30</span>
+        <button class="ledger__book" type="button" data-book-service="Grey blending">Book</button>
+      </li>
+      <li class="ledger__row">
+        <span class="ledger__name">Kids' cut</span>
+        <span class="ledger__note">Twelve and under · 30 min</span>
+        <span class="ledger__price">$28</span>
+        <button class="ledger__book" type="button" data-book-service="Kids' cut">Book</button>
+      </li>
+      <li class="ledger__row">
+        <span class="ledger__name">Line-up</span>
+        <span class="ledger__note">Edges and neck, between cuts · 15 min</span>
+        <span class="ledger__price">$15</span>
+        <button class="ledger__book" type="button" data-book-service="Line-up">Book</button>
+      </li>
+    </ol>
+
+    <div class="section-foot">
+      <p class="fine">Cash, card, and tap. Tip goes to the barber. Running late by more than ten minutes and we'll fit you into the next open chair instead.</p>
+      <a class="btn btn--fill" href="#book"><span>Book a chair</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ BARBERS ============================ -->
+<section class="barbers" id="barbers" aria-labelledby="barbers-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="h2" id="barbers-title">The chairs<span class="h2__dot">.</span></h2>
+      <p class="lede">Four barbers, four chairs. Pick yours and the booking form remembers.</p>
+    </div>
+
+    <ul class="crew">
+      <li class="barber">
+        <span class="barber__mono" aria-hidden="true">RM</span>
+        <h3 class="barber__name">Ray Marchetti</h3>
+        <p class="barber__role">Owner · Chair 1 · 19 years</p>
+        <p class="barber__text">Scissor work and classic tapers. Cut the same men every three weeks since 2009. Doesn't do trends, does do your father's haircut properly.</p>
+        <p class="barber__days">Tue–Sat</p>
+        <button class="btn btn--outline btn--sm" type="button" data-book-barber="Ray Marchetti"><span>Book with Ray</span></button>
+      </li>
+      <li class="barber">
+        <span class="barber__mono" aria-hidden="true">DO</span>
+        <h3 class="barber__name">Dante Okafor</h3>
+        <p class="barber__role">Chair 2 · 11 years</p>
+        <p class="barber__text">Fades and beard work. The one to ask for if you want it sharp enough to cut paper. Books out a week ahead on Fridays.</p>
+        <p class="barber__days">Mon–Fri</p>
+        <button class="btn btn--outline btn--sm" type="button" data-book-barber="Dante Okafor"><span>Book with Dante</span></button>
+      </li>
+      <li class="barber">
+        <span class="barber__mono" aria-hidden="true">SV</span>
+        <h3 class="barber__name">Sam Villanueva</h3>
+        <p class="barber__role">Chair 3 · 7 years</p>
+        <p class="barber__text">Straight razor shaves and longer cuts. Trained in a hotel barbershop and it shows: the shave takes the full forty minutes.</p>
+        <p class="barber__days">Wed–Sat</p>
+        <button class="btn btn--outline btn--sm" type="button" data-book-barber="Sam Villanueva"><span>Book with Sam</span></button>
+      </li>
+      <li class="barber">
+        <span class="barber__mono" aria-hidden="true">JH</span>
+        <h3 class="barber__name">June Halloran</h3>
+        <p class="barber__role">Chair 4 · 4 years</p>
+        <p class="barber__text">Kids, first haircuts, and anyone nervous about the clippers. Also the fastest line-up in the building.</p>
+        <p class="barber__days">Mon–Thu, Sat</p>
+        <button class="btn btn--outline btn--sm" type="button" data-book-barber="June Halloran"><span>Book with June</span></button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================ HOURS & VISIT ============================ -->
+<section class="visit" id="hours" aria-labelledby="visit-title">
+  <div class="wrap visit__inner">
+    <div class="visit__copy" id="visit">
+      <h2 class="h2" id="visit-title">Find us<span class="h2__dot">.</span></h2>
+      <p class="lede">412 Canal Street, corner of Magazine. The black awning with the name on it.</p>
+      <dl class="facts">
+        <div class="facts__row">
+          <dt>Address</dt>
+          <dd>412 Canal St, New Orleans, LA 70130<br>
+            <a class="link" href="https://www.google.com/maps/dir/?api=1&destination=412+Canal+St+New+Orleans+LA+70130" target="_blank" rel="noopener">Open in Maps</a></dd>
+        </div>
+        <div class="facts__row">
+          <dt>Phone</dt>
+          <dd><a class="link" href="tel:+15045550188">(504) 555-0188</a> · texts answered during hours</dd>
+        </div>
+        <div class="facts__row">
+          <dt>Parking</dt>
+          <dd>Meters on Canal, free after 6. The garage on Magazine validates for an hour.</dd>
+        </div>
+        <div class="facts__row">
+          <dt>Walk-ins</dt>
+          <dd>Always. The board by the door shows the wait; mornings are shortest.</dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="hours" aria-labelledby="hours-title">
+      <h3 class="hours__title" id="hours-title">Hours</h3>
+      <table class="hours__table" data-hours>
+        <tbody>
+          <tr data-day="1"><th scope="row">Monday</th><td>9 – 7</td></tr>
+          <tr data-day="2"><th scope="row">Tuesday</th><td>9 – 7</td></tr>
+          <tr data-day="3"><th scope="row">Wednesday</th><td>9 – 7</td></tr>
+          <tr data-day="4"><th scope="row">Thursday</th><td>9 – 7</td></tr>
+          <tr data-day="5"><th scope="row">Friday</th><td>9 – 7</td></tr>
+          <tr data-day="6"><th scope="row">Saturday</th><td>9 – 7</td></tr>
+          <tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr>
+        </tbody>
+      </table>
+      <p class="hours__note">Last chair at 6:30. Closed on major holidays; we post it on the door a week ahead.</p>
+      <a class="btn btn--fill" href="#book"><span>Book a chair</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ BOOK ============================ -->
+<section class="book" id="book" aria-labelledby="book-title">
+  <div class="wrap book__inner">
+    <div class="book__copy">
+      <h2 class="h2" id="book-title">Book a chair<span class="h2__dot">.</span></h2>
+      <p class="lede">Pick the barber, the service, and a day. We confirm by text within the hour.</p>
+      <p class="fine">Rather just show up? Walk-ins are always welcome; the wait is on the board by the door.</p>
+    </div>
+
+    <form class="form" id="book-form" novalidate>
+      <div class="form__row">
+        <div class="field">
+          <label for="b-barber">Barber</label>
+          <select id="b-barber" name="barber" required>
+            <option value="">Who's cutting?</option>
+            <option>Ray Marchetti</option>
+            <option>Dante Okafor</option>
+            <option>Sam Villanueva</option>
+            <option>June Halloran</option>
+            <option>First available</option>
+          </select>
+          <p class="field__error" id="b-barber-err" hidden>Pick a barber, or "First available".</p>
+        </div>
+        <div class="field">
+          <label for="b-service">Service</label>
+          <select id="b-service" name="service" required>
+            <option value="">What are we doing?</option>
+            <option>Classic cut</option>
+            <option>Skin fade</option>
+            <option>Beard trim</option>
+            <option>Hot towel shave</option>
+            <option>Cut &amp; shave</option>
+            <option>Grey blending</option>
+            <option>Kids' cut</option>
+            <option>Line-up</option>
+          </select>
+          <p class="field__error" id="b-service-err" hidden>Pick a service from the list.</p>
+        </div>
+      </div>
+      <div class="form__row">
+        <div class="field">
+          <label for="b-day">Day</label>
+          <select id="b-day" name="day" required data-open-days>
+            <option value="">Which day?</option>
+          </select>
+          <p class="field__error" id="b-day-err" hidden>Pick a day; we're closed Sundays.</p>
+        </div>
+        <div class="field">
+          <label for="b-time">Time</label>
+          <select id="b-time" name="time" required>
+            <option value="">When works?</option>
+            <option>Morning (9–12)</option>
+            <option>Midday (12–3)</option>
+            <option>Afternoon (3–5)</option>
+            <option>Evening (5–7)</option>
+          </select>
+          <p class="field__error" id="b-time-err" hidden>Pick a time of day.</p>
+        </div>
+      </div>
+      <div class="form__row">
+        <div class="field">
+          <label for="b-name">Name</label>
+          <input id="b-name" name="name" type="text" required autocomplete="name" placeholder="Who's in the chair?">
+          <p class="field__error" id="b-name-err" hidden>We need a name for the chair.</p>
+        </div>
+        <div class="field">
+          <label for="b-phone">Mobile</label>
+          <input id="b-phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel" placeholder="For the confirmation text">
+          <p class="field__error" id="b-phone-err" hidden>Enter a number we can text.</p>
+        </div>
+      </div>
+      <div class="form__foot">
+        <button class="btn btn--fill" type="submit" data-submit><span data-submit-label>Book it</span></button>
+        <p class="form__demo">Concept form. On a live site this writes straight into the shop's book (Squire, Booksy, or a plain calendar) and texts the confirmation.</p>
+      </div>
+      <p class="form__status" id="book-status" role="status" aria-live="polite" hidden></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <span class="brand footer__word">Halston &amp; Co.</span>
+      <p>412 Canal St, New Orleans, LA 70130<br><a class="link" href="tel:+15045550188">(504) 555-0188</a></p>
+    </div>
+    <p class="footer__hours">Mon–Sat 9–7 · Closed Sunday · Walk-ins welcome</p>
+    <p class="footer__concept">
+      Concept site designed and built by <a class="link" href="../../index.html#work">VINCERE</a>. Halston &amp; Co. is a fictional
+      shop; the barbers, prices, and hours are illustrative.
+    </p>
+  </div>
+</footer>
+
+<!-- Mobile action bar: book or call, within thumb reach on every screen. -->
+<nav class="bar" aria-label="Quick actions">
+  <a class="bar__btn bar__btn--fill" href="#book">Book a chair</a>
+  <a class="bar__btn" href="tel:+15045550188">Call</a>
+</nav>
+
+<script src="halston.js" defer></script>
+</body>
+</html>

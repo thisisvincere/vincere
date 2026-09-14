@@ -35,7 +35,7 @@ Single-page marketing site, static HTML/CSS/vanilla JS, no build step. Copy is A
 Company is based in Brazil and serves the US; Brazil is not emphasized and no physical location,
 US office, address, or phone number exists or may be shown. Contact happens only through the site
 form (no backend yet; falls back to a prefilled email) and hello@thisisvincere.com. Instagram: @_thisisvincere.
-Domain: www.thisisvincere.com. Pricing is quoted per project after a conversation; no fixed
+Domain: thisisvincere.com (no www — that subdomain isn't configured and doesn't resolve). Pricing is quoted per project after a conversation; no fixed
 or starting prices are published.
 
 ## Capabilities and Constraints

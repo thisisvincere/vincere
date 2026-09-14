@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-14T00:00:00Z",
+  "title": "Design System: Northline Dental",
+  "extensions": {
+    "colorMeta": {
+      "ground": { "role": "neutral", "displayName": "Mist", "canonical": "#EFF6F8", "tonalRamp": ["oklch(15% 0.014 215)", "oklch(27% 0.014 215)", "oklch(39% 0.014 215)", "oklch(51% 0.014 215)", "oklch(63% 0.014 215)", "oklch(75% 0.014 215)", "oklch(87% 0.012 215)", "oklch(96% 0.008 215)"] },
+      "ground-2": { "role": "neutral", "displayName": "Mist Deep", "canonical": "#E3EEF3", "tonalRamp": ["oklch(15% 0.016 215)", "oklch(27% 0.016 215)", "oklch(39% 0.016 215)", "oklch(51% 0.016 215)", "oklch(63% 0.016 215)", "oklch(75% 0.016 215)", "oklch(86% 0.014 215)", "oklch(93% 0.012 215)"] },
+      "ground-3": { "role": "neutral", "displayName": "White", "canonical": "#FFFFFF" },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#10373F", "tonalRamp": ["oklch(15% 0.03 210)", "oklch(25% 0.04 210)", "oklch(37% 0.04 210)", "oklch(49% 0.04 210)", "oklch(61% 0.035 210)", "oklch(73% 0.03 210)", "oklch(85% 0.02 210)", "oklch(95% 0.01 210)"] },
+      "ink-soft": { "role": "neutral", "displayName": "Ink Soft", "canonical": "#35545B", "tonalRamp": ["oklch(15% 0.03 210)", "oklch(27% 0.035 210)", "oklch(40% 0.035 210)", "oklch(52% 0.035 210)", "oklch(64% 0.03 210)", "oklch(76% 0.025 210)", "oklch(88% 0.015 210)", "oklch(95% 0.01 210)"] },
+      "ink-muted": { "role": "neutral", "displayName": "Ink Muted", "canonical": "#4F6B71", "tonalRamp": ["oklch(15% 0.03 210)", "oklch(27% 0.03 210)", "oklch(39% 0.03 210)", "oklch(50% 0.03 210)", "oklch(62% 0.028 210)", "oklch(74% 0.022 210)", "oklch(86% 0.014 210)", "oklch(95% 0.008 210)"] },
+      "accent": { "role": "primary", "displayName": "Teal (fill)", "canonical": "#17798A", "tonalRamp": ["oklch(18% 0.04 205)", "oklch(30% 0.07 205)", "oklch(42% 0.09 205)", "oklch(52% 0.10 205)", "oklch(64% 0.10 205)", "oklch(75% 0.08 205)", "oklch(86% 0.05 205)", "oklch(95% 0.02 205)"] },
+      "accent-text": { "role": "primary", "displayName": "Teal Text", "canonical": "#146A79", "tonalRamp": ["oklch(18% 0.04 205)", "oklch(30% 0.07 205)", "oklch(40% 0.09 205)", "oklch(47% 0.10 205)", "oklch(60% 0.10 205)", "oklch(72% 0.08 205)", "oklch(84% 0.05 205)", "oklch(95% 0.02 205)"] },
+      "accent-ink": { "role": "primary", "displayName": "Teal Ink", "canonical": "#FFFFFF" },
+      "accent-hover": { "role": "primary", "displayName": "Teal Hover", "canonical": "#146A79" },
+      "tile": { "role": "secondary", "displayName": "Tile", "canonical": "rgba(255, 255, 255, 0.72)" },
+      "tile-dot": { "role": "secondary", "displayName": "Tile Dot", "canonical": "#1B8A9C", "tonalRamp": ["oklch(18% 0.04 205)", "oklch(30% 0.07 205)", "oklch(42% 0.09 205)", "oklch(57% 0.10 205)", "oklch(66% 0.10 205)", "oklch(76% 0.08 205)", "oklch(86% 0.05 205)", "oklch(95% 0.02 205)"] },
+      "line": { "role": "neutral", "displayName": "Line", "canonical": "rgba(16, 55, 63, 0.16)" },
+      "line-strong": { "role": "neutral", "displayName": "Line Strong", "canonical": "rgba(16, 55, 63, 0.32)" },
+      "error": { "role": "tertiary", "displayName": "Error", "canonical": "#B4321B", "tonalRamp": ["oklch(15% 0.06 35)", "oklch(27% 0.11 35)", "oklch(39% 0.15 35)", "oklch(49% 0.17 35)", "oklch(62% 0.15 35)", "oklch(75% 0.11 35)", "oklch(87% 0.07 35)", "oklch(95% 0.03 35)"] },
+      "focus": { "role": "primary", "displayName": "Focus", "canonical": "#146A79" },
+      "slate-ground": { "role": "neutral", "displayName": "Slate Ground", "canonical": "#121E25" },
+      "slate-ground-2": { "role": "neutral", "displayName": "Slate Ground 2", "canonical": "#1B2B34" },
+      "slate-ground-3": { "role": "neutral", "displayName": "Slate Ground 3", "canonical": "#223640" },
+      "slate-ink": { "role": "neutral", "displayName": "Slate Ink", "canonical": "#E9F1F3" },
+      "slate-ink-soft": { "role": "neutral", "displayName": "Slate Ink Soft", "canonical": "#BFCDD2" },
+      "slate-ink-muted": { "role": "neutral", "displayName": "Slate Ink Muted", "canonical": "#8FA4AB" },
+      "slate-accent": { "role": "primary", "displayName": "Aqua (fill)", "canonical": "#5FCBD9", "tonalRamp": ["oklch(18% 0.04 205)", "oklch(30% 0.07 205)", "oklch(42% 0.09 205)", "oklch(54% 0.10 205)", "oklch(66% 0.10 205)", "oklch(79% 0.09 205)", "oklch(88% 0.06 205)", "oklch(95% 0.03 205)"] },
+      "slate-accent-text": { "role": "primary", "displayName": "Aqua (text)", "canonical": "#5FCBD9" },
+      "slate-accent-ink": { "role": "primary", "displayName": "Slate Accent Ink", "canonical": "#0F1B20" },
+      "slate-accent-hover": { "role": "primary", "displayName": "Slate Accent Hover", "canonical": "#7ED7E2" },
+      "slate-tile": { "role": "secondary", "displayName": "Slate Tile", "canonical": "rgba(255, 255, 255, 0.07)" },
+      "slate-tile-dot": { "role": "secondary", "displayName": "Slate Tile Dot", "canonical": "#5FCBD9" },
+      "slate-line": { "role": "neutral", "displayName": "Slate Line", "canonical": "rgba(233, 241, 243, 0.16)" },
+      "slate-line-strong": { "role": "neutral", "displayName": "Slate Line Strong", "canonical": "rgba(233, 241, 243, 0.32)" },
+      "slate-error": { "role": "tertiary", "displayName": "Slate Error", "canonical": "#FFA98A" },
+      "slate-focus": { "role": "primary", "displayName": "Slate Focus", "canonical": "#5FCBD9" },
+      "warm-ground": { "role": "neutral", "displayName": "Warm Ground", "canonical": "#FBF6EF" },
+      "warm-ground-2": { "role": "neutral", "displayName": "Warm Ground 2", "canonical": "#F3EADD" },
+      "warm-ground-3": { "role": "neutral", "displayName": "Warm Ground 3", "canonical": "#FFFFFF" },
+      "warm-ink": { "role": "neutral", "displayName": "Warm Ink", "canonical": "#2E2A26" },
+      "warm-ink-soft": { "role": "neutral", "displayName": "Warm Ink Soft", "canonical": "#574F48" },
+      "warm-ink-muted": { "role": "neutral", "displayName": "Warm Ink Muted", "canonical": "#6B625A" },
+      "warm-accent": { "role": "primary", "displayName": "Rust (fill)", "canonical": "#B5561F", "tonalRamp": ["oklch(18% 0.05 50)", "oklch(30% 0.09 50)", "oklch(42% 0.12 50)", "oklch(54% 0.14 50)", "oklch(65% 0.13 50)", "oklch(76% 0.10 50)", "oklch(87% 0.06 50)", "oklch(95% 0.02 50)"] },
+      "warm-accent-text": { "role": "primary", "displayName": "Rust (text)", "canonical": "#A84E1E" },
+      "warm-accent-ink": { "role": "primary", "displayName": "Warm Accent Ink", "canonical": "#FFFFFF" },
+      "warm-accent-hover": { "role": "primary", "displayName": "Warm Accent Hover", "canonical": "#A84E1E" },
+      "warm-tile": { "role": "secondary", "displayName": "Warm Tile", "canonical": "rgba(255, 255, 255, 0.8)" },
+      "warm-tile-dot": { "role": "secondary", "displayName": "Warm Tile Dot", "canonical": "#C9622A" },
+      "warm-line": { "role": "neutral", "displayName": "Warm Line", "canonical": "rgba(46, 42, 38, 0.16)" },
+      "warm-line-strong": { "role": "neutral", "displayName": "Warm Line Strong", "canonical": "rgba(46, 42, 38, 0.32)" },
+      "warm-error": { "role": "tertiary", "displayName": "Warm Error", "canonical": "#B4321B" },
+      "warm-focus": { "role": "primary", "displayName": "Warm Focus", "canonical": "#A84E1E" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero H1 only, Atkinson Hyperlegible Next 700 at -0.032em, capped at 13ch, balanced." },
+      "headline": { "displayName": "Headline", "purpose": "Section H2s, 700 at -0.03em, sentence case ending in a period, capped at 16ch." },
+      "title": { "displayName": "Title", "purpose": "Service group titles over a Line Strong rule." },
+      "card-title": { "displayName": "Card Title", "purpose": "The four new-patient step titles (line-height 1.15) and the insurance card's H3." },
+      "hours-title": { "displayName": "Hours Title", "purpose": "\"Hours\" in the hours card." },
+      "tile-time": { "displayName": "Tile Time", "purpose": "The time on each availability tile, 700 tabular at -0.02em." },
+      "wordmark": { "displayName": "Wordmark", "purpose": "\"Northline Dental\" in the nav and footer, 700 at -0.02em; shown at every width." },
+      "status": { "displayName": "Status Line", "purpose": "Live open/phones line under the H1 in Teal Text 500 tabular, led by a 10px teal dot." },
+      "hero-sub": { "displayName": "Hero Sub", "purpose": "\"Same-week appointments. Most insurance accepted.\" under the status line, 500 in Ink Soft." },
+      "lede": { "displayName": "Lede", "purpose": "Paragraph under each H2 in Ink Soft, 40 to 46ch, up to 1.3rem." },
+      "body": { "displayName": "Body", "purpose": "Base text at 1.125rem; price rows, service names, practice copy inherit it. The accessibility point on the card, as a type decision." },
+      "body-md": { "displayName": "Body Medium", "purpose": "Step text, insurance card copy, hours table, facts, field text, the status box." },
+      "body-sm": { "displayName": "Body Small", "purpose": "Nav links, service descriptions, notes, field labels, footer, bar buttons." },
+      "caption": { "displayName": "Caption", "purpose": "Tile day labels, board caption, chips, the In-network label, demo note, field errors, concept credit. The floor for anything read." },
+      "button": { "displayName": "Button", "purpose": "Every button at 700 tabular; sm 0.9375rem." },
+      "chip": { "displayName": "Chip", "purpose": "Insurance plan chips, 500 in Ink on the Tile wash with a Tile Dot." },
+      "field-label": { "displayName": "Field Label", "purpose": "Above every form field at 700." },
+      "label": { "displayName": "Label", "purpose": "The \" · today\" suffix and the \"Optional\" mark: 500 uppercase at 0.04em in Ink Muted. Never above a headline." }
+    },
+    "skins": [
+      { "id": "sky", "selector": ":root", "label": "Sky", "swatch": ["#EFF6F8", "#17798A"], "purpose": "Default. Mist ground, deep teal-navy ink, one teal as fill (#17798A) and deeper as small text (#146A79); tiles white at 72% with a #1B8A9C dot; veil and chrome equal the ground." },
+      { "id": "slate", "selector": "html[data-skin=\"slate\"]", "label": "Slate", "swatch": ["#121E25", "#5FCBD9"], "purpose": "Near-black blue-grey ground, pale ink, one aqua as both fill and text (8.6:1); tiles a 7% white wash with an aqua dot; color-scheme dark; error salmon. The only dark skin." },
+      { "id": "warm", "selector": "html[data-skin=\"warm\"]", "label": "Warm", "swatch": ["#FBF6EF", "#B5561F"], "purpose": "Cream ground, warm near-black ink, rust fill (#B5561F) with a deeper text value (#A84E1E, 5.2:1); tiles an 80% white wash with a lighter rust dot (#C9622A); light." }
+    ],
+    "shadows": [
+      { "name": "bar", "value": "0 -10px 30px -18px rgba(16, 55, 63, 0.25)", "purpose": "The fixed mobile action bar only; the one box-shadow on the page. Hard-coded in Sky's ink; does not follow the skin." },
+      { "name": "ring-field-focus", "value": "0 0 0 4px rgba(var(--accent-rgb), 0.22)", "purpose": "Field focus halo alongside a Teal border. State, not depth." },
+      { "name": "ring-focus", "value": "outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 12px", "purpose": "Global focus-visible ring in Teal Text (aqua on Slate). 3px, heavier than the sibling bases." },
+      { "name": "chrome", "value": "background: rgba(var(--chrome), 0.65); backdrop-filter: blur(14px) saturate(140%)", "purpose": "Nav at rest; 0.92 when stuck and on the fixed bar (bar without saturate). The chrome triplet equals the ground." },
+      { "name": "hero-veil", "value": "linear-gradient(180deg, rgba(var(--veil), 0.42) 0%, rgba(var(--veil), 0.28) 25%, rgba(var(--veil), 0.9) 58%, rgba(var(--veil), 1) 100%), linear-gradient(90deg, rgba(var(--veil), 0.75) 0%, rgba(var(--veil), 0.5) 45%, rgba(var(--veil), 0.58) 100%)", "purpose": "The hero photograph's veil in the ground triplet, raised in the finish round so the operatory chair reads as a pale shape and the window light carries the right half; solid ground at the bottom under the copy." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "The one easing (out-expo) for every transition and entrance." },
+      { "name": "t-fast", "value": "160ms", "purpose": "Color, border, transform on hover and press; tile borders; field borders and halos; link underline; nav link color." },
+      { "name": "t-mid", "value": "320ms", "purpose": "Nav chrome and the skip link." },
+      { "name": "t-slow", "value": "700ms", "purpose": "Hero rise (14px; 0/80/160/240/320/400ms across title, status, sub, actions, board, plans). The only entrance on the page; sections below the hero do not reveal on scroll." },
+      { "name": "hero-drift", "value": "12s, scale(1.04) to scale(1), once", "purpose": "The hero photograph settles from a 4% zoom over 12 seconds, origin 50% 45%." },
+      { "name": "reduced-motion", "value": "prefers-reduced-motion: reduce removes every animation, collapses transitions to 0.01ms, and disables smooth scroll", "purpose": "Accessibility gate; the board's scroll-to-form and focus also become instant." }
+    ],
+    "breakpoints": [
+      { "name": "board-1 (below)", "value": "480px" },
+      { "name": "rows-wrap (below), steps-2, form-rows, form-foot", "value": "600px" },
+      { "name": "nav-links", "value": "760px" },
+      { "name": "services-2", "value": "800px" },
+      { "name": "heads-split, insurance, practice, visit, sticky-hours, book, footer, bar-hides", "value": "900px" },
+      { "name": "nav-cta", "value": "960px" },
+      { "name": "steps-4", "value": "1000px" },
+      { "name": "wrap", "value": "1120px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Accent Pill",
+      "kind": "button",
+      "refersTo": "button-accent",
+      "description": "The one teal action: Find a time. White on Teal at 999px with a 1.5px transparent border, 700 weight, tabular; deepens and rises 1px on hover, presses 1px on active.",
+      "html": "<a class=\"ds-btn ds-btn-accent\" href=\"#\">Find a time</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; padding: 1.05rem 1.7rem; border-radius: 999px; font-family: var(--font, 'Atkinson Hyperlegible Next', sans-serif); font-weight: 700; font-size: 1.0625rem; line-height: 1; text-decoration: none; white-space: nowrap; border: 1.5px solid transparent; cursor: pointer; font-variant-numeric: tabular-nums; transition: background-color 160ms cubic-bezier(0.16,1,0.3,1), color 160ms cubic-bezier(0.16,1,0.3,1), border-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-accent { background: var(--accent, #17798A); color: var(--accent-ink, #FFFFFF); } .ds-btn-accent:hover { background: var(--accent-hover, #146A79); transform: translateY(-1px); } .ds-btn-accent:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 3px solid var(--focus, #146A79); outline-offset: 3px; }"
+    },
+    {
+      "name": "Ink Pill",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "The nav's Book online: Mist on Ink at 999px, small size, so the hero's teal pill is the only teal action in the first viewport. Rises 1px on hover.",
+      "html": "<a class=\"ds-btn ds-btn-ink ds-btn-sm\" href=\"#\">Book online</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; padding: 1.05rem 1.7rem; border-radius: 999px; font-family: var(--font, 'Atkinson Hyperlegible Next', sans-serif); font-weight: 700; font-size: 1.0625rem; line-height: 1; text-decoration: none; white-space: nowrap; border: 1.5px solid transparent; cursor: pointer; transition: transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-sm { padding: 0.75rem 1.15rem; font-size: 0.9375rem; } .ds-btn-ink { background: var(--ink, #10373F); color: var(--ground, #EFF6F8); } .ds-btn-ink:hover { transform: translateY(-1px); } .ds-btn:focus-visible { outline: 3px solid var(--focus, #146A79); outline-offset: 3px; }"
+    },
+    {
+      "name": "Outline Pill (call)",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "The hero's Call button: Ink on transparent with a 1.5px Line Strong border that turns Ink on hover, with a 20px inline stroke phone icon.",
+      "html": "<a class=\"ds-btn ds-btn-outline\" href=\"tel:+12185550163\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z\"/></svg><span>Call (218) 555-0163</span></a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; padding: 1.05rem 1.7rem; border-radius: 999px; font-family: var(--font, 'Atkinson Hyperlegible Next', sans-serif); font-weight: 700; font-size: 1.0625rem; line-height: 1; text-decoration: none; white-space: nowrap; border: 1.5px solid transparent; background: none; cursor: pointer; font-variant-numeric: tabular-nums; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn svg { flex: none; } .ds-btn-outline { background: transparent; color: var(--ink, #10373F); border-color: var(--line-strong, rgba(16,55,63,0.32)); } .ds-btn-outline:hover { border-color: var(--ink, #10373F); } .ds-btn:focus-visible { outline: 3px solid var(--focus, #146A79); outline-offset: 3px; }"
+    },
+    {
+      "name": "Insurance Strip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "The second answer, on one line: an In-network label in 700, plan chips on the Tile wash with a Line border and an 8px Tile Dot, 0.9375rem 500 in Ink, and a Text-us-the-card link. Not filters.",
+      "html": "<div class=\"ds-plans\"><span class=\"ds-plans-label\">In-network:</span><span class=\"ds-chip\">Delta Dental</span><span class=\"ds-chip\">BCBS Minnesota</span><span class=\"ds-chip\">HealthPartners</span><span class=\"ds-chip\">Cigna</span><span class=\"ds-chip\">Aetna</span><span class=\"ds-chip\">MetLife</span><span class=\"ds-plans-more\">Don't see yours? <a class=\"ds-link\" href=\"#\">Text us the card.</a></span></div>",
+      "css": ".ds-plans { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; max-width: 720px; padding: 1rem; background: var(--ground, #EFF6F8); color: var(--ink, #10373F); font-family: var(--font, 'Atkinson Hyperlegible Next', sans-serif); } .ds-plans-label { font-size: 0.9375rem; font-weight: 700; margin-right: 0.25rem; white-space: nowrap; } .ds-chip { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.45rem 0.85rem; border-radius: 999px; background: var(--tile, rgba(255,255,255,0.72)); border: 1px solid var(--line, rgba(16,55,63,0.16)); font-size: 0.9375rem; font-weight: 500; color: var(--ink, #10373F); white-space: nowrap; } .ds-chip::before { content: \"\"; width: 8px; height: 8px; border-radius: 50%; background: var(--tile-dot, #1B8A9C); flex: none; } .ds-plans-more { font-size: 0.9375rem; color: var(--ink-muted, #4F6B71); flex-basis: 100%; margin-top: 0.25rem; } .ds-plans-more a { color: var(--accent-text, #146A79); text-decoration: underline; text-decoration-color: var(--line-strong, rgba(16,55,63,0.32)); text-underline-offset: 0.2em; text-decoration-thickness: 1.5px; } .ds-plans-more a:hover { text-decoration-color: currentColor; }"
+    },
+    {
+      "name": "Availability Board (signature)",
+      "kind": "custom",
+      "refersTo": "tile",
+      "description": "Three real next openings computed by northline.js from OPENINGS: a Tile-wash button at 12px on a Line border with a 9px Tile Dot, the day in Ink Muted 500, and the time in 700 tabular. Hover turns the border Teal and rises 1px; tapping carries data-date and data-period into the form.",
+      "html": "<div class=\"ds-board\" role=\"group\" aria-labelledby=\"ds-board-cap\"><p class=\"ds-board-cap\" id=\"ds-board-cap\">Next openings — tap one to request it.</p><button class=\"ds-tile\" type=\"button\" data-date=\"2026-09-15\" data-period=\"Morning (7:30–12)\"><span class=\"ds-tile-day\">Tomorrow</span><span class=\"ds-tile-time\">9:30 am</span></button><button class=\"ds-tile\" type=\"button\" data-date=\"2026-09-15\" data-period=\"Afternoon (12–5)\"><span class=\"ds-tile-day\">Tomorrow</span><span class=\"ds-tile-time\">3:15 pm</span></button><button class=\"ds-tile\" type=\"button\" data-date=\"2026-09-16\" data-period=\"Morning (7:30–12)\"><span class=\"ds-tile-day\">Wed Sep 16</span><span class=\"ds-tile-time\">8:10 am</span></button></div>",
+      "css": ".ds-board { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.6rem; max-width: 720px; padding: 1rem; background: var(--ground, #EFF6F8); color: var(--ink, #10373F); font-family: var(--font, 'Atkinson Hyperlegible Next', sans-serif); } .ds-board-cap { grid-column: 1 / -1; margin: 0; font-size: 0.9375rem; color: var(--ink-muted, #4F6B71); } .ds-tile { display: grid; gap: 0.15rem; text-align: left; padding: 0.9rem 1rem 0.95rem; border-radius: 12px; background: var(--tile, rgba(255,255,255,0.72)); border: 1px solid var(--line, rgba(16,55,63,0.16)); color: var(--ink, #10373F); font: inherit; cursor: pointer; min-width: 0; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1), transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-tile::before { content: \"\"; width: 9px; height: 9px; border-radius: 50%; background: var(--tile-dot, #1B8A9C); margin-bottom: 0.35rem; } .ds-tile-day { font-size: 0.9375rem; font-weight: 500; color: var(--ink-muted, #4F6B71); white-space: nowrap; } .ds-tile-time { font-size: 1.35rem; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; font-variant-numeric: tabular-nums; white-space: nowrap; } .ds-tile:hover { border-color: var(--accent, #17798A); transform: translateY(-1px); } .ds-tile:focus-visible { outline: 3px solid var(--focus, #146A79); outline-offset: 3px; }"
+    },
+    {
+      "name": "Status Line",
+      "kind": "custom",
+      "refersTo": "status",
+      "description": "The live open/phones line computed by northline.js from the HOURS table and PHONES_UNTIL. Teal Text 500 tabular under the H1 with a 10px teal dot; the dot turns Ink Muted when closed. Sentence case, never an eyebrow.",
+      "html": "<div class=\"ds-hero\"><h1 class=\"ds-hero-title\">Dentistry without the dread.</h1><p class=\"ds-status\">Open today until 5 pm · phones answered until 5:30 pm · Duluth</p><p class=\"ds-status is-closed\">Closed now · opens tomorrow at 7:30 am · text us anytime · Duluth</p><p class=\"ds-hero-sub\">Same-week appointments. Most insurance accepted.</p></div>",
+      "css": ".ds-hero { padding: 1.5rem; background: var(--ground, #EFF6F8); color: var(--ink, #10373F); font-family: var(--font, 'Atkinson Hyperlegible Next', sans-serif); } .ds-hero-title { margin: 0; font-weight: 700; font-size: clamp(2.2rem, 6vw, 3.75rem); line-height: 1; letter-spacing: -0.032em; max-width: 13ch; } .ds-status { margin: 1.4rem 0 0; font-size: 1.0625rem; font-weight: 500; color: var(--accent-text, #146A79); font-variant-numeric: tabular-nums; } .ds-status + .ds-status { margin-top: 0.75rem; } .ds-status::before { content: \"\"; display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--accent, #17798A); margin-right: 0.6rem; vertical-align: 0.02em; } .ds-status.is-closed::before { background: var(--ink-muted, #4F6B71); } .ds-hero-sub { margin: 0.6rem 0 0; font-size: clamp(1.1rem, 1.5vw, 1.3rem); font-weight: 500; color: var(--ink-soft, #35545B); }"
+    },
+    {
+      "name": "Price Rows",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "Group title in 700 over a Line Strong rule; each common visit a hairline row with the name in Ink 500 and an Ink Muted qualifier, and the price at the right edge in Ink 700 tabular with no prefix. Not tappable; no dot.",
+      "html": "<section class=\"ds-group\"><h3 class=\"ds-group-title\">Common visits, without insurance</h3><div><div class=\"ds-row\"><span class=\"ds-row-name\">New-patient exam &amp; cleaning <em>x-rays included</em></span><span class=\"ds-row-price\">$189</span></div><div class=\"ds-row\"><span class=\"ds-row-name\">Cleaning &amp; check-up <em>returning</em></span><span class=\"ds-row-price\">$119</span></div><div class=\"ds-row\"><span class=\"ds-row-name\">Emergency visit with x-ray</span><span class=\"ds-row-price\">$95</span></div></div></section>",
+      "css": ".ds-group { max-width: 480px; padding: 1rem; background: var(--ground, #EFF6F8); color: var(--ink, #10373F); font-family: var(--font, 'Atkinson Hyperlegible Next', sans-serif); font-size: 1.125rem; line-height: 1.6; } .ds-group-title { margin: 0 0 0.25rem; font-weight: 700; font-size: clamp(1.35rem, 2.2vw, 1.75rem); letter-spacing: -0.025em; padding-bottom: 0.75rem; border-bottom: 1px solid var(--line-strong, rgba(16,55,63,0.32)); } .ds-row { display: flex; align-items: baseline; gap: 1rem; padding: 0.95rem 0; border-bottom: 1px solid var(--line, rgba(16,55,63,0.16)); white-space: nowrap; } .ds-row-name { color: var(--ink, #10373F); font-weight: 500; min-width: 0; overflow: hidden; text-overflow: ellipsis; } .ds-row-name em { font-style: normal; color: var(--ink-muted, #4F6B71); margin-left: 0.4rem; font-size: 0.9em; font-weight: 400; } .ds-row-price { margin-left: auto; font-variant-numeric: tabular-nums; color: var(--ink, #10373F); font-weight: 700; flex: none; }"
+    },
+    {
+      "name": "New-Patient Step",
+      "kind": "card",
+      "refersTo": "insurance-card",
+      "description": "One of four <ol> items: a 2px Line Strong top rule, 1.25rem of air, a 700 title at 1.35rem, and Body Medium text in Ink Soft with a 700 Ink lead. No numeral; the list order and the rule carry the sequence.",
+      "html": "<ol class=\"ds-steps\"><li class=\"ds-step\"><h3 class=\"ds-step-title\">Forms on your phone</h3><p class=\"ds-step-text\">About eight minutes, done from the couch. <strong>Nothing to print, nothing on a clipboard.</strong></p></li><li class=\"ds-step\"><h3 class=\"ds-step-title\">Bring two things</h3><p class=\"ds-step-text\">Your insurance card, if you have one, and a list of any medications. That's it.</p></li></ol>",
+      "css": ".ds-steps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; list-style: none; margin: 0; padding: 1rem; max-width: 560px; background: var(--ground, #EFF6F8); color: var(--ink, #10373F); font-family: var(--font, 'Atkinson Hyperlegible Next', sans-serif); } .ds-step { display: grid; gap: 0.5rem; padding-top: 1.25rem; border-top: 2px solid var(--line-strong, rgba(16,55,63,0.32)); } .ds-step-title { margin: 0; font-weight: 700; font-size: 1.35rem; line-height: 1.15; letter-spacing: -0.025em; } .ds-step-text { margin: 0; color: var(--ink-soft, #35545B); font-size: 1.0625rem; line-height: 1.55; } .ds-step-text strong { color: var(--ink, #10373F); font-weight: 700; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky 76px bar on translucent mist chrome with blur; \"Northline Dental\" 700 at -0.02em, four 500 Ink Soft links hovering to Teal Text, small ink-filled pill right.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-nav-brand\" href=\"#\">Northline Dental</a><nav class=\"ds-nav-links\"><a href=\"#\">Services</a><a href=\"#\">Insurance</a><a href=\"#\">New patients</a><a href=\"#\">Visit</a></nav><a class=\"ds-nav-cta\" href=\"#\">Book online</a></header>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; height: 76px; padding: 0 1.5rem; background: rgba(var(--chrome, 239, 246, 248), 0.92); -webkit-backdrop-filter: blur(14px) saturate(140%); backdrop-filter: blur(14px) saturate(140%); border-bottom: 1px solid var(--line, rgba(16,55,63,0.16)); color: var(--ink, #10373F); font-family: var(--font, 'Atkinson Hyperlegible Next', sans-serif); } .ds-nav-brand { font-weight: 700; font-size: 1.25rem; letter-spacing: -0.02em; text-decoration: none; color: inherit; white-space: nowrap; } .ds-nav-links { display: flex; gap: 1.75rem; } .ds-nav-links a { text-decoration: none; font-weight: 500; font-size: 1rem; color: var(--ink-soft, #35545B); transition: color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-nav-links a:hover { color: var(--accent-text, #146A79); } .ds-nav-cta { display: inline-flex; align-items: center; padding: 0.75rem 1.15rem; border-radius: 999px; border: 1.5px solid transparent; font-size: 0.9375rem; font-weight: 700; line-height: 1; text-decoration: none; background: var(--ink, #10373F); color: var(--ground, #EFF6F8); transition: transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-nav-cta:hover { transform: translateY(-1px); } .ds-nav a:focus-visible { outline: 3px solid var(--focus, #146A79); outline-offset: 3px; border-radius: 12px; }"
+    },
+    {
+      "name": "Select Field (open days)",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "White fill on a 1.5px Line Strong border at 12px with an Ink Muted chevron, 3.5rem tall at 1.0625rem; hover to Ink Soft, focus to a Teal border with a 4px teal halo at 22%. The Day field is a select of the next ten open days filled by northline.js, never a native date input.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-day\">Day</label><select id=\"ds-day\"><option value=\"\">Which day?</option><option>Today</option><option>Tomorrow</option><option>Wed Sep 16</option><option>Thu Sep 17</option><option>Fri Sep 18</option><option>Mon Sep 21</option></select></div>",
+      "css": ".ds-field { display: grid; gap: 0.45rem; max-width: 340px; padding: 1rem; background: var(--ground-2, #E3EEF3); font-family: var(--font, 'Atkinson Hyperlegible Next', sans-serif); color: var(--ink, #10373F); } .ds-field label { font-size: 1rem; font-weight: 700; } .ds-field select { width: 100%; box-sizing: border-box; min-height: 3.5rem; padding: 0.95rem 2.75rem 0.95rem 1.1rem; background: var(--ground-3, #FFFFFF) url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='none' stroke='%234F6B71' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 6.75l4.5 4.5 4.5-4.5'/%3E%3C/svg%3E\") no-repeat right 1rem center; border: 1.5px solid var(--line-strong, rgba(16,55,63,0.32)); border-radius: 12px; color: var(--ink, #10373F); font: inherit; font-size: 1.0625rem; -webkit-appearance: none; appearance: none; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1), box-shadow 160ms cubic-bezier(0.16,1,0.3,1); } .ds-field select:hover { border-color: var(--ink-soft, #35545B); } .ds-field select:focus-visible { outline: none; border-color: var(--accent, #17798A); box-shadow: 0 0 0 4px rgba(var(--accent-rgb, 23, 121, 138), 0.22); } .ds-field select[aria-invalid=\"true\"] { border-color: var(--error, #B4321B); }"
+    },
+    {
+      "name": "Hours Card",
+      "kind": "card",
+      "refersTo": "hours-card",
+      "description": "White surface on a Line border at 12px with no shadow; 700 title at 1.5rem, hairline rows at 1.0625rem with tabular figures, today's row in Teal Text 700 with a Label-style suffix, and a note with the phones line in 700.",
+      "html": "<div class=\"ds-hours\"><h3 class=\"ds-hours-title\">Hours</h3><table class=\"ds-hours-table\"><tbody><tr class=\"is-today\"><th scope=\"row\">Monday</th><td>7:30 am – 5 pm</td></tr><tr><th scope=\"row\">Tuesday</th><td>7:30 am – 5 pm</td></tr><tr><th scope=\"row\">Friday</th><td>7:30 am – 2 pm</td></tr><tr><th scope=\"row\">Saturday</th><td>Closed</td></tr></tbody></table><p class=\"ds-hours-note\"><strong>Phones answered until 5:30 pm.</strong> Something hurts after hours? Text the same number; the on-call dentist replies.</p></div>",
+      "css": ".ds-hours { max-width: 380px; background: var(--ground-3, #FFFFFF); border: 1px solid var(--line, rgba(16,55,63,0.16)); border-radius: 12px; padding: clamp(1.5rem, 3vw, 2.25rem); color: var(--ink, #10373F); font-family: var(--font, 'Atkinson Hyperlegible Next', sans-serif); font-size: 1.0625rem; line-height: 1.6; } .ds-hours-title { margin: 0 0 1rem; font-weight: 700; font-size: 1.5rem; letter-spacing: -0.025em; } .ds-hours-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; } .ds-hours-table th, .ds-hours-table td { padding: 0.75rem 0; border-top: 1px solid var(--line, rgba(16,55,63,0.16)); text-align: left; font-weight: 400; } .ds-hours-table td { text-align: right; color: var(--ink-soft, #35545B); white-space: nowrap; } .ds-hours-table tr.is-today th, .ds-hours-table tr.is-today td { color: var(--accent-text, #146A79); font-weight: 700; } .ds-hours-table tr.is-today th::after { content: \" · today\"; font-weight: 500; letter-spacing: 0.04em; font-size: 0.8125rem; text-transform: uppercase; } .ds-hours-note { margin: 1rem 0 0; font-size: 1rem; color: var(--ink-muted, #4F6B71); } .ds-hours-note strong { color: var(--ink, #10373F); font-weight: 700; }"
+    },
+    {
+      "name": "Mobile Action Bar",
+      "kind": "nav",
+      "refersTo": "bar-button-accent",
+      "description": "Fixed bottom bar below 900px on 92% chrome with a Line top rule and the page's one shadow: Find a time as the teal pill, Call and Forms as Ink pills on a 1.5px Line Strong border, 50px tall at 1rem 700.",
+      "html": "<nav class=\"ds-bar\"><a class=\"ds-bar-btn ds-bar-btn-accent\" href=\"#\">Find a time</a><a class=\"ds-bar-btn\" href=\"#\">Call</a><a class=\"ds-bar-btn\" href=\"#\">Forms</a></nav>",
+      "css": ".ds-bar { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 0.5rem; max-width: 420px; padding: 0.6rem 1.25rem; background: rgba(var(--chrome, 239, 246, 248), 0.92); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-top: 1px solid var(--line, rgba(16,55,63,0.16)); box-shadow: 0 -10px 30px -18px rgba(16, 55, 63, 0.25); font-family: var(--font, 'Atkinson Hyperlegible Next', sans-serif); } .ds-bar-btn { display: flex; align-items: center; justify-content: center; min-height: 50px; border-radius: 999px; font-weight: 700; font-size: 1rem; text-decoration: none; border: 1.5px solid var(--line-strong, rgba(16,55,63,0.32)); color: var(--ink, #10373F); white-space: nowrap; } .ds-bar-btn-accent { background: var(--accent, #17798A); color: var(--accent-ink, #FFFFFF); border-color: transparent; } .ds-bar-btn:focus-visible { outline: 3px solid var(--focus, #146A79); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Two Answers Before the Scroll",
+    "overview": "Northline Dental is a one-page dental-practice site that answers the two questions a nervous patient has before they scroll (\"can I get in soon\" and \"do you take my insurance\") and spends the rest of the page taking the dread apart: prices for the common visits posted, a written estimate promised before any treatment, forms done on the phone from the couch, comfort options named, a raised hand that stops everything. The first screen carries the promise, a live status line that says the practice is open and until when the phones are answered, three real openings computed from the schedule, the six plans it is in-network with, and one teal \"Find a time\". The world is a light room under mist: mist ground, deep teal-navy ink, and one teal worn by the action pill, the dot on every tile and chip, and the status line. Remove the copy and you would still recognize it: mist ground, one teal pill, three white tiles with a teal dot, hyperlegible type at a generous size.\n\nIt is VINCERE's fifth template base (\"one structure, many skins\") and the sibling of Sasso, Apex, Kestrel, and Auburn. Every color on the page lives in one token block at the top of `northline.css`; a skin is a second, complete token block on `html[data-skin]` and nothing structural changes beneath it. Two alternate skins ship (Slate, Warm) and match the three-way switcher in the VINCERE home page's concept panel. Like Kestrel and Auburn, the accent is split into a fill (`--accent`) and what teal wears as small running text (`--accent-text`), deeper on the two light skins so it clears contrast on the ground and identical on Slate. Northline adds a second pair the siblings lack: `--tile` (a white wash at 72% over the mist) and `--tile-dot` (a slightly brighter teal) for the availability tiles and the insurance chips. The `--veil` and `--chrome` triplets equal the ground so the hero veil and the nav dissolve into the page. Northline is fictional, carries `noindex, nofollow`, and is never listed in the sitemap; its palette and type are deliberately not VINCERE tokens (see the root DESIGN.md's \"Concept Previews\" exception).\n\nThe type is the accessibility argument made visible: Atkinson Hyperlegible Next at 1.125rem for body and never below 0.8125rem anywhere, ledes up to 1.3rem, weights held to 400, 500, and 700. Density is generous: sections breathe on a clamp(5rem, 10vw, 9rem) rhythm (the top of the sibling range), copy is capped at 40 to 62ch, and prices sit on hairline rows rather than in cards. Only four things are raised surfaces (the tiles, the insurance card, the hours card, the fields), and only the fixed mobile bar carries a shadow. Confirmed rejections: a stock smile hero, \"we accept most insurance\" with no list, a phone number as the only next step, a PDF of forms to print, reviews, ratings, \"voted best\", photographs of mouths or instruments, and a tracked-caps eyebrow above any headline.",
+    "keyCharacteristics": [
+      "Three mist steps (#EFF6F8, #E3EEF3, #FFFFFF) do the sectioning; hairlines at 16% and 32% ink do the ruling",
+      "One teal in two roles: #17798A as fill (the pill, the status dot, selection, the caret, the status-box wash and focus halo) and #146A79 as small text (the status line, \"Text us the card\", today's hours row, link hover, the focus ring); Slate uses one value for both",
+      "A tile pair beside the accent: white at 72% over the mist (`--tile`) for tiles and chips, with a 9px or 8px dot in a brighter teal (`--tile-dot`, #1B8A9C)",
+      "Atkinson Hyperlegible Next 700 at -0.02 to -0.032em for the H1, every H2, group titles, step and card titles, the tile time, and the wordmark; 400 to 500 for everything read, at 1.125rem base; nothing smaller than 0.8125rem",
+      "Two radii: pills (999px) on every action and chip, with the nav pill filled with ink; 12px on tiles, cards, photos, fields, and the status box; circles only as 8px, 9px, and 10px dots",
+      "Flat: no surface, button, card, tile, or field is lifted; the one shadow is under the fixed mobile bar",
+      "Tabular numerals on prices, the tile times, the status line, the hours table, and the footer hours",
+      "A skin is a token block on `html[data-skin]`, selected by `?skin=<id>`, with the accent split into fill and text, the tile pair redefined, and the veil equal to the ground",
+      "One easing (out-expo) and three durations (160/320/700ms); the hero stack rises in an 80ms stagger, the hero photograph drifts 4% over 12s, and nothing else on the page animates on scroll"
+    ],
+    "rules": [
+      { "name": "The Two-Teal Rule", "body": "Every use of the accent names which role it is: `--accent` on a fill with `--accent-ink` on it, `--accent-text` as small text on the ground. On a light skin the text value is deeper than the fill, so the same teal clears contrast in a word that it clears in a pill; a light skin that sets `color: var(--accent)` on running text is a bug. A dark skin may set both to one value.", "section": "colors" },
+      { "name": "The Tile Pair Rule", "body": "A tile or chip is `--tile` on a Line border with a `--tile-dot` circle before its text. The tile is a white wash, never a solid, so it sits on the photograph and on the band alike; the dot is the brighter teal, never the fill, so the pill stays the only action-colored thing on the screen. A skin redefines both.", "section": "colors" },
+      { "name": "The Veil Is the Ground Rule", "body": "`--veil` and `--chrome` are the ground as an RGB triplet, never a separate tint. The hero veil fades the photograph into the page, and the nav and mobile bar are the page at 65% and 92% opacity with blur. A skin that changes its ground changes all three.", "section": "colors" },
+      { "name": "The Token Block Rule", "body": "Every color on the page resolves to a token in section 1 of `northline.css`. A skin redefines that block and nothing else; the only skin-scoped selector below it is `color-scheme`. A brand that needs a structural override is a new base, not a skin.", "section": "colors" },
+      { "name": "The Mist Hairline Rule", "body": "Rules are 1px of ink at 16% (Line) or 32% (Line Strong), and 2px of Line Strong on top of a new-patient step; there are no solid divider colors and no border in the accent except a hovered tile, a focused field, and the sent-form status box. The dot does the pointing; the line does the ruling.", "section": "colors" },
+      { "name": "The Hyperlegible Size Rule", "body": "Body is 1.125rem, ledes run to 1.3rem, and nothing read is smaller than 0.9375rem (the two Label uses at 0.8125rem are suffixes, not copy). Sizes are larger than a dental site's usual by design; do not tighten them to fit a layout. Weights are 400, 500, and 700; there is no 600 on the page.", "section": "typography" },
+      { "name": "The Sentence-Case Signal Rule", "body": "The hero's context sits below the H1 as a sentence-case status line in Teal Text, never above it as a tracked-caps eyebrow. A step leads with its title over a 2px rule, never with a numeral or a label; the `<ol>` carries the sequence.", "section": "typography" },
+      { "name": "The Tabular Rule", "body": "Anything with a digit that lines up (prices, tile times, the status line, buttons with a phone number, the hours table, the footer hours) sets `font-variant-numeric: tabular-nums`. Prices are one number in Ink 700 with no prefix; there is no \"from\" on this page because everything not priced is quoted in writing first.", "section": "typography" },
+      { "name": "The Flat Room Rule", "body": "Nothing on the page is lifted. Surfaces are flat at rest and flat on hover; hover is a 1px rise, a border change, a fill change, or a color change, never a shadow. The only shadow belongs to the fixed bar, and only because the bar is chrome over scrolling content.", "section": "elevation" },
+      { "name": "The Light Room Rule", "body": "A photograph shows a room with a window, in color, under the mist veil; never a mouth, an instrument, or a stock smile. The hero veil is the ground and lands solid at the bottom under the copy; the practice photograph is clipped at 12px and carries no border and no shadow.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do put every color in the section 1 token block and add a client's brand as a new `html[data-skin=\"<id>\"]` block that redefines all of them, including `--accent-text`, `--accent-rgb`, `--tile`, `--tile-dot`, `--veil`, and `--chrome`; on a light ground set `--accent-text` deeper than `--accent`, keep `--tile` a white wash, and set `--veil` and `--chrome` to the ground.",
+      "Do keep Atkinson Hyperlegible Next 700 with negative tracking for the wordmark, headlines, titles, step titles, and tile times only; keep body at 1.125rem, ledes to 1.3rem, and nothing read below 0.9375rem; keep weights to 400, 500, and 700.",
+      "Do keep the hero's context below the H1 as a sentence-case status line in Teal Text, and lead a step with its title over a 2px rule, never a numeral.",
+      "Do rule with ink hairlines (16% and 32%) and section with the three mist steps; pill every action and chip; fill the nav pill with ink and the hero pill with teal; cut tiles, cards, photos, and fields at 12px; point with a Tile Dot circle on tiles and chips.",
+      "Do set tabular numerals on prices, tile times, the status line, and hours; price a common visit as one number with no prefix.",
+      "Do keep photographs of light rooms in color under the mist veil, and keep the fixed bar's cast as the only shadow.",
+      "Do keep Find a time, Call, and Forms in the fixed bar below 900px and the ink \"Book online\" in the nav above 960px, and keep the status line, the teal pill, the three tiles, and the insurance strip inside the hero.",
+      "Do drive hours and openings from the one `HOURS` table and the one `OPENINGS` table: status line, today's row, the three tiles, and the Day select.",
+      "Do carry `data-date` and `data-period` on every tile so the form is always prefilled, and keep the insurance select's options identical to the chips.",
+      "Do cap running copy at 40 to 62ch, the H1 at 13ch, and H2s at 16ch."
+    ],
+    "donts": [
+      "Don't set `--accent` as text on a light skin, add a second accent, or put the fill teal on a tile's dot; don't use `--accent` where `--accent-text` is meant, or the reverse.",
+      "Don't put a tracked-caps eyebrow above the H1 or an H2, a numeral on a step, or a weight of 600 anywhere.",
+      "Don't add a radius other than the pill or 12px, a border in the accent outside a hovered tile, a focused field, and the status box, or a shadow on any surface, button, card, tile, or field.",
+      "Don't veil a photograph with a tint other than the ground, put a shadow under the hero image, or use a photograph of a mouth, an instrument, or a smile.",
+      "Don't add a native date input, \"we accept most insurance\" with no list, a PDF of forms, a phone number as the only next step, ratings, reviews, \"voted best\", or any proof device; Northline is fictional and the page must not fabricate.",
+      "Don't write skin-specific selectors below the token block except `color-scheme`; if a skin needs one, it is a new base.",
+      "Don't index this page: keep `noindex, nofollow` and keep it out of `sitemap.xml`."
+    ]
+  }
+}

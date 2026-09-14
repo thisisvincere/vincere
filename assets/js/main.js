@@ -155,6 +155,7 @@
       halston: {
         tag: 'Barber shop',
         title: 'Halston & Co.',
+        url: 'concepts/halston/index.html',
         desc: 'High contrast and confident. Built around a single action, booking, with the barbers, the services, and the hours never more than one scroll away.',
         points: [
           'One primary action, repeated with intent rather than clutter',
@@ -171,6 +172,7 @@
       northline: {
         tag: 'Dental practice',
         title: 'Northline Dental',
+        url: 'concepts/northline/index.html',
         desc: 'Calm, light, and reassuring. The two questions patients actually have (can I get in soon, and do you take my insurance?) are answered before they scroll.',
         points: [
           'Soft palette and generous spacing to reduce visitor anxiety',

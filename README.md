@@ -66,7 +66,7 @@ The form also includes a honeypot field (`company_url`) that silently rejects na
 
 ### 2. Domain
 
-The live domain is `https://www.thisisvincere.com/`, already set in:
+The live domain is `https://thisisvincere.com/`, already set in:
 
 - `index.html` — canonical link, Open Graph `og:url`, `og:image`, `twitter:image`, JSON-LD
 - `robots.txt` — sitemap line
